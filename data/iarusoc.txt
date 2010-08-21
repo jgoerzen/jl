@@ -1,0 +1,163 @@
+AARA          Albanian Amateur Radio Association 
+ARA           Amateurs Radio Algeriens 
+URA           Unio de Radioaficionats Andorrans 
+AARS          Anguilla Amateur Radio Society 
+ABARS         Antigua and Barbuda Amateur Radio Society 
+RCA           Radio Club Argentino 
+AARC          Aruba Amateur Radio Club 
+WIA           Wirelesss Institute of Australia 
+OEVSV         Oesterreichischer Versuchssenderverband 
+BARS          Bahamas Amateur Radio Society 
+ARAB          Amateur Radio Association Bahrain 
+BARL          Bangladesh Amateur Radio League 
+ARSB          Amateur Radio Society of Barbados 
+BFRR          Belarussian Federation 
+BARC          Belize Amateur Radio Club (*)
+RSB   Radio Society of Bermuda 
+RCB   Radio Club Boliviano 
+ARABiH      Asocijacija Radioamatera Bosne i Hercegovine 
+BARS        Botswana Amateur Radio Society 
+LABRE       Liga Brasileira de Radioamadores 
+BVIRL       British Virgin Islands Radio League 
+BDARA       Brunei Darussalam Amateur Radio Association 
+BFRA        Bulgarian Federation of Radio Amateurs 
+ARBF        Association des Radioamateurs du Burkina Faso 
+RAC         Radio Amateurs of Canada 
+CARS        Cayman Amateur Radio Society 
+RCCH        Radio Club de Chile 
+CRSA        Chinese Radio Sports Association 
+CTARL       Chinese Taipei Amateur Radio League 
+LCRA        Liga Colombiana de Radioaficionados 
+RCCR        Radio Club de Costa Rica 
+ARAI        Association des Radio-Amateurs Ivoiriens 
+HRS         Hrvatski radio-amaterski savez 
+FRC         Federacion de Radioaficionados de Cuba 
+CARS        Cyprus Amateur Radio Society 
+CRK         Czech Radio Club 
+CRC         Cesky Radioklub 
+ARAC       Amateur Radio Association of D.R. Congo
+EDR   Experimenterende Danske Radioamatoerer 
+ARAD                   Association des Radioamateurs de Djibouti 
+DARC                   Dominica Amateur Radio Club 
+RCD                    Radio Club Dominicano 
+GRC                    Guayaquil Radio Club 
+EARA                   Egypt Amateurs Radio Assembly 
+CRAS                   Club de Radio Aficionados de El Salvador 
+ERAU   Estonian Radioamateurs Union Eesti Raadioamatooride Uhing 
+EARS    Ethiopian Amateur Radio Society 
+FRA     Foroyskir Radioamatorar 
+FARA    Fiji Association of Radio Amateurs 
+SRAL   Finnish Amateur Radio League  
+RSM   Radioamateur Society of Macedonia 
+REF          Union Francaise des Radioamateurs 
+CORA                Club Oceanien de Radio et d'Astronomie 
+AGRA                Association Gabonaise des Radio-Amateurs 
+RSTG                Radio Society of The Gambia 
+DARC                Deutscher Amateur-Radio-Club 
+GARS                Ghana Amateur Radio Society 
+GARS                Gibraltar Amateur Radio Society 
+RAAG                Radio Amateur Association of Greece 
+GARC                Grenada Amateur Radio Club 
+CRAG                Club de Radioaficionados de Guatemala 
+GARA                Guyana Amateur Radio Association 
+RCH                 Radio Club d'Haiti 
+RCH                 Radio Club de Honduras 
+HARTS               Hong Kong Amateur Radio Transmitting Society 
+MRASZ   Hungarian Radio Amateur Society 
+IRA    Islenzkir Radioamatorar 
+ARSI   Amateur Radio Society of India 
+ORARI          Organisasi Amatir Radio Indonesia 
+IARA           Iraqi Association for Radio Amateurs 
+IRTS           Irish Radio Transmitters Society 
+IARC           Israel Amateur Radio Club 
+ARI            Associazione Radioamatori Italiani 
+JARA           Jamaica Amateur Radio Association 
+JARL           Japan Amateur Radio League 
+RJRAS          Royal Jordanian Radio Amateur Society 
+ARSK           Amateur Radio Society of Kenya 
+KARS           Kuwait Amateur Radio Society 
+LRAL           Latvias Radioamatieru Liga 
+RAL            Association des Radio-Amateurs Libanais 
+LARS           Lesotho Amateur Radio Society 
+LRAA           Liberia Radio Amateur Association 
+AFVL           Amateurfunk Verein Liechtenstein 
+LRMD   Lithuanian Amateur Radio Society  
+RL    Reseau Luxembourgeois des Amateurs d'Ondes Courtes 
+MARTS        Malaysian Amateur Radio Transmitters' Society 
+CRAM         Club des Radioamateurs et Affilies du Mali 
+MARL         Malta Amateur Radio League 
+MARS         Mauritius Amateur Radio Society 
+FMRE         Federacion Mexicana de Radio Experimentadores 
+ARM          Asociatia Radioamatorilor din Republica Moldova 
+ARM          Association des Radio-Amateurs de Monaco 
+MRSF         Mongolian Radio Sport Federation 
+MARS         Montserrat Amateur Radio Society 
+ARRAM        Association Royale des Radio-Amateurs du Maroc 
+LREM         Liga dos Radio Emissores de Mocambique 
+BARTS     Burma Amateur Radio Transmitting Society (*) 
+NARL   Namibian Amateur Radio League 
+VERON           Nederland 
+VERONA          Nederlandse Antillen 
+ARANC           Association des Radio-Amateurs, de Nouvelle-Caledonie 
+NZART           New Zealand Association of Radio Transmitters 
+CREN            Club de Radio-Experimentadores de Nicaragua 
+NARS            Nigeria Amateur Radio Society 
+NRRL            Norsk Radio Relae Liga 
+ROARS           Royal Omani Amateur Radio Society 
+PARS            Pakistan Amateur Radio Society 
+LPRA            Liga Panamena de Radioaficionados 
+PNGARS          Papua New Guinea Amateur Radio Society 
+RCP             Radio Club Paraguayo 
+RCP             Radio Club Peruano 
+PARA            Philippine Amateur Radio Association 
+PIARA           Pitcairn Island Amateur Radio Association 
+PZK        Polish Amateur Radio Union 
+REP    Rede dos Emissores Portugueses 
+QARS   Qatar Amateur Radio Society 
+KARL   Korean Amateur Radio League 
+FRR    Federatia Romana de Radioamatorism 
+SRR    Russian Amateur Radio Union  
+ARRSM   Associazione Radioamatori, della Repubblica di San Marino 
+ARAS    Association des Radio-Amateurs du Senegal 
+SLARS   Sierra Leone Amateur Radio Society 
+SARTS   Singapore Amateur Radio Transmitting Society 
+SZR        Slovensky Zvaz Radioamaterov 
+SARA     Slovak Amateur Radio Association 
+ZRS   Zveza Radioamaterjev Slovenije 
+SIRS        Solomon Islands Radio Society 
+SARL        South African Radio League 
+URE         Union de Radioaficionados Espanoles 
+RSSL        Radio Society of Sri Lanka 
+VRAS        Vereniging van Radio Amateurs in Suriname 
+RSS         Radio Society of Swaziland 
+SSA         Foreningen Sveriges Sandareamatorer 
+USKA        Union Schweizerischer Kurzwellen-Amateure 
+TIR         Technical Institute of Radio 
+TARL        Tajik Amateur Radio League 
+TARC        Tanzania Amateur Radio Club 
+RAST        Radio Amateur Society of Thailand 
+ARCOT       Amateur Radio Club of Tonga 
+TTARS       Trinidad and Tobago Amateur Radio Society 
+ASTRA   Tunisian Amateur Radio Club 
+TRAC   Telsiz Radyo Amatorleri Cemiyeti 
+LRT   Turkmenistan Radio Amateur League 
+TACARS              Turks and Caicos Amateur Radio Society 
+ARRL                American Radio Relay League 
+UARS                Uganda Amateur Radio Society 
+UARL                Ukrainian Amateur Radio League 
+RSGB                Radio Society of Great Britain 
+RCU                 Radio Club Uruguayo 
+VARS                Vanuatu Amateur Radio Society 
+RCV                 Radio Club Venezolano 
+WSARC               Western Samoa Amateur Radio Club 
+SRS                 Amateur Radio Union of Serbia and Montenegro
+RSZ                 Radio Society of Zambia 
+ZARS                Zimbabwe Amateur Radio Society 
+UBA                 Union Royale Belge des Amateurs-Emetteurs
+AC       Administrative Council
+R1       Region 1 Exec Comm
+R2       Region 2 Exec Comm
+R3       Region 3 Exec Comm
+IARU     International Amateur Radio Union
+
+

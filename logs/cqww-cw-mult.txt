@@ -1,0 +1,115 @@
+
+Total on band : 0
+
+Entities worked on b10 meters:
+argentina   aruba   bahamas   balearic is.   barbados   brazil   canada   
+cayman is.   chile   costa rica   dominica   galapagos is.   madeira is.   
+mali   mexico   netherlands antilles   new zealand   senegal   south shetland   
+spain   trinidad & tobago   united states   uruguay   
+Total on band b10: 23
+
+Entities worked on b15 meters:
+antigua & barbuda   
+argentina   aruba   austria   azores   bahamas   balearic is.   barbados   
+belgium   belize   brazil   british virgin is.   bulgaria   canada   canary is.   
+cayman is.   chile   corsica   costa rica   croatia   cuba   czech republic   
+dominica   dominican republic   ecuador   england   estonia   european russia   
+fed. rep. of germany   france   galapagos is.   greece   hawaii   hungary   
+ireland   isle of man   israel   italy   italy (africa)   kaliningrad   
+libya   lithuania   luxembourg   madeira is.   mali   mauritius   mexico   
+montserrat   netherlands   netherlands antilles   nicaragua   norway   
+paraguay   poland   portugal   puerto rico   romania   san andres/providencia   
+sardinia   senegal   serbia   sicily   slovakia   slovenia   south africa   
+spain   st. kitts & nevis   sweden   switzerland   trinidad & tobago   
+tunisia   turks & caicos   ukraine   united states   uruguay   venezuela   
+virgin is.   wales   
+Total on band b15: 78
+
+Entities worked on b160 meters:
+antigua & barbuda   aruba   belgium   belize   bermuda   
+canada   cayman is.   costa rica   cuba   england   european russia   fed. rep. of germany   
+galapagos is.   hawaii   isle of man   jersey   netherlands   poland   
+puerto rico   san andres/providencia   scotland   senegal   slovakia   
+turks & caicos   united states   virgin is.   
+Total on band b160: 26
+
+Entities worked on b20 meters:
+antarctica   antigua & barbuda   
+argentina   aruba   australia   austria   azores   bahamas   balearic is.   
+belarus   belgium   bosnia-herzegovina   brazil   british virgin is.   
+bulgaria   canada   canary is.   cayman is.   chile   colombia   corsica   
+costa rica   croatia   cuba   czech republic   denmark   dominica   dominican republic   
+ecuador   england   estonia   european russia   fed. rep. of germany   
+finland   france   galapagos is.   georgia   hawaii   hungary   iceland   
+ireland   isle of man   italy   italy (africa)   japan   kenya   latvia   
+libya   lithuania   luxembourg   madeira is.   mali   mexico   moldova   
+morocco   netherlands   netherlands antilles   new zealand   norway   panama   
+poland   portugal   puerto rico   romania   san andres/providencia   scotland   
+senegal   serbia   sicily   slovakia   slovenia   south shetland   spain   
+st. kitts & nevis   sweden   switzerland   tanzania   trinidad & tobago   
+turks & caicos   ukraine   united nations hq   united states   venezuela   
+
+Total on band b20: 83
+
+Entities worked on b40 meters:
+antigua & barbuda   argentina   aruba   australia   austria   azores   
+bahamas   balearic is.   barbados   belgium   belize   bosnia-herzegovina   
+brazil   british virgin is.   bulgaria   canada   canary is.   cayman is.   
+colombia   corsica   costa rica   croatia   cuba   cyprus   czech republic   
+dominican republic   england   european russia   fed. rep. of germany   
+finland   france   galapagos is.   greece   hungary   iceland   isle of man   
+italy   italy (africa)   jamaica   kaliningrad   libya   liechtenstein   
+lithuania   luxembourg   macedonia   madeira is.   mali   martinique   
+mexico   moldova   montenegro   montserrat   morocco   namibia   netherlands   
+netherlands antilles   new zealand   poland   portugal   puerto rico   
+romania   san andres/providencia   sardinia   senegal   serbia   sicily   
+slovakia   slovenia   south africa   south cook is.   spain   st. kitts & nevis   
+switzerland   trinidad & tobago   turks & caicos   ukraine   united states   
+venezuela   virgin is.   
+Total on band b40: 79
+
+Entities worked on b80 meters:
+algeria   aruba   austria   bahamas   balearic is.   
+belgium   belize   bulgaria   canada   canary is.   cayman is.   costa rica   
+croatia   cuba   cyprus   czech republic   denmark   dominica   dominican republic   
+england   european russia   fed. rep. of germany   finland   france   galapagos is.   
+hawaii   hungary   isle of man   italy   italy (africa)   jamaica   kaliningrad   
+latvia   lithuania   luxembourg   macedonia   madeira is.   mexico   moldova   
+montenegro   netherlands antilles   norway   poland   portugal   puerto rico   
+romania   scotland   serbia   slovakia   slovenia   south africa   spain   
+st. kitts & nevis   suriname   sweden   switzerland   trinidad & tobago   
+turks & caicos   ukraine   united states   
+Total on band b80: 60
+
+Total on band : 0
+
+Entities worked on b10 meters:
+03   04   05   06   07   08   09   10   11   12   13   14   32   33   35   
+
+Total on band b10: 15
+
+Entities worked on b15 meters:
+04   05   06   07   08   09   10   11   12   13   14   15   16   20   31   
+33   34   35   38   39   
+Total on band b15: 20
+
+Entities worked on b160 meters:
+02   03   04   05   07   08   09   10   14   15   
+16   31   35   
+Total on band b160: 13
+
+Entities worked on b20 meters:
+02   03   04   05   06   07   08   09   10   11   12   13   
+14   15   16   20   21   25   29   31   32   33   34   35   37   40   
+Total on band b20: 26
+
+Entities worked on b40 meters:
+02   
+03   04   05   06   07   08   09   10   11   13   14   15   16   20   29   
+32   33   34   35   38   40   
+Total on band b40: 22
+
+Entities worked on b80 meters:
+02   03   04   05   06   07   08   09   10   
+14   15   16   20   31   33   38   
+Total on band b80: 16

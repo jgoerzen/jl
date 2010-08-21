@@ -1,0 +1,65 @@
+DX Cluster notes:
+
+* n1mm has 30 minute aging on spots
+* "old" spots with same call need to replace new spots
+* Currently, using an ArrayList.  
+  Ideally, we'd have a much more flexible data structure
+
+Features needed:
+  Integration with main UI
+  Click on spot yields freq.  (And sets XCVR, possibly also logger)
+  Do we *really* need to age spots (or just let them scroll off...)?
+  Might be nice to coalesce identical spots
+  Although you can change servers, not clear this works if a server
+    connection drops or you're logged out.
+  Filters (need to automatically send filters)
+
+
+Cluster now has GUI;
+Bombs out if you type an incorrect servername.  
+    Is there a way to pre-qualify the servername?
+And sparks come out under lots of other conditions, most of which I
+    don't really understand.
+  Are the "dead" threads really dying?  Not entirely convinced...
+
+TODO list for JL:
+
+ROAD MAP:
+
+* Clean up scorer inheritance for contests with two multiplier checkers
+* Work on exchange inheritance
+* Reorganize MainWindow code
+* Unify HistoryWindow and EditWindow in a JSplitPane?
+* [FEATURE] warning light for "rig comm failure"
+* [FEATURE] DX clusters
+* [FEATURE] multi-op
+* [FEATURE] direct submission via email
+
+Contest-specific stuff:
+* WAE: implement rcvd QTC?
+* WAE: show QTC available for any given station?
+
+More normal improvements:
+
+* The COM port property is in the wrong place.
+* should QSO files get time/band stamps?  (Or is having it in the log sufficient?)
+  And if so, do you need a "read-only" mode, to prevent qso files from being 
+  re-stamped when you're revisiting the log?)
+* Currently, general log's per-qso file size limited to 1K; anything more is ignored.  
+  Is this OK?  Don't expect people to be writing essays in their logs...
+* Do we need some kind of mode that incorporates contest logs into the master log?
+  (This is a pain, but it *would* help keeping track of contest QSLing)
+* do a "post-contest" sanity check on the header
+* implement more operation checks 
+* proper scoring for single-band or single-mode operations
+* NETWORK (multi-multi)
+* Category overlays
+* use same search syntax in all windows
+* "in state" qso party (requires double listed string checker), with mobiles and
+   multiple counties
+* Tweak timer to start correctly (starts active, and changes to inactive on the
+  first minute) and behave correctly when restarted at the *end* of a contest.
+
+--------------nice to do sometime-----------------------
+necessary to speed up re-dupe? (probably not)
+minimize case flipping

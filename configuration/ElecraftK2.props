@@ -1,0 +1,3 @@
+transceiver.transceiver=ElecraftK2
+transceiver.port=/dev/ttyS0
+transceiver.highmem=9

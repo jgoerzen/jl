@@ -1,0 +1,85 @@
+START-OF-LOG: 2.0
+ARRL-SECTION: CT
+CONTEST: LZ DX Contest
+CALLSIGN: W1JQ
+CATEGORY: SINGLE-OP CW LOW 
+CLAIMED-SCORE: 12215
+OPERATORS: W1JQ
+CLUB: Yankee Clipper Contest Club
+CREATED-BY: JL 1.0
+NAME: Michael K. Loukides
+ADDRESS: 30 Hungry Hill Circle
+ADDRESS: Guilford, CT
+ADDRESS: USA
+SOAPBOX: A couple of enjoyable hours on a busy day.  For some reason I thought it was CW only.  CU in CQWW.
+QSO: 14000 CW 2006-11-18 1254 W1JQ          599 08     RD3A          599 29    
+QSO: 14000 CW 2006-11-18 1256 W1JQ          599 08     RW6HX         599 29    
+QSO: 14000 CW 2006-11-18 1256 W1JQ          599 08     UT0U          599 29    
+QSO: 14000 CW 2006-11-18 1258 W1JQ          599 08     PJ2/K8ND      599 11    
+QSO: 14000 CW 2006-11-18 1259 W1JQ          599 08     HB9CVQ        599 28    
+QSO: 21000 CW 2006-11-18 1300 W1JQ          599 08     ON5ZO         599 27    
+QSO: 21000 CW 2006-11-18 1301 W1JQ          599 08     DL3AMA        599 28    
+QSO: 21000 CW 2006-11-18 1301 W1JQ          599 08     LZ3FN         599 DO    
+QSO: 21000 CW 2006-11-18 1302 W1JQ          599 08     LZ1ND         599 PD    
+QSO: 21000 CW 2006-11-18 1303 W1JQ          599 08     LZ2PL         599 RS    
+QSO: 21000 CW 2006-11-18 1304 W1JQ          599 08     9A5KV         599 28    
+QSO: 21000 CW 2006-11-18 1305 W1JQ          599 08     YL2KL         599 29    
+QSO: 21000 CW 2006-11-18 1305 W1JQ          599 08     LZ2SX         599 DO    
+QSO: 21000 CW 2006-11-18 1307 W1JQ          599 08     LZ2DO         599 VT    
+QSO: 14000 CW 2006-11-18 1308 W1JQ          599 08     GW3NJW        599 27    
+QSO: 14000 CW 2006-11-18 1310 W1JQ          599 08     UA3QDX        599 29    
+QSO: 14000 CW 2006-11-18 1310 W1JQ          599 08     SN5N          599 28    
+QSO: 14000 CW 2006-11-18 1311 W1JQ          599 08     F5PRH         599 27    
+QSO: 14000 CW 2006-11-18 1312 W1JQ          599 08     EA5EOH        599 37    
+QSO: 14000 CW 2006-11-18 1313 W1JQ          599 08     LZ13ARDF      599 SZ    
+QSO: 14000 CW 2006-11-18 1314 W1JQ          599 08     F5IN          599 27    
+QSO: 21000 CW 2006-11-18 1319 W1JQ          599 08     LZ1NJ         599 HA    
+QSO: 21000 CW 2006-11-18 1400 W1JQ          599 08     LZ1MS         599 SF    
+QSO: 21000 CW 2006-11-18 1403 W1JQ          599 08     A45WD         599 39    
+QSO: 21000 CW 2006-11-18 1405 W1JQ          599 08     LZ1XL         599 SO    
+QSO: 14000 CW 2006-11-18 1408 W1JQ          599 08     LZ5W          599 SZ    
+QSO: 14000 CW 2006-11-18 1409 W1JQ          599 08     LZ2PL         599 RS    
+QSO: 14000 CW 2006-11-18 1410 W1JQ          599 08     LZ9X          599 SZ    
+QSO: 14000 CW 2006-11-18 1411 W1JQ          599 08     HA8TP         599 28    
+QSO: 14000 CW 2006-11-18 1412 W1JQ          599 08     K1LZ          599 08    
+QSO: 14000 CW 2006-11-18 1414 W1JQ          599 08     UW5U          599 29    
+QSO: 14000 CW 2006-11-18 1414 W1JQ          599 08     S59EST        599 28    
+QSO: 14000 CW 2006-11-18 1416 W1JQ          599 08     RW3XM         599 29    
+QSO: 14000 CW 2006-11-18 1417 W1JQ          599 08     LZ3FM         599 SF    
+QSO: 14000 CW 2006-11-18 1508 W1JQ          599 08     LZ1GAV        599 PD    
+QSO: 14000 CW 2006-11-18 1508 W1JQ          599 08     YZ1V          599 28    
+QSO: 14000 CW 2006-11-18 1509 W1JQ          599 08     OK5MM         599 28    
+QSO: 14000 CW 2006-11-18 1510 W1JQ          599 08     LZ2SX         599 DO    
+QSO: 21000 CW 2006-11-18 1534 W1JQ          599 08     F5IN          599 27    
+QSO: 14000 CW 2006-11-18 1535 W1JQ          599 08     EW7KR         599 29    
+QSO: 14000 CW 2006-11-18 1537 W1JQ          599 08     VE2TKH        599 04    
+QSO: 14000 CW 2006-11-18 1537 W1JQ          599 08     LZ1ND         599 PD    
+QSO: 14000 CW 2006-11-18 1538 W1JQ          599 08     DR0X          599 28    
+QSO: 14000 CW 2006-11-18 1539 W1JQ          599 08     EA1CS         599 37    
+QSO:  7000 CW 2006-11-18 2226 W1JQ          599 08     EA8MQ         599 36    
+QSO:  7000 CW 2006-11-18 2234 W1JQ          599 08     LZ1FG         599 PK    
+QSO:  7000 CW 2006-11-18 2235 W1JQ          599 08     LZ5A          599 PD    
+QSO:  7000 CW 2006-11-18 2237 W1JQ          599 08     OK7FL         599 28    
+QSO:  7000 CW 2006-11-18 2238 W1JQ          599 08     EA8/DJ10J     599 36    
+QSO:  7000 CW 2006-11-18 2316 W1JQ          599 08     LZ5W          599 SZ    
+QSO:  7000 CW 2006-11-18 2317 W1JQ          599 08     HB9CVQ        599 28    
+QSO:  3500 CW 2006-11-18 2343 W1JQ          599 08     K1LZ          599 08    
+QSO:  3500 CW 2006-11-18 2343 W1JQ          599 08     RD3A          599 29    
+QSO:  3500 CW 2006-11-18 2346 W1JQ          599 08     IK1RED        599 28    
+QSO:  3500 CW 2006-11-18 2352 W1JQ          599 08     G0MTN         599 27    
+QSO:  3500 CW 2006-11-18 2353 W1JQ          599 08     4O60BH        599 28    
+QSO:  7000 CW 2006-11-18 2358 W1JQ          599 08     UT0U          599 29    
+QSO:  7000 CW 2006-11-19 0000 W1JQ          599 08     LZ1FH         599 PK    
+QSO:  7000 CW 2006-11-19 0038 W1JQ          599 08     RZ6HAZ        599 29    
+QSO:  3500 CW 2006-11-19 0040 W1JQ          599 08     EA4TX         599 37    
+QSO:  3500 CW 2006-11-19 0043 W1JQ          599 08     EA5RV         599 37    
+QSO:  3500 CW 2006-11-19 0044 W1JQ          599 08     W1MK          599 08    
+QSO:  3500 CW 2006-11-19 0044 W1JQ          599 08     HB9CVQ        599 28    
+QSO:  3500 CW 2006-11-19 0046 W1JQ          599 08     LY1DT         599 29    
+QSO:  3500 CW 2006-11-19 0047 W1JQ          599 08     P43JB         599 11    
+QSO:  3500 CW 2006-11-19 0050 W1JQ          599 08     9A3B          599 28    
+QSO:  7000 CW 2006-11-19 0052 W1JQ          599 08     EA8BEX        599 36    
+QSO:  7000 CW 2006-11-19 0056 W1JQ          599 08     LZ1GAV        599 PD    
+QSO:  3500 CW 2006-11-19 0157 W1JQ          599 08     DJ1YFK        599 28    
+QSO:  3500 CW 2006-11-19 0200 W1JQ          599 08     UT7L          599 29    
+END-OF-LOG:

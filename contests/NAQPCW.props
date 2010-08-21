@@ -1,0 +1,26 @@
+contestName=North American QSO Party CW
+cabContestName=NAQP-CW
+mode=CW
+perBandMultiplier=true
+perModeMultiplier=false
+multiplier.1=CountryChecker
+multiplier.2=ListedStringChecker
+perBandDupe=true
+perModeDupe=false
+trackTime=true
+maxTime=10h
+bands=b10 b160 b80 b40 b20 b15
+classBasename=NAQP
+endGeneral=29
+endSent=60
+endRcvd=91
+multiplierList=states-n-provs.txt
+countryData=cty.dat
+zoneType=ITU
+multiplierListBreak=28
+logfilebasename=naqp-cw
+hasRovers=false
+pointsPerCWQSO=1
+pointsPerPHQSO=0
+
+

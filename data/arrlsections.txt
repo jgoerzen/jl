@@ -1,0 +1,69 @@
+
+
+		     ARRL/CANADIAN SECTION ABBREVIATIONS
+
++-----------------------------------+ +-----------------------------------+
+|                 1                 | |                 6                 |
++-----------------------------------+ +-----------------------------------+
+| Connecticut                 CT    | | East Bay                    EB    |
+| Eastern Massachusetts       EMA   | | Los Angeles                 LAX   |
+| Maine                       ME    | | Orange                      ORG   |
+| New Hampshire               NH    | | Santa Barbara               SB    |
+| Rhode Island                RI    | | Santa Clara Valley          SCV   |
+| Vermont                     VT    | | San Diego                   SDG   |
+| Western Massachusetts       WMA   | | San Francisco               SF    |
++-----------------------------------+ | San Joaquin Valley          SJV   |
+|                 2                 | | Sacramento Valley           SV    |
++-----------------------------------+ | Pacific                     PAC   |
+| Eastern New York            ENY   | +-----------------------------------+
+| New York City-Long Island   NLI   | |                 7                 |
+| Northern New Jersey         NNJ   | +-----------------------------------+
+| Northern New York           NNY   | | Arizona                     AZ    |
+| Southern New Jersey         SNJ   | | Eastern Washington          EWA   |
+| Western New York            WNY   | | Idaho                       ID    |
++-----------------------------------+ | Montana                     MT    |
+|                 3                 | | Nevada                      NV    |
++-----------------------------------+ | Oregon                      OR    |
+| Delaware                    DE    | | Utah                        UT    |
+| Eastern Pennsylvania        EPA   | | Western Washington          WWA   |
+| Maryland-DC                 MDC   | | Wyoming                     WY    |
+| Western Pennsylvania        WPA   | | Alaska                      AK    |
++-----------------------------------+ +-----------------------------------+
+|                 4                 | |                 8                 |
++-----------------------------------+ +-----------------------------------+
+| Alabama                     AL    | | Michigan                    MI    |
+| Georgia                     GA    | | Ohio                        OH    |
+| Kentucky                    KY    | | West Virginia               WV    |
+| North Carolina              NC    | +-----------------------------------+
+| Northern Florida            NFL   | |                 9                 |
+| South Carolina              SC    | +-----------------------------------+
+| Southern Florida            SFL   | | Illinois                    IL    |
+| West Central Florida        WCF   | | Indiana 		    IN 	  |
+| Tennessee                   TN    | | Wisconsin                   WI    |     
+| Virginia                    VA    | |    				  |
+| Puerto Rico                 PR    | +-----------------------------------+
+| Virgin Islands              VI    | |                 0                 |
++-----------------------------------+ +-----------------------------------+
+|                 5                 | | Colorado                    CO    |
++-----------------------------------+ | Iowa                        IA    |
+| Arkansas                    AR    | | Kansas                      KS    |
+| Louisiana                   LA    | | Minnesota                   MN    |
+| Mississippi                 MS    | | Missouri                    MO    |
+| New Mexico                  NM    | | Nebraska                    NE    |
+| North Texas                 NTX   | | North Dakota                ND    |
+| Oklahoma                    OK    | | South Dakota                SD    |
+| South Texas                 STX   | |                                   |
+| West Texas                  WTX   | |                                   |
++-----------------------------------+ +-----------------------------------+
+
+
++-------------------------------------------------------------------------+
+|                                 CANADA                                  |
++-------------------------------------------------------------------------+
+| Maritime                    MAR   | Saskatchewan                  SK    |
+| Newfoundland/Labrador       NL    | Alberta                       AB    |
+| Quebec                      QC    | British Columbia              BC    |
+| Ontario                     ON    | Northwest Territories/Yukon/  NWT   |
+| Manitoba                    MB    | Nunavut                             |
++-------------------------------------------------------------------------+
+

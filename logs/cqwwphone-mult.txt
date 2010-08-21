@@ -1,0 +1,97 @@
+
+Total on band : 0
+
+Entities worked on b10 meters:
+antigua & barbuda   argentina   aruba   bermuda   brazil   canada   canary is.   
+chile   french guiana   grenada   guadeloupe   guatemala   honduras   ireland   
+italy   jamaica   madeira is.   martinique   mexico   netherlands antilles   
+new zealand   nicaragua   paraguay   peru   senegal   slovenia   spain   
+united states   uruguay   venezuela   virgin is.   
+Total on band b10: 31
+
+Entities worked on b15 meters:
+antigua & barbuda   
+argentina   aruba   austria   azores   bahamas   belgium   bermuda   brazil   
+canada   canary is.   cayman is.   chile   colombia   costa rica   croatia   
+cuba   czech republic   dominican republic   ecuador   england   fed. rep. of germany   
+france   french guiana   french st. martin   greece   grenada   guadeloupe   
+guyana   hawaii   honduras   hungary   ireland   italy   jamaica   liechtenstein   
+madeira is.   martinique   mexico   montserrat   morocco   netherlands   
+netherlands antilles   new zealand   nicaragua   panama   paraguay   peru   
+portugal   puerto rico   revilla gigedo   serbia   sicily   slovakia   
+slovenia   spain   turks & caicos   united states   uruguay   venezuela   
+virgin is.   wales   
+Total on band b15: 62
+
+Entities worked on b160 meters:
+bermuda   canada   united states   
+Total on band b160: 3
+
+Entities worked on b20 meters:
+aland is.   antarctica   
+antigua & barbuda   argentina   aruba   austria   azores   bahamas   barbados   
+belgium   belize   bermuda   bosnia-herzegovina   brazil   canada   canary is.   
+ceuta and melilla   chile   colombia   costa rica   croatia   cuba   cyprus   
+czech republic   denmark   dominican republic   ecuador   england   european russia   
+fed. rep. of germany   finland   france   french guiana   french st. martin   
+grenada   guadeloupe   hawaii   honduras   hungary   ireland   isle of man   
+italy   jamaica   kaliningrad   kenya   liechtenstein   lithuania   luxembourg   
+macedonia   madeira is.   martinique   mexico   montenegro   montserrat   
+morocco   netherlands   netherlands antilles   nicaragua   paraguay   peru   
+poland   portugal   puerto rico   revilla gigedo   senegal   serbia   sicily   
+slovakia   slovenia   spain   st. kitts & nevis   suriname   sweden   trinidad & tobago   
+tunisia   turks & caicos   united states   uruguay   venezuela   virgin is.   
+wales   
+Total on band b20: 81
+
+Entities worked on b40 meters:
+aland is.   antigua & barbuda   argentina   aruba   austria   azores   
+bahamas   balearic is.   belgium   belize   bermuda   brazil   canada   
+canary is.   ceuta and melilla   colombia   croatia   cuba   czech republic   
+dominican republic   england   fed. rep. of germany   france   french st. martin   
+grenada   guadeloupe   guatemala   honduras   hungary   isle of man   italy   
+jamaica   liechtenstein   lithuania   luxembourg   madeira is.   martinique   
+mexico   montenegro   morocco   netherlands   netherlands antilles   nicaragua   
+portugal   puerto rico   serbia   slovakia   slovenia   spain   tunisia   
+turks & caicos   united states   virgin is.   wales   
+Total on band b40: 54
+
+Entities worked on b80 meters:
+antigua & barbuda   
+aruba   azores   bahamas   bermuda   canada   canary is.   costa rica   
+cuba   dominican republic   france   grenada   hawaii   ireland   italy   
+jamaica   liechtenstein   madeira is.   martinique   morocco   netherlands antilles   
+puerto rico   revilla gigedo   serbia   spain   st. kitts & nevis   turks & caicos   
+united states   venezuela   wales   
+Total on band b80: 30
+
+Total on band : 0
+
+Entities worked on b10 meters:
+02   05   06   07   08   09   10   11   12   13   14   15   32   33   35   
+
+Total on band b10: 15
+
+Entities worked on b15 meters:
+02   03   04   05   06   07   08   09   10   11   12   13   14   15   20   
+31   32   33   
+Total on band b15: 18
+
+Entities worked on b160 meters:
+02   04   05   
+Total on band b160: 3
+
+Entities worked on b20 meters:
+02   03   04   05   06   07   08   09   10   
+11   12   13   14   15   16   20   29   31   33   
+Total on band b20: 19
+
+Entities worked on b40 meters:
+02   04   05   06   07   
+08   09   11   13   14   15   33   
+Total on band b40: 12
+
+Entities worked on b80 meters:
+02   03   04   05   06   07   08   09   
+14   15   31   33   
+Total on band b80: 12

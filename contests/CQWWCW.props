@@ -1,0 +1,22 @@
+contestName=CQ Worldwide DX CW
+cabContestName=CQ-WW-CW
+mode=CW
+perBandMultiplier=true
+perModeMultiplier=false
+multiplier.1=CountryChecker
+multiplier.2=EnumeratedChecker
+perBandDupe=true
+perModeDupe=false
+trackTime=false
+maxTime=48h
+bands=b160 b80 b40 b20 b15 b10
+classBasename=CQWW
+endGeneral=29
+endSent=54
+endRcvd=79
+maxzone=40
+countryData=cty.dat
+zoneType=CQWW
+logfilebasename=cqww-cw
+hasRovers=false
+

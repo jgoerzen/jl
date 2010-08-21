@@ -1,0 +1,165 @@
+APA   Praha 1
+APB   Praha 2
+APC   Praha 3
+APD   Praha 4
+APE   Praha 5
+APF   Praha 6
+APG   Praha 7
+APH   Praha 8
+API   Praha 9
+APJ   Praha 10
+BBN   Benesov
+BBE   Beroun
+BKD   Kladno
+BKO   Kolin
+BKH   Kutna Hora
+BME   Melnik
+BMB   Mlada Boleslav
+BNY   Nymburk
+BPZ   Praha zapad
+BPV   Praha vychod
+BPB   Pribram
+BRA   Rakovnik
+CBU   Ceske Budejovice
+CCK   Cesky Krumlov
+CJH   Jindrichuv Hradec
+CPE   Pelhrimov
+CPI   Pisek
+CPR   Prachatice
+CST   Strakonice
+CTA   Tabor
+DDO   Domazlice
+DCH   Cheb
+DKV   Karlovy Vary
+DKL   Klatovy
+DPM   Plzen mesto
+DPJ   Plzen jih
+DPS   Plzen sever
+DRO   Rokycany
+DSO   Sokolov
+DTA   Tachov
+ECL   Ceska Lipa
+EDE   Decin
+ECH   Chomutov
+EJA   Jablonec n. Nisou
+ELI   Liberec
+ELT   Litomerice
+ELO   Louny
+EMO   Most
+ETE   Teplice
+EUL   Usti nad Labem
+FHB   Havlickuv Brod
+FHK   Hradec Kralove
+FCR   Chrudim
+FJI   Jicin
+FNA   Nachod
+FPA   Pardubice
+FRK   Rychn n. Kneznou
+FSE   Semily
+FSV   Svitavy
+FTR   Trutnov
+FUO   Usti nad Orlici
+GBL   Blansko
+GBM   Brno mesto
+GBV   Brno venkov
+GBR   Breclav
+GHO   Hodonin
+GJI   Jihlava
+GKR   Kromeriz
+GPR   Prostejov
+GTR   Trebic
+GUH   Uherske Hradiste
+GVY   Vyskov
+GZL   Zlin
+GZN   Znojmo
+GZS   Zdar nad Sazavou
+HBR   Bruntal
+HFM   Frydek   Mistek
+HJE   Jesenik
+HKA   Karvina
+HNJ   Novy Jicin
+HOL   Olomouc
+HOP   Opava
+HOS   Ostrava
+HPR   Prerov
+HSU   Sumperk
+HVS   Vsetin
+BAA   Bratislava 1
+BAB   Bratislava 2
+BAC   Bratislava 3
+BAD   Bratislava 4
+BAE   Bratislava 5
+MAL   Malacky
+PEZ   Pezinok
+SEN   Senec
+TRN   Trnava
+DST   Dunajska Streda
+GAL   Galanta
+HLO   Hlohovec
+PIE   Piestany
+SEA   Senica
+SKA   Skalica
+TNC   Trencin
+BAN   Banovce n. Bebr.
+ILA   Ilava
+MYJ   Myjava
+NMV   Nove Mesto n. Vah
+PAR   Partizanske
+PBY   Povazska Bystrica
+PRI   Prievidza
+PUC   Puchov
+NIT   Nitra
+KOM   Komarno
+LVC   Levice
+NZA   Nove Zamky
+SAL   Sala
+TOP   Topolcany
+ZMO   Zlate Moravce
+ZIL   Zilina
+BYT   Bytca
+CAD   Cadca
+DKU   Dolny Kubin
+KNM   Kysucke N. Mesto
+LMI   Liptovsky Mikulas
+MAR   Martin
+NAM   Namestovo
+RUZ   Ruzomberok
+TTE   Turcianske Teplice
+TVR   Tvrdosin
+BBY   Banska Bystrica
+BRE   Brezno
+DET   Detva
+KRU   Krupina
+LUC   Lucenec
+POL   Poltar
+REV   Revuca
+RSO   Rimavska Sobota
+VKR   Velky Krtis
+ZVO   Zvolen
+ZAR   Zarnovica
+ZIH   Ziar nad Hronom
+BST   Banska Stiavnica
+KEA   Kosice 1
+KEB   Kosice 2
+KEC   Kosice 3
+KED   Kosice 4
+KEO   Kosice-okolie
+GEL   Gelnica
+MIC   Michalovce
+ROZ   Roznava
+SOB   Sobrance
+SNV   Spisska Nova Ves
+TRE   Trebisov
+PRE   Presov
+BAR   Bardejov
+HUM   Humenne
+KEZ   Kezmarok
+LEV   Levoca
+POP   Poprad
+SAB   Sabinov
+SNI   Snina
+SLU   Stara Lubovna
+STR   Stropkov
+SVI   Svidnik
+VRT   Vranov nad Toplou
+MED   Medzilaborce

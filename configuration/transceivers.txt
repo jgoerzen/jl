@@ -1,0 +1,15 @@
+None
+Icom706
+Icom706MkII
+Icom706MkIIg
+Icom746
+Icom746Pro
+Icom756
+Icom756Pro
+Icom756ProII
+Icom756ProIII
+Icom765
+Icom7800
+ElecraftK2
+-SORT
+-DX

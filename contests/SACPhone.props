@@ -1,0 +1,24 @@
+contestName=Scandinavian Activity Contest Phone
+cabContestName=SAC-PHONE
+mode=PH
+perBandMultiplier=true
+perModeMultiplier=false
+multiplier.1=ListedStringChecker
+multiplierList=scandinavian-districts.txt
+multiplierListBreak=15
+perBandDupe=true
+perModeDupe=false
+trackTime=false
+maxTime=24h
+bands=b10 b15 b20 b40 b80
+classBasename=SAC
+endGeneral=29
+endSent=54
+endRcvd=79
+zoneType=ITU
+hasQTC=no
+logfilebasename=sac-ph
+hasRovers=false
+submissionAddress=sac@contesting.com
+
+

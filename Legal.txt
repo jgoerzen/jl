@@ -1,0 +1,14 @@
+This software is copyright (C) 2001, 2002, 2003, by Michael K. Loukides.
+
+You may redistribute it, modified or unmodified, with or without source code,
+provided that
+you do not charge for it, and provided that you not use it in a weapons system in 
+any form.  (If you are interested in producing a commercial version of this program,
+maybe we should talk.)  If portions of this software are incorporated into another
+product, you must include appropriate acknowledgements.
+
+This software is entirely inappropriate for all purposes, including those for which
+it is intended, and if your computer explodes as soon as you execute it, it's your
+fault, not mine.  Michael K. Loukides assumes no responsibility for damages caused
+by this software, personal, political, emotional, or otherwise, including loss
+of data or loved ones. 

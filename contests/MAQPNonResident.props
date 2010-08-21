@@ -1,0 +1,24 @@
+contestName=Mid-Atlantic QSO Party
+cabContestName=MAQP
+mode=PH CW
+multiplier.1=ListedStringChecker
+multiplierList=maqp-counties-sorted.txt
+perBandMultiplier=false
+perModeMultiplier=false
+perBandDupe=true
+perModeDupe=true
+trackTime=false
+maxTime=32h
+bands=b160 b80 b40 b20 b15 b10 b6 b2 b220 b432
+classBasename=MAQPNonRes
+endGeneral=29
+endSent=54
+endRcvd=79
+abbrevFirst=true
+logfilebasename=maqp
+hasRovers=true
+roverDesignation=M
+useModeCategory=false
+pointsPerCWQSO=2
+pointsPerPHQSO=1
+

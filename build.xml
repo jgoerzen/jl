@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+
+<project name="JL Contest Logger" default="compile" basedir=".">
+
+<property name="src.dir" value="./com"/>
+<property name="build.dir" value="bin"/>
+<property name="dist.dir" value="jarfiles"/>
+<property name="logs.dir" value="logs"/>
+<property name="data.dir" value="data"/>
+<property name="configuration.dir" value="configuration"/>
+<property name="operations.dir" value="operations"/>
+<property name="current.version" value="1.06"/>
+<property name="java.home" value="/System/Library/Frameworks/JavaVM.framework/Versions/1.4.2/Home"/>
+<property name="servlet.path" 
+          value="/usr/local/java/tomcat/common/lib/servlet-api.jar"/>
+<property name="servlet6.path" 
+          value="/usr/local/java/tomcat/lib/servlet-api.jar"/>
+<property name="comm.path" value="lib/comm.jar"/>
+
+<target name="compile" description="compiles everything" depends="prepare">
+  <javac srcdir="${src.dir}" destdir="${build.dir}">
+    <classpath>
+      <pathelement location="."/>
+      <pathelement location="com"/>
+      <pathelement location="./${comm.path}"/>
+      <pathelement location="${servlet.path}"/>
+      <pathelement location="${servlet6.path}"/>
+    </classpath>  
+  </javac>
+</target>
+
+<target name="prepare">
+  <mkdir dir="${build.dir}"/>
+  <mkdir dir="${dist.dir}"/>
+</target>
+
+<target name="clean">
+  <delete dir="${build.dir}"/>
+</target>
+
+<target name="jar" depends="prepare"
+  description="creates jl.jar in dist.dir directory" >
+  <jar jarfile="${dist.dir}/jl-${current.version}.jar"
+       basedir="${basedir}"
+       excludes="**/*.jar,**/*.SAV,**/*.BAK*,**/*.wav,**/*.mp3">
+  </jar>
+</target>
+
+<target name="jar-binonly" depends="prepare"
+  description="creates a minimal jar file (bin and necessary data only)" >
+  <jar jarfile="${dist.dir}/jl-bin-${current.version}.jar"
+       basedir="${basedir}"
+       excludes="**/*.jar,**/*.SAV,**/*.BAK*,**/*.java,**/*-log.txt,
+                **/*.wav,**/*.mp3,
+                data/dxcccountries.txt,data/cqwwcountries.txt,
+                data/cqwwcountries-orig.txt,data/dxcclist-raw.txt,
+                **/*.html,data/arrlsections.txt">
+  </jar>
+</target>
+
+<target name="all" depends="clean,compile,jar" 
+  description="build everything from scratch"/>
+
+</project>

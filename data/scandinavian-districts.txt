@@ -1,0 +1,56 @@
+norway-0        norway-0        
+norway-1        norway-1        
+norway-2        norway-2        
+norway-3        norway-3        
+norway-4        norway-4        
+norway-5        norway-5        
+norway-6        norway-6        
+norway-7        norway-7        
+norway-8        norway-8        
+norway-9        norway-9        
+finland-0       finland-0       
+finland-1       finland-1       
+finland-2       finland-2       
+finland-3       finland-3       
+finland-4       finland-4       
+finland-5       finland-5       
+finland-6       finland-6       
+finland-7       finland-7       
+finland-8       finland-8       
+finland-9       finland-9       
+denmark-0       denmark-0       
+denmark-1       denmark-1       
+denmark-2       denmark-2       
+denmark-3       denmark-3       
+denmark-4       denmark-4       
+denmark-5       denmark-5       
+denmark-6       denmark-6       
+denmark-7       denmark-7       
+denmark-8       denmark-8       
+denmark-9       denmark-9       
+sweden-0        sweden-0        
+sweden-1        sweden-1        
+sweden-2        sweden-2        
+sweden-3        sweden-3        
+sweden-4        sweden-4        
+sweden-5        sweden-5        
+sweden-6        sweden-6        
+sweden-7        sweden-7        
+sweden-8        sweden-8        
+sweden-9        sweden-9        
+iceland-0       iceland-0       
+iceland-1       iceland-1       
+iceland-2       iceland-2       
+iceland-3       iceland-3       
+iceland-4       iceland-4       
+iceland-5       iceland-5       
+iceland-6       iceland-6       
+iceland-7       iceland-7       
+iceland-8       iceland-8       
+iceland-9       iceland-9       
+svalbard        svalbard        
+jan mayen       jan mayen       
+aland is.       aland is.       
+market reef     market reef     
+faroe is.       faroe is.       
+greenland       greenland

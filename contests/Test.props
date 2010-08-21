@@ -1,0 +1,22 @@
+contestName=TEST (like ARRL DX, but with 5m off and 1hr max)
+cabContestName=TEST
+mode=PH
+perBandMultiplier=false
+perModeMultiplier=false
+multiplier1=CountryChecker
+perBandDupe=true
+perModeDupe=false
+trackTime=true
+offTime=5
+maxTime=1h
+bands=b10 b160 b80 b40 b20 b15
+classBasename=ARRLDX
+endGeneral=29
+endSent=54
+endRcvd=79
+maxzone=40
+countryfile=dxcccountries.ser
+hasQTC=no
+logfilebasename=test
+hasRovers=false
+

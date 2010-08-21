@@ -1,0 +1,79 @@
+contestName=CQ 160 Meter Contest, Phone   ::: contest name, long form
+cabContestName=CQ-160-SSB                 ::: short form for summary
+mode=PH                                   ::: mode or modes, sep. by sp
+countryfile=cqwwcountries.ser  ::: country database (for country checker) (obsolete)
+countryData=cty.dat       :::  country file to use; defaults to cty.dat
+zoneType=CQWW             :::  use CQWW or ITU zones.  Defaults to UC of start of countryfile
+                          :::    if that's not there, defaults to ITU.
+                          :::  ALSO controls CQ vs ARRL country definitions (minor diffs)
+perBandMultiplier=false            ::: how to count mults
+perModeMultiplier=false            :::  "
+multiplier.1=ListedStringChecker   ::: First (primary) multiplier checker to be used
+multiplier.2=CountryChecker        ::: Second             "          "
+                                   ::: multiplier.1 REQUIRED for contests that use Generic
+ignoreDupe=false                   ::: add entries to dupe list, even if they're dupes
+                                   ::: (used only for general logger)
+perBandDupe=false                  ::: how to dupe check (defaults false)
+perModeDupe=false                  :::  "                (defaults false)
+trackTime=false           ::: true indicates that the contest has 
+                          ::: mandatory "off" periods (i.e., can't operate the 
+                          ::: whole time).  Defaults to "false"
+maxTime=42h               ::: total time allowed for operation
+offTime=60                ::: if trackTime=true, minimum off period (mins)
+                          :::   (defaults to 30, but should be specified 
+                          :::    if the contest requires off periods)
+bands=b160                ::: space separated list of bands allowed
+classBasename=CQ160       ::: start of scorer and exchange class names
+endGeneral=29             ::: for parsing cab input; end of "general" section
+endSent=54                :::  "                   ; end of "sent" section
+endRcvd=79                ::: not currently used, but end of "rcvd" section
+                          ::: (will be important for making multi-op work)
+maxzone=40                ::: if using an enumerated checker, max. zone number
+minzone=0                 ::: if using an enumerated checker, min. zone number 
+                          ::: default: 1; NOT NEEDED for any supported contest
+multiplierList=iota.txt   ::: multiplier-abbrev file (for listed string checker)
+multiplierListBreak=28    ::: for parsing the abbrev map (if mult name is first)
+abbrevFirst=true          ::: the abbrev appears first in the file.  Defaults
+                          ::: to false; only valid for listed string checker
+displayMultAbbrev=true    ::: mult display displays the abbrev, rather than 
+                          ::: the name.  (Useful for something like IOTA). 
+                          ::: default false; only valid for listed string checker
+hasQTC=no                 ::: NOT USED-SHOULD BE REMOVED
+logfilebasename=cq160     ::: used to generate the log, sum, dupe output filename
+hasRovers=false           ::: stations move between mults and can be worked again
+prioritizeUS=true         ::: NOT USED--OBSOLETE (and should be removed from contest files)
+                          ::: Sets kg4 = US, not guantanamo; kc6 = US, not palau
+useModeCategory=true      ::: add mode to category line in summary; 
+                          ::: mode taken from operation file; defaults to false
+                          ::: (the correct value for single-mode contests)
+pointsPerCWQSO --and--    ::: allow generic contests to specify points per QSO.
+pointsPerPHQSO            ::: Optional; perhaps ignored; defaults to 1;
+                          ::: you should set both
+roverDesignation          ::: letter to indicate that a station is a rover 
+                          ::: (e.g., R for /R; M for /M; R default)
+submissionAddress         ::: email address for contest submission.  Currently not 
+                          ::: used, but a future version might submit the result
+                          ::: for you
+b6pts=1                   ::: The following all used for the VHF contests, and nowhere
+b2pts=1                   ::: else.  They indicate points per QSO on the various
+b220pts=2                 ::: bands, which varies from one contest to another.
+b432pts=2                 ::: All default to 0.
+b902pts=4                 :::
+b1296pts=4                :::
+b2300pts=8                :::
+bOver2300pts=8            :::
+
+Some of these properties have defaults;
+which props are required depends partly on the contest.  
+E.g., you need MultiplierList and MultiplierListBreak if the contest uses
+ListedStringChecker, which reads a two-column list; you use maxZone and possibly 
+minZone if you're using the enumerated checker (numerical multipliers from 
+minZone..maxZone); you use bNNNpts for VHF contests, and pointsPer{CW,Phone}QSO
+irregularly, depending on the contest's rules.  (PPQSO is used where possible, but many
+HF DX tests have complex scoring rules that can't be summarized so quickly.)
+
+Having unneeded properties in the list can make it confusing, but doesn't hurt
+anything.
+
+If a property is missing, JL can die in an hard-to-diagnose way 
+(really need to fix that!)

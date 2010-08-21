@@ -1,0 +1,1056 @@
+AF-001  Agalega Islands
+AF-002  Amsterdam & St. Paul Islands
+AF-003  Ascension Island
+AF-004  Canary Islands
+AF-005  Leeward Islands
+AF-006  Diego Garcia Island
+AF-007  Comoro Islands
+AF-008  Crozet Islands
+AF-009  Europa Island
+AF-010  Bioko (Fernando Poo) Island
+AF-011  Glorioso Islands
+AF-012  Juan De Nova Island
+AF-013  Madagascar (Main Island Only)
+AF-014  Madeira Archipelago
+AF-015  Saint Brandon Islands
+AF-016  Reunion Island
+AF-017  Rodrigues Island
+AF-018  Pantelleria Island
+AF-019  Pelagie Islands
+AF-020  Bijagos Archipelago
+AF-021  Prince Edward & Marion Islands
+AF-022  St. Helena Island
+AF-023  Sao Tome Island
+AF-024  Inner Islands
+AF-025  Aldabra Islands
+AF-026  Cosmoledo Group
+AF-027  Mayotte Island
+AF-028  Socotra Island
+AF-029  Tristan Da Cunha Islands
+AF-030  Gough Island
+AF-031  Tromelin Island
+AF-032  Zanzibar Island
+AF-033  Amirante Islands
+AF-034  Bassas Da India Islands
+AF-035  Farquhar Islands
+AF-036  Chafarinas Islands
+AF-037  Northern/Western Province Group
+AF-038  Dahlak Archipelago
+AF-039  Annobon (Pagalu) Island
+AF-040  Coast Province North Group
+AF-041  Egmont Group
+AF-042  Alboran Island
+AF-043  Estuaire Province Group
+AF-044  Principe Island
+AF-045  Senegal North Group
+AF-046  Desertas Islands
+AF-047  Selvagens Islands
+AF-048  Kerguelen Islands
+AF-049  Mauritius Island
+AF-050  Dakhlet Nouadhibou/Inchiri Region Grou
+AF-051  Guinee-Maritime Province South Group
+AF-052  Indian Ocean Coast South Group
+AF-053  Gulf Of Tadjoura Group
+AF-054  Mafia Island
+AF-055  Penguin Islands
+AF-056  Southern Province Group
+AF-057  Madagascar's Coastal Islands West
+AF-058  Salomon Islands
+AF-059  Strait of Mandab Group
+AF-060  The Gambia Group
+AF-061  Cabo Delgado District Group
+AF-062  Suakin Archipelago
+AF-063  Pemba Island
+AF-064  Western Cape Province South West Group
+AF-065  Safi/Essaouira/Agadir Region Group
+AF-066  Gaza/Maputo District Group
+AF-067  Coast Province South Group
+AF-068  Western Sahara South Group
+AF-069  Alhucemas Island
+AF-070  Karas Region Group
+AF-071  Geyser Bank
+AF-072  Inhambane District Group
+AF-073  Sfax Region Group
+AF-074  Lindi/Mtwara Region Group
+AF-075  Dar Es Salaam/Pwani Region Group
+AF-076  Bayelsa/Rivers/Akwa Ibom etc States Gr
+AF-077  Western Cape Province South Group
+AF-078  Senegal South Group
+AF-079  Eastern Cape Province Group
+AF-080  Red Sea Coast North Group
+AF-081  Red Sea Coast South Group
+AF-082  Rio Muni Province Group
+AF-083  Gabes/Medenine Region Group
+AF-084  Ghana Group
+AF-085  Western Cape Province North West Group
+AF-086  Windward Islands
+AF-087  Tanga Region Group
+AF-088  Nampula District Group
+AF-089  Ogooue Maritime Province Group
+AF-090  Madagascar's Coastal Islands East
+AF-091  Jendouba/Bizerte/Tunis/Nabeul Region
+AF-092  Sousse/Monastir/Mahdia Region group
+AF-093  Guinea-Bissau Coastal Region
+AF-094  Mediterranean Sea Coast West Group
+AF-095  Cameroon Group
+AF-096  Guinee-Maritime Province North Group
+AN-001  Graham Land West (Adelaide Island) Gro
+AN-002  Bouvet Island
+AN-003  Heard Island
+AN-004  Peter 1 Island
+AN-005  Macquarie Island
+AN-006  Graham Land West (Biscoe Islands) Grou
+AN-007  South Georgia Island
+AN-008  South Orkney Islands
+AN-009  South Sandwich Islands
+AN-010  South Shetland Islands
+AN-011  Ross Island Group
+AN-012  Graham Land West (Palmer Archipelago)
+AN-013  Trinity Peninsula Group
+AN-014  Berkner Island
+AN-015  Queen Maud Land (Prince Harald)
+AN-016  Antarctica (Main Island Only)
+AN-017  Adelie Land Group
+AN-018  Palmer Land West (Alexander Island) Gr
+AS-001  Andaman Islands
+AS-002  Bahrain Island
+AS-003  Sri Lanka Island (Main Island Only)
+AS-004  Cyprus Island (Main Island Only)
+AS-005  Kara Sea Coast West Group
+AS-006  Hong Kong Group
+AS-007  Honshu Island (Main Island Only)
+AS-008  North Izu Islands
+AS-009  Red Sea Coast Group
+AS-010  Zufar Region Group
+AS-011  Laccadive Islands
+AS-012  Kyushu's Coastal Islands
+AS-013  Maldive Islands
+AS-014  Ash Sharqiyah/Al Wusta Region Group
+AS-015  Pinang State Group
+AS-016  Gulf Of Aden West Group
+AS-017  Okinawa Islands
+AS-018  Sakhalin Island (Main Island Only)
+AS-019  Singapore Island
+AS-020  Taiwan Island (Main Island Only)
+AS-021  Trucial Coast Group
+AS-022  Medvezh'i (Bear) Islands
+AS-023  Amami Islands
+AS-024  Yaeyama Islands
+AS-025  Kuril'skiye (Kuril) Islands
+AS-026  Chejudo Province Group
+AS-027  Vrangelya (Wrangel) Island
+AS-028  Anzhu Islands
+AS-029  Lyakhovskiye Islands
+AS-030  Kazan (Volcano) Islands
+AS-031  Chichijima/Mukojima/Hahajima Islands
+AS-032  Osumi Islands
+AS-033  Nicobar Islands
+AS-034  Jabal At Tair Island
+AS-035  Abu Ail Island
+AS-036  Iki/Tsushima Islands
+AS-037  Koshikijima Islands
+AS-038  East Siberian Sea Coast Group
+AS-039  Komandorskiye (Commander) Islands
+AS-040  Goto Islands
+AS-041  Oki Islands
+AS-042  Severnaya Zemlya (North Land)
+AS-043  South Izu Islands
+AS-044  Sea of Okhotsk Coast Centre Group
+AS-045  Kyongsang-bukto Province (Ullung Islan
+AS-046  Pahang/Johor State East Group
+AS-047  Daito Islands
+AS-048  De Longa Islands
+AS-049  Tokara Islands
+AS-050  Sergeya Kirova Islands
+AS-051  Spratly Islands
+AS-052  Okino Torishima
+AS-053  Malay Peninsula West Group
+AS-054  Laptev Sea Coast West Group
+AS-055  Vize Island
+AS-056  Danjo Islands
+AS-057  Uyedineniya Island
+AS-058  Perlis/Kedah State Group
+AS-059  Sea Of Okhotsk Coast Group
+AS-060  Cholla-namdo Province Group
+AS-061  Ratmanova (Big Diomede) Island
+AS-062  Habomai Islands
+AS-063  Laptev Sea Coast East Group
+AS-064  Bering Sea Coast Group
+AS-065  Chukchi Sea Coast East Group
+AS-066  Sea Of Japan Coast Group
+AS-067  Uji & Kusagaki Islands
+AS-068  Kara Sea Coast Centre Group
+AS-069  Iony Island
+AS-070  East Siberian Sea Coast East Group
+AS-071  Bering Sea Coast North Group
+AS-072  Perak State Group
+AS-073  Kelantan/Terengganu State Group
+AS-074  Selangor/Negeri Sembilan State Group
+AS-075  Macau Group
+AS-076  Shikoku Island
+AS-077  Kyushu Island (Main Island Only)
+AS-078  Hokkaido Island (Main Island Only)
+AS-079  Miyako Islands
+AS-080  Ch'ungch'ongnamdo Province Group
+AS-081  Kyongsangbuk/Kyongsangnamdo Group
+AS-082  Laptev Sea Coast Centre Group
+AS-083  Kara Sea Coast East Group
+AS-084  Cheju-do Province (Ch'uja Islands) Gro
+AS-085  Cholla-namdo Province (Soan Islands) G
+AS-086  Izvestiy TS.I.K Islands
+AS-087  Arkticheskogo Instituta Islands
+AS-088  Qatar Group
+AS-089  Kara Sea Coast West Group
+AS-090  Kyonggi-do Province (Tokchok Islands)
+AS-091  Shelikhova Bay Group
+AS-092  Bering Sea Coast South Group
+AS-093  Cholla-namdo Province (Huksan Islands)
+AS-094  Hainan Province (Hainan Island) Group
+AS-095  Bering Sea Coast Group
+AS-096  Karnataka State Group
+AS-097  Melaka/Johor State West Group
+AS-098  Aydin/Mugla Province Group
+AS-099  Canakkale/Balikesir/Izmir Province Gro
+AS-100  Israel Group
+AS-101  Malay Peninsula East Group
+AS-102  Kinmen (Quemoy) Island
+AS-103  P'eng-Hu (Pescadores) Islands
+AS-104  Kara Sea Coast East Group
+AS-105  Kyonggi-do Province Group
+AS-106  Minicoy Island
+AS-107  Gulf of Thailand North Group
+AS-108  Lebanon Group
+AS-109  Obskaya Gulf Group
+AS-110  Tungsha (Pratas) Island
+AS-111  The Gulf Group
+AS-112  Al Batinah/Masqat Region Group
+AS-113  Matsu Islands
+AS-114  Sea Of Okhotsk Coast South Group
+AS-115  Antalya Province Group
+AS-116  Huang Yan Island (Scarborough Reef)
+AS-117  Honshu's Coastal Islands
+AS-118  Kuwait Group
+AS-119  Musandam Region Group
+AS-120  Cyprus's Coastal Islands
+AS-121  Nordenshel'da Archipelago
+AS-122  Kyonggi-do Province West Group
+AS-123  Icel/Adana/Hatay Province Group
+AS-124  Gulf Of Oman Group
+AS-125  Gulf Of Thailand North East Group
+AS-126  Malay Peninsula South West Group
+AS-127  Chittagong Region Group
+AS-128  Gulf of Thailand Group
+AS-129  Guangdong Province East Group
+AS-130  South China Sea Coast South Group
+AS-131  Guangdong Province West Group
+AS-132  Gulf of Tongking North Group
+AS-133  Cambodia Group
+AS-134  Hebei/Tianjin Province Group
+AS-135  Jiangsu Province Group
+AS-136  Shanghai Province Group
+AS-137  Zhejiang Province North Group
+AS-138  Fujian Province Group
+AS-139  Guangxi Autonomous Region Group
+AS-140  Khulna/Barisal Region Group
+AS-141  Zhejiang Province South Group
+AS-142  Sea of Okhotsk Coast Group
+AS-143  Hainan Province (Xisha Islands) Group
+AS-144  Tenasserim Region South Group
+AS-145  Malay Peninsula South East Group
+AS-146  Shandong Province North East Group
+AS-147  Hokkaido's Coastal Islands Group
+AS-148  Chollabukto Province Group
+AS-149  Sakhalin's Coastal Islands
+AS-150  Shandong Province South Group
+AS-151  Liaoning Province West Group
+AS-152  Laptev Sea Coast West Group
+AS-153  West Bengal State Group
+AS-154  Black Sea Coast East Group (Turkey)
+AS-155  Taiwan's Coastal Islands
+AS-156  Ushakova Island
+AS-157  South China Sea Coast Centre Group
+AS-158  Liaoning Province East Group
+AS-159  Black Sea Coast West (Turkey)
+AS-160  Shandong Province North West Group
+AS-161  Kerala State group
+AS-162  South China Sea Coast North group
+AS-163  Laptev Sea Coast East group
+AS-164  East Siberian Sea Coast West group
+AS-165  Arakan Region group
+AS-166  Hormozgan Province group
+AS-167  Irrawaddy/Yangon/Pegu Region group
+AS-168  Kangwon-do Province Group
+AS-169  Maharashtra State Group
+EU-001  Dodecanese (Dhodhekanisos)
+EU-002  Aland Islands
+EU-003  Azores Eastern Group
+EU-004  Balearic Islands
+EU-005  Great Britain (Main Island Only)
+EU-006  Aran Islands
+EU-007  Blasket Islands
+EU-008  Inner Hebrides
+EU-009  Orkney
+EU-010  Outer Hebrides
+EU-011  Isles Of Scilly
+EU-012  Shetland & Fair Isle
+EU-013  Jersey
+EU-014  Corsica (Corse) Island (Main Island On
+EU-015  Crete (Kriti) Island (Main Island Only
+EU-016  Dalmatia South Group
+EU-017  Eolie (Lipari) Islands
+EU-018  Faroe Islands
+EU-019  Franz Josef Land
+EU-020  Gotland County (Gotland Island) Group
+EU-021  Iceland (Main Island Only)
+EU-022  Jan Mayen Island
+EU-023  Malta Group
+EU-024  Sardinia (Sardegna) (Main Island Only)
+EU-025  Sicily (Sicilia) (Main Island Only)
+EU-026  Spitsbergen Island (Main Island Only)
+EU-027  Bear Island (Bjornoya)
+EU-028  Toscana (Tuscany) Region Group
+EU-029  Sjaelland Archipelago
+EU-030  Bornholm Island
+EU-031  Campania Region Group
+EU-032  Poitou-Charente Region Group
+EU-033  Vesteralen Islands
+EU-034  Hiiumaa/Saaremaa/Laanemaa County Group
+EU-035  Novaya Zemlya
+EU-036  Sor-Trondelag/More Og Romsdal County N
+EU-037  Kalmar County Group
+EU-038  Noord Holland/Friesland/Groningen Prov
+EU-039  Chausey Islands
+EU-040  Estremadura Province Group
+EU-041  Maddalena Archipelago
+EU-042  Schleswig-Holstein State NW Group
+EU-043  Goteborg Och Bohus/Halland County Grou
+EU-044  Finnmark County West Group
+EU-045  Lazio Region Group
+EU-046  Troms County Group
+EU-047  Niedersachsen State Group
+EU-048  Bretagne (Morbihan) Region Group
+EU-049  North Aegean Islands
+EU-050  Puglia (Foggia) Region Group
+EU-051  Ustica Island
+EU-052  Ipeiros/Dytiki Ellas Region Group
+EU-053  Market Reef
+EU-054  Egadi Islands
+EU-055  Sogn og Fjordane etc County Group
+EU-056  More Og Romsdal County Centre Group
+EU-057  Mecklenburg-Vorpommern State Group
+EU-058  Provence-Cote D'Azur (Alpes-Marit) Reg
+EU-059  St. Kilda
+EU-060  Sterea Ellas Region Group
+EU-061  Vest Agder To Ostfold County Group
+EU-062  Nordland/N Trondelag County Group
+EU-063  Spitsbergen's Coastal Islands
+EU-064  Pays De La Loire Region Group
+EU-065  Bretagne (Finistere North West) Region
+EU-066  Solovetskiye Islands
+EU-067  Kyklades (Cyclades)
+EU-068  Bretagne (Finistere South West) Region
+EU-069  Columbretes Islands
+EU-070  Provence-Cote D'Azur (Var) Region Grou
+EU-071  Vestmannaeyjar (Westman Islands)
+EU-072  Thessalia Region Group
+EU-073  Puglia (Taranto) Region Group
+EU-074  Bretagne (Cotes-D'Armor Centre) Region
+EU-075  Peloponnisos (Argolis)/Attiki Region G
+EU-076  Lofoten Islands
+EU-077  La Coruna/Lugo Province Group
+EU-078  Gerona Province Group
+EU-079  More Og Romsdal County South Group
+EU-080  Pontevedra Province Group
+EU-081  Basse-Normandie (Manche East) Region G
+EU-082  Barents Sea Coast West Group
+EU-083  Liguria Region Group
+EU-084  Uppsala/Stockholm County Group
+EU-085  Kolguev Island
+EU-086  Pechorskoye Sea Coast East Group
+EU-087  Vasternorrland County Group
+EU-088  Kattegat Group
+EU-089  Azores Western Group
+EU-090  Palagruza Island
+EU-091  Puglia (Lecce/Brindisi/Bari) Region
+EU-092  Summer Isles
+EU-093  Alicante/Murcia Province Group
+EU-094  Bretagne (Finistere South) Region Grou
+EU-095  Provence-Cote D'Azur (Bouches-Du-Rhone
+EU-096  Lansi-Suomi (Turku) Province Group
+EU-097  Etela-Suomi (Uusimaa) Province Group
+EU-098  Mecklenburg-Vorpommern State West
+EU-099  Les Minquiers Islands
+EU-100  Cerbicales Islands
+EU-101  Lansi-Suomi (Vaasa) Province Group
+EU-102  Pechorskoye Sea Coast Centre Group
+EU-103  Saltee Islands
+EU-104  Sanguinaires Islands
+EU-105  Bretagne (Finistere North) Region
+EU-106  St. Tudwal's Islands
+EU-107  Bretagne (Cotes-D'Armor West) Region G
+EU-108  Treshnish Islands
+EU-109  Farne Islands
+EU-110  Istra Group
+EU-111  Monach Islands
+EU-112  Shiant Islands
+EU-113  Peloponnisos (Lakonia)/Kythira Region
+EU-114  Guernsey Group
+EU-115  Ireland
+EU-116  Isle of Man
+EU-117  Malyj Vysotskij Island
+EU-118  Flannan Islands
+EU-119  White Sea Coast East Group
+EU-120  English Coastal Islands
+EU-121  Irish Coastal Islands
+EU-122  Northern Irish Coastal Islands
+EU-123  Scottish Coastal Islands
+EU-124  Welsh Coastal Islands
+EU-125  Jylland West Group
+EU-126  Lappi Province Group
+EU-127  Schleswig-Holstein State SW Group
+EU-128  Schleswig-Holstein State East Group
+EU-129  Usedom (Uznam) Island
+EU-130  Friuli-Venezia Giulia Region Group
+EU-131  Veneto Region Group
+EU-132  Szczecin/Koszalin Province Group
+EU-133  Gulf Of Finland Group
+EU-134  Bilbao/San Sebastian (Basque) Province
+EU-135  Vasterbotten County Group
+EU-136  Kvarner Group
+EU-137  Skane County Group
+EU-138  Blekinge County Group
+EU-139  Norrbotten County Group
+EU-140  Etela-Suomi (Kymi) Province Group
+EU-141  Finnmark County East Group
+EU-142  Oviedo/Santander Province Group
+EU-143  Cadiz/Huelva Province Group
+EU-144  Calabria/Basilicata Region Group
+EU-145  Algarve Province Group
+EU-146  Zuid Holland/Zeeland Province Group
+EU-147  White Sea Coast Group
+EU-148  Languedoc-Roussillon Region Group
+EU-149  Tallinn & Harjumaa/Virumaa County Grou
+EU-150  Minho/Douro Lit/Beira Litoral Province
+EU-151  Castellon/Valencia Province Group
+EU-152  Almeria/Granada/Malaga Province
+EU-153  White Sea Coast West Group
+EU-154  Barcelona/Tarragona Province Group
+EU-155  Emilia Romagna Region Group
+EU-156  Basse-Normandie (Manche West) Region G
+EU-157  Bretagne (Cotes-d'Armor East) Region
+EU-158  Peloponnisos (Messinia) Region Group
+EU-159  Aquitaine Region Group
+EU-160  Barents Sea Coast Group
+EU-161  Barents Sea Coast East Group
+EU-162  White Sea Coast Group
+EU-163  Montenegro Group
+EU-164  Corsica's Coastal Islands
+EU-165  Sardinia's Coastal Islands
+EU-166  Sicily's Coastal Islands
+EU-167  Baixo Alentejo Province Group
+EU-168  Iceland's Coastal Islands
+EU-169  Albania Group
+EU-170  Dalmatia North Group
+EU-171  Jylland North Group
+EU-172  Jylland East and Fyn Group
+EU-173  Lansi-Suomi (Pori) Province Group
+EU-174  Makedonia/Thraki Region Group
+EU-175  Azores Central Group
+EU-176  Gavleborg County Group
+EU-177  Sodermanland/Ostergotland County Group
+EU-178  Parnumaa/Saaremaa County South Group
+EU-179  Mykolayivs'ka/Khersons'ka Oblast
+EU-180  Respublika Krym
+EU-181  Bulgaria group
+EU-182  Odes'ka Oblast
+EU-183  Romania Group
+EU-184  Oulu Province Group
+EU-185  Krasnodarskiy Kray
+EU-186  European Turkey Group
+EU-187  Crete's Coastal Islands
+EU-188  Pechorskoye Sea Coast West Group
+NA-001  Great Bahama Bank Group
+NA-002  Caicos Islands
+NA-003  Turks Islands
+NA-004  North Slope County Centre Group
+NA-005  Bermuda Islands
+NA-006  Nunavut (Victoria Island) Group
+NA-007  Nunavut (Southampton Island) Group
+NA-008  Nunavut (Ellesmere Island) Group
+NA-009  Nunavut (Parry Islands) Group
+NA-010  NS Province (Cape Breton Island) Group
+NA-011  Clipperton Island
+NA-012  Coco's Island
+NA-013  Caribbean Sea Coast Centre Group
+NA-014  New Brunswick Province South Group
+NA-015  Cuba (Main Island Only)
+NA-016  Cayman Islands
+NA-017  Baja California State SW Group
+NA-018  Greenland (Main Island Only)
+NA-019  Kodiak Group
+NA-020  Aves Island
+NA-021  Barbados
+NA-022  Anguilla
+NA-023  British Virgin Islands
+NA-024  Grenada
+NA-025  The Grenadines
+NA-026  New York State Group
+NA-027  Newfoundland Island (Main Island Only)
+NA-028  Pribilof Islands
+NA-029  Prince Edward Island
+NA-030  Revilla Gigedo Islands
+NA-031  Rhode Island State Group
+NA-032  St. Pierre & Miquelon
+NA-033  San Andres Island
+NA-034  FL State Centre West Group
+NA-035  Santanilla (Swan) Islands
+NA-036  BC Province (Vancouver Island) Group
+NA-037  Near Islands (Semichi Islands) Group
+NA-038  QC Province (La Madeleine Islands) Gro
+NA-039  Andreanof Islands
+NA-040  St. Lawrence Island
+NA-041  Alexander Archipelago
+NA-042  Valdez Cordova County West Group
+NA-043  Nunavut (Sverdrup Islands) Group
+NA-044  NFLD Province (Labrador) South Group
+NA-045  Quintana Roo State North Group
+NA-046  Massachusetts State South Group
+NA-047  Nunavut (Baffin Island) grp (Main Isla
+NA-048  Bimini Islands
+NA-049  Providencia Island
+NA-050  North Slope County East Group
+NA-051  BC Province (Queen Charlotte Islands)
+NA-052  FL State South West (Collier/Monroe) g
+NA-053  Trinity Islands
+NA-054  Berry Islands
+NA-055  Maine State East Group
+NA-056  La Juventud Island Group
+NA-057  Bahia Islands
+NA-058  Georgia State Group
+NA-059  Fox Islands
+NA-060  Valle/Choluteca Dept Group
+NA-061  BC Province North Group
+NA-062  FL State (Florida Keys) Group
+NA-063  Sable Island
+NA-064  Near Islands (Agattu & Attu) Group
+NA-065  Washington State North Group
+NA-066  CA State South (Orange/San Diego) Grou
+NA-067  North Carolina State East Group
+NA-068  New Brunswick Province North Group
+NA-069  Florida State West (Charlotte/Lee) Gro
+NA-070  Rat Islands
+NA-071  Chiriqui/Veraguas South Province
+NA-072  Panama/Darien Province Group
+NA-073  Corozal/Belize District Group
+NA-074  Nunivak Island
+NA-075  BC Province (Gulf Islands) Group
+NA-076  Florida State West (Jefferson etc) Gro
+NA-077  QC Province (Anticosti Island) Group
+NA-078  Baja California Sur State SW Group
+NA-079  FL State (Dry Tortugas Islands) Group
+NA-080  Little Bahama Bank Group
+NA-081  Nova Scotia Province East Group
+NA-082  Mississippi State Group
+NA-083  Virginia State Group
+NA-084  QC Province (St. Lawrence Gulf) East G
+NA-085  Florida State West (Bay to Wakulla) Gr
+NA-086  Ciego De Avila/Camaguey Province North
+NA-087  Shumagin Islands
+NA-088  Bocas Del Toro Province Group
+NA-089  Louisana State East Group
+NA-090  Quintana Roo State Centre Group
+NA-091  British Columbia Province South
+NA-092  Texas State West Group
+NA-093  Pinar Del Rio/La Habana Province Group
+NA-094  St. Paul Island
+NA-095  Desecheo Island
+NA-096  Hispaniola (Main Island Only)
+NA-097  Jamaica
+NA-098  Navassa Island
+NA-099  Puerto Rico
+NA-100  Antigua and Barbuda
+NA-101  Dominica
+NA-102  Guadeloupe
+NA-103  Montserrat
+NA-104  St. Kitts & Nevis
+NA-105  St. Martin (Sint Maarten)
+NA-106  Virgin Islands
+NA-107  Martinique
+NA-108  St. Lucia
+NA-109  St. Vincent
+NA-110  South Carolina State Group
+NA-111  New Jersey State Group
+NA-112  North Carolina State West Group
+NA-113  South Bahamas Group
+NA-114  Les Saintes Islands
+NA-115  Clarion Island
+NA-116  Puntarenas Province West Group
+NA-117  Puntarenas Province East Group
+NA-118  BC Province (Dundas Islands) Group
+NA-119  Louisiana State Centre Group
+NA-120  Louisiana State West Group
+NA-121  Dillingham/Bristol Bay County Group
+NA-122  Dominican Rep's Coastal Islands
+NA-123  Turneffe Islands
+NA-124  Baja California Sur State SE Group
+NA-125  QC Province (St. Lawrence Gulf) West G
+NA-126  Nova Scotia Province South Group
+NA-127  Nova Scotia Province West Group
+NA-128  QC Province (St. Lawrence Waterway) Gr
+NA-129  Nunavut (Banks Island) Group
+NA-130  Nunavut (Baffin's Coastal Islands) Eas
+NA-131  Nunavut (Kitikmeot Region) East Centre
+NA-132  Bajo Nuevo and Serranilla Bank Cays
+NA-133  Serrana Bank and Roncador Cays
+NA-134  Greenland's Coastal Islands North West
+NA-135  Campeche State Group
+NA-136  Connecticut State Group
+NA-137  Maine State West Group
+NA-138  Florida State North East Group
+NA-139  Maryland State East Group
+NA-140  Maryland State West Group
+NA-141  Florida State South East Group
+NA-142  FL State North West (Escambia etc) Gro
+NA-143  Texas State East Group
+NA-144  CA State South (Santa Barbara to LA) G
+NA-145  Saba & Sint Eustatius
+NA-146  St. Barthelemy Island
+NA-147  The Grenadines
+NA-148  MA State North Group
+NA-149  Haiti's Coastal Islands
+NA-150  Little Diomede Island
+NA-151  Greenland's Coastal Islands South East
+NA-152  Nome County North Group
+NA-153  Yucatan State Group
+NA-154  Nova Scotia Province North Group
+NA-155  Limon Province Group
+NA-156  Nunavut (Hudson Bay - QC Coast) North
+NA-157  Valdez Cordova County East Group
+NA-158  Kenai - Cook Inlet Group
+NA-159  Nunavut (King George Islands) Group
+NA-160  Cortes/Atlantida/Colon Department Grou
+NA-161  Skagway-Yakutat County Group
+NA-162  Baja California State NW Group
+NA-163  Baja California State East Group
+NA-164  Baja California Sur State NW Group
+NA-165  Baja California Sur State NE Group
+NA-166  Sonora State South Group
+NA-167  Sonora State North Group
+NA-168  Louisiana State South East Group
+NA-169  Washington State West Group
+NA-170  San Blas Province Group
+NA-171  Sinaloa State Group
+NA-172  North Slope County North Group
+NA-173  Nunavut (Hudson Bay - QC Coast) South
+NA-174  Nunavut (Foxe Basin) Group
+NA-175  Nunavut (Kitikmeot Region) West Centre
+NA-176  QC Province (St. Lawrence Gulf) Centre
+NA-177  QC Province (Gaspe Peninsula) Group
+NA-178  CA State Centre (Sonoma to Santa Cruz)
+NA-179  Guadalupe Island
+NA-180  Stann Creek/Toledo District Group
+NA-181  BC Province (Estevan Group)
+NA-182  NWT (Inuvik Region) East Group
+NA-183  Guerrero State Group
+NA-184  California State North Group
+NA-185  Nunavut (Keewatin Region) Group
+NA-186  Nunavut (Hudson Bay-Manitoba) Group
+NA-187  California State Centre (Monterey etc)
+NA-188  Oaxaca State Group
+NA-189  Nayarit/Jalisco State Group
+NA-190  El Salvador Group
+NA-191  Guanacaste Province Group
+NA-192  NWT (Inuvik Region) West Group
+NA-193  Yukon Territory Group
+NA-194  NFLD Province (Labrador) North Group
+NA-195  Nunavut (Hudson Bay - QC Coast) Centre
+NA-196  Nunavut (Belcher Islands) Group
+NA-197  Kenai Peninsula County Group
+NA-198  Newfoundland's Coastal Islands
+NA-199  St. Martin's Coastal Islands
+NA-200  Quintana Roo State South Group
+NA-201  Ciego De Avila/Camaguey Province South
+NA-202  Colon/Veraguas North Province Group
+NA-203  Los Santos/Herrera/Cocle Province
+NA-204  Matanzas to Sancti Spiritus Province G
+NA-205  NFLD Province (Labrador) Centre
+NA-206  Barren Islands
+NA-207  Nunavut (Hudson Bay - ONT Coast) South
+NA-208  Nunavut (Kitikmeot Region) East Group
+NA-209  Caribbean Sea Coast South Group
+NA-210  Nome County Centre Group
+NA-211  Oregon State Group
+NA-212  Pacific Ocean Coast Group
+NA-213  Alabama State Group
+NA-214  Nome County South Group
+NA-215  Northwest Arctic County Group
+NA-216  Northern Alaska Peninsula West Group
+NA-217  New Hampshire Group
+NA-218  Las Tunas/Holguin/Santiago de Cuba Pro
+NA-219  Cay Sal Bank Cays
+NA-220  Greenland's Coastal Islands South West
+NA-221  Veracruz State North
+NA-222  Southern Alaska Peninsula West group
+NA-223  Gracias a Dios Department group
+NA-224  Veracruz State South group
+NA-225  Nunavut (Prince of Wales & Somerset Is) grp.
+NA-226  Colima/Michoacan State Group
+OC-001  Australia (Main Island Only)
+OC-002  Christmas Island
+OC-003  Cocos (Keeling) Islands
+OC-004  Lord Howe Island
+OC-005  Norfolk Island
+OC-006  Tasmania (Main Island Only)
+OC-007  Willis Islands
+OC-008  Bismarck Archipelago
+OC-009  Palau Islands
+OC-010  Pohnpei Islands
+OC-011  Chuuk Islands
+OC-012  Yap Islands
+OC-013  Rarotonga Island
+OC-014  Manihiki Atoll
+OC-015  Tuvalu Islands
+OC-016  Viti Levu & Vanua Levu Group
+OC-017  Gilbert Islands
+OC-018  Banaba (Ocean) Island
+OC-019  Hawaiian Islands
+OC-020  Kure Atoll
+OC-021  Java (Jawa) Island (Main Island Only)
+OC-022  Bali Island
+OC-023  Johnston Atoll
+OC-024  Kiritimati (Christmas) Island
+OC-025  Admiralty Islands
+OC-026  Guam Island
+OC-027  Marquesas Islands
+OC-028  Ralik Chain
+OC-029  Ratak Chain
+OC-030  Midway Islands
+OC-031  Nauru
+OC-032  New Caledonia Island
+OC-033  Loyalty Islands
+OC-034  New Guinea (Main Island Only)
+OC-035  New Hebrides
+OC-036  ZL North Island (Main Island Only)
+OC-037  Campbell Island
+OC-038  Chatham Islands
+OC-039  Kermadec Islands
+OC-040  Niue Island
+OC-041  Ninigo Group
+OC-042  Luzon Island (Main Island Only)
+OC-043  Phoenix Islands
+OC-044  Pitcairn Island
+OC-045  Tutuila Island
+OC-046  Windward Islands
+OC-047  Solomon Islands
+OC-048  Tokelau Islands
+OC-049  Tongatapu Group
+OC-050  Rurutu and Rimatara Islands
+OC-051  Rapa and Marotiri Islands
+OC-052  Duke of Gloucester Islands
+OC-053  Wake Island
+OC-054  Wallis Islands
+OC-055  French Frigate Shoals
+OC-056  Henderson Island
+OC-057  Maupihaa Group
+OC-058  D'Entrecasteaux Reefs
+OC-059  Kosrae (Kusaie) Island
+OC-060  Rotuma Island
+OC-061  Minerva Reefs
+OC-062  Pukapuka Atoll
+OC-063  Gambier Islands
+OC-064  Vava'u Group
+OC-065  Reef (Swallow) Islands
+OC-066  Tuamotu Archipelago
+OC-067  Leeward Islands
+OC-068  Snares Islands
+OC-069  Lihir Group
+OC-070  Seram Group
+OC-071  WA State (N Coast) West Group
+OC-072  Mellish Reef
+OC-073  Minami Torishima (Marcus Island)
+OC-074  Auckland Islands
+OC-075  Riau Islands
+OC-076  Sula Islands
+OC-077  Manua Islands
+OC-078  Ulithi Atoll
+OC-079  Belep Islands
+OC-080  Suwarrow Atoll (Suvorov)
+OC-081  Jarvis Island
+OC-082  Penrhyn Atoll (Tongareva)
+OC-083  Aitutaki Group
+OC-084  Tabuaeran and Teraina Islands
+OC-085  Palmyra Atoll
+OC-086  Northern Mariana Islands
+OC-087  Enewetak (Eniwetok) Atoll
+OC-088  Borneo (Main Island Only)
+OC-089  Baker and Howland Islands
+OC-090  Calamian Group
+OC-091  Polillo Islands
+OC-092  Babuyan Islands
+OC-093  Batan Islands
+OC-094  Disappointment Islands
+OC-095  Lau Group
+OC-096  Kingman Reef
+OC-097  Samoa Islands
+OC-098  Pukapuka Atoll (Danger Islands)
+OC-099  Tabar Islands
+OC-100  Nendo Island
+OC-101  Feni Islands
+OC-102  Tanga Islands
+OC-103  St. Matthias Group
+OC-104  Banks Islands
+OC-105  Cagayan De Sulu Group
+OC-106  Natuna Besar Islands
+OC-107  Lingga Islands
+OC-108  Anambas Islands
+OC-109  Natuna Selatan Islands
+OC-110  Torres Islands
+OC-111  Shepherd Islands
+OC-112  Conway Reef (Ceva-I-Ra)
+OC-113  Actaeon Group
+OC-114  Raivavae Island
+OC-115  Trobriand Island
+OC-116  D'Entrecasteaux Islands
+OC-117  Louisiade Archipelago
+OC-118  Hoorn Islands
+OC-119  Jolo Group
+OC-120  Cuyo Islands
+OC-121  Mamanuca (Mamanutha) Group
+OC-122  Tambelan Islands
+OC-123  Niuafo'ou Island
+OC-124  Palmerston Atoll
+OC-125  Semirara Islands
+OC-126  Lubang Islands
+OC-127  Rennell Island
+OC-128  Palawan Island
+OC-129  Visayan Islands
+OC-130  Mindanao Island (Main Island Only)
+OC-131  King George Islands
+OC-132  East Yap Group
+OC-133  Sabah's Coastal Islands
+OC-134  ZL South Island (Main Island Only)
+OC-135  Solomon Islands
+OC-136  Victoria State Centre Group
+OC-137  QLD State (S Coast) South Group
+OC-138  QLD State (Torres Strait) Group
+OC-139  S Australia State East Centre Group
+OC-140  W Aus State (NW Coast) West Group
+OC-141  N Terr (Gulf of Carpentaria) North
+OC-142  QLD State (S Coast) Centre Group
+OC-143  Sumatra Island (Main Island Only)
+OC-144  Bangka and Belitung Islands
+OC-145  Halmahera Group
+OC-146  Celebes Island (Main Island Only)
+OC-147  Irian Jaya's Coastal Islands North
+OC-148  Timor Island (Main Island Only)
+OC-149  New Georgia Islands
+OC-150  Tenggara Barat Islands
+OC-151  Tenggara Timur Islands
+OC-152  Tubuai Island
+OC-153  PNG's Coastal Islands South
+OC-154  W Aus State (N Coast) East Group
+OC-155  West Chuuk Group
+OC-156  Yasawa Group
+OC-157  Banda Islands
+OC-158  Florida Islands
+OC-159  Mangaia Island
+OC-160  Qld State (S Coast) North Group
+OC-161  Nias & Batu Islands
+OC-162  Shortland Islands
+OC-163  Vanikolo & Utupua Islands
+OC-164  W Aus State (SW Coast) South Group
+OC-165  Sarawak's Coastal Islands
+OC-166  Kalimantan's Coastal Islands East
+OC-167  Kapingamarangi Atoll
+OC-168  Russell Islands
+OC-169  Ha'apai Group
+OC-170  W Aus State (S Coast) East Centre Grou
+OC-171  Qld State (N Coast) South Group
+OC-172  Qld State (N Coast) Centre Group
+OC-173  N Terr (Arafura Sea Coast) West Group
+OC-174  Tawi Tawi Group
+OC-175  Sarangani Islands
+OC-176  Chesterfield Islands
+OC-177  Seribu Islands
+OC-178  Tikopia & Anuta Islands
+OC-179  Duff Islands
+OC-180  Ngulu Atoll
+OC-181  Witu Islands
+OC-182  Ducie Island
+OC-183  W Aus State (SW Coast) Centre
+OC-184  Brunei's Coastal Islands
+OC-185  N Terr (Arafura Sea Coast) East
+OC-186  Karimunjawa Islands
+OC-187  Qld State (N Coast) North Group
+OC-188  Pangutaran Group
+OC-189  Ringgold Isles
+OC-190  Rose Atoll
+OC-191  Niuatoputapu Island
+OC-192  Ontong Java Atoll
+OC-193  W Aus State (S Coast) West Centre Grou
+OC-194  NSW State North Group
+OC-195  Furneaux Group
+OC-196  Victoria State East Group
+OC-197  Bawean Island
+OC-198  N Terr (Gulf of Carpentaria) South
+OC-199  W Aus State (NW Coast) Centre
+OC-200  Swains Island
+OC-201  ZL North Island's Coastal Islands
+OC-202  Calagua Islands
+OC-203  ZL South Island's Coastal Islands
+OC-204  Enggano Island
+OC-205  Woodlark Group
+OC-206  W Aus State (SW Coast) North Group
+OC-207  Cagayan Islands
+OC-208  Banggai Islands
+OC-209  Talaud Islands
+OC-210  Sangihe Islands
+OC-211  Houtman Abrolhos
+OC-212  NSW State Centre Group
+OC-213  Togian Islands
+OC-214  W Aus State (NW Coast) East Group
+OC-215  Mentawai Islands
+OC-216  Ashmore & Cartier Islands
+OC-217  Kangean Islands
+OC-218  Matthew & Hunter Islands
+OC-219  Tukangbesi Islands
+OC-220  S Australia State West Group
+OC-221  Kai Islands
+OC-222  Obi Islands
+OC-223  NSW State South Group
+OC-224  Tanimbar Islands
+OC-225  Turtle Islands
+OC-226  Mwokil & Pingelap Atolls
+OC-227  QLD State (Gulf of Carpentaria) South
+OC-228  South Australia State East Group
+OC-229  N Terr (Arafura Sea Coast) Centre
+OC-230  Rowley Shoals
+OC-231  Green Islands
+OC-232  East Timor's Coastal Islands
+OC-233  Tasmania's Coastal Islands
+OC-234  Browse Island
+OC-235  Mindanao's Coastal Islands
+OC-236  Celebes's Coastal Islands
+OC-237  Java's Coastal Islands
+OC-238  Pukarua & Reao Atolls
+OC-239  Irian Jaya's Costal Islands West
+OC-240  P.N.G's Coastal Islands East
+OC-241  West Timor's Coastal Islands
+OC-242  Bonerate and Take' Bonerate Islands
+OC-243  Western Australia State South Coast We
+OC-244  Luzon's Coastal Islands
+OC-245  Sumatra's Coastal Islands North
+OC-246  Leti and Sermata Islands
+OC-247  Sabalana and Tengah Islands
+OC-248  South Palau group
+OC-249  Aru Islands
+OC-250  Masalembu Islands
+OC-251  VIC State West group
+OC-252  Kaliman's Coastal Island West Group
+OC-253  Hall Islands
+OC-254  Mortlock Islands
+OC-255  Queensland State North Group
+OC-256  Tulun Islands
+OC-257  Nuguria Islands
+OC-258  PNG's Coastal Islands North
+OC-259  Nukuoro Atoll
+OC-260  Oroluk Atoll
+OC-261  SA State West Centre group
+OC-262  Sumatra's Coastal Islands South
+OC-263  Taongi Atoll (aka Bokaak Atoll)
+OC-264  Maria Island
+OC-265  Coral Sea Islands Territory South
+OC-266  Western Australia State (N Coast) Centre Grp
+SA-001  Easter Island
+SA-002  Falkland Islands
+SA-003  Fernando de Noronha Archipelago
+SA-004  Galapagos Islands
+SA-005  Juan Fernandez Archipelago
+SA-006  Bonaire & Curacao Islands
+SA-007  Malpelo Island
+SA-008  Tierra del Fuego
+SA-009  Tobago Island
+SA-010  Trindade & Martin Vaz Islands
+SA-011  Trinidad Island
+SA-012  Nueva Esparta State Group
+SA-013  San Felix and San Ambrosio Islands
+SA-014  St. Peter and St. Paul Rocks
+SA-015  Los Monjes Archipelago
+SA-016  Maranhao State Centre Group
+SA-017  Cauca/Valle Division Group
+SA-018  Los Lagos Province South Group
+SA-019  Abrolhos Archipelago
+SA-020  French Guiana Group
+SA-021  Buenos Aires (Bahia Blanca) Province G
+SA-022  Buenos Aires (Bahia Anegada) Province
+SA-023  Bahia State North Group
+SA-024  Sao Paulo State West Group
+SA-025  Piaui State Group
+SA-026  Santa Catarina State Centre Group
+SA-027  Santa Catarina State North Group
+SA-028  Sao Paulo State East Group
+SA-029  Rio De Janeiro State West Group
+SA-030  San Jose/Montevideo/Canelones Departme
+SA-031  Wollaston Islands
+SA-032  Magallanes & Antartica Chilena Prov No
+SA-033  Manabi Province Group
+SA-034  Guayas/El Oro Province Group
+SA-035  Los Roques Islands
+SA-036  Aruba Island
+SA-037  Blanquilla Group
+SA-038  Atol Das Rocas
+SA-039  Maldonado/Rocha Department Group
+SA-040  Bolivar/Atlantico Division Group
+SA-041  Maranhao State West Group
+SA-042  Para State West Group
+SA-043  Aisen Province North Group
+SA-044  La Tortuga Island
+SA-045  Amapa State Group
+SA-046  Pernambuco State Group
+SA-047  Parana State Group
+SA-048  Sucre State East Group
+SA-049  Tierra Del Fuego's Coastal Islands
+SA-050  Tierra Del Fuego's Coastal Islands
+SA-051  Las Aves Islands
+SA-052  Lima Department Group
+SA-053  Aisen Province South Group
+SA-054  Orchila Island
+SA-055  Buenos Aires (Delta Del Parana) Provin
+SA-056  Esmeraldas Province Group
+SA-057  Colonia Department Group
+SA-058  Carabobo To Miranda State Group
+SA-059  Los Testigos Group
+SA-060  Para State East Group
+SA-061  La Araucania Prov/Los Lagos Prov North
+SA-062  Bahia State South Group
+SA-063  Monagas/Delta Amacuro State Group
+SA-064  Aisen Province Centre Group
+SA-065  Chubut Province South Group
+SA-066  Zulia State Group
+SA-067  Espirito Santo State Group
+SA-068  Guyana Group
+SA-069  Antofagasta Province Group
+SA-070  Bio-Bio Province Group
+SA-071  Sao Paulo State Centre Group
+SA-072  Maranhao State East Group
+SA-073  Ica Department Group
+SA-074  Ancash Department Group
+SA-075  La Libertad Department Group
+SA-076  Tumbes/Piura/Lambayeque Dept Group
+SA-077  Rio De Janeiro State East Group
+SA-078  Cordoba/Sucre Division Group
+SA-079  Rio De Janeiro State Centre Group
+SA-080  Bahia State Centre Group
+SA-081  Narino Division Group
+SA-082  Magdalena/Guajira Division Group
+SA-083  Salas Y Gomez Island
+SA-084  Choco South Division Group
+SA-085  Atacama Province Group
+SA-086  Coquimbo/Valparaiso Province Group
+SA-087  Santa Cruz Province North Group
+SA-088  Santa Catarina State South Group
+SA-089  Falcon State Group
+SA-090  Anzoategui State/Sucre State West grp
+SA-091  Magallanes & Antartica Chilena Prov. S
+SA-092  Suriname group
+SA-093  Choco Div. North/Antioquia Div. group

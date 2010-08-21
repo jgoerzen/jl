@@ -1,0 +1,4 @@
+HIGH
+LOW
+QRP
+-DX

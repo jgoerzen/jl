@@ -1,0 +1,136 @@
+Accomack           ACC
+Albemarle          ALB 
+Alleghany          ALL      
+Amelia             AME      
+Amherst            AMH       
+Appomattox         APP      
+Arlington          ARL      
+Augusta            AUG      
+Bath               BAT      
+Bedford            BED      
+Bland              BLA      
+Botetourt          BOT      
+Brunswick          BRU      
+Buchanan           BCH      
+Buckingham         BHM      
+Campbell           CAM      
+Caroline           CLN      
+Carroll            CRL      
+Charles City       CCY      
+Charlotte          CHA      
+Chesterfield       CHE      
+Clarke             CLA      
+Craig              CRA      
+Culpeper           CUL      
+Cumberland         CUM    
+Dickenson          DIC      
+Dinwiddie          DIN      
+Essex              ESS      
+Fairfax            FFX      
+Fauquier           FAU      
+Floyd              FLO      
+Fluvanna           FLU      
+Franklin           FRA      
+Frederick          FRE      
+Giles              GIL      
+Glouchester        GLO      
+Goochland          GOO      
+Grayson            GRA      
+Greene             GRN      
+Greensville        GVL      
+Halifax            HAL      
+Hanover            HAN      
+Henrico            HCO      
+Henry              HRY      
+Highland           HIG      
+Isle of Wight      IOW      
+James City         JAM
+King George        KGE
+King William       KWM
+Lancaster          LAN
+Lee                LEE
+Loudoun            LDN
+Louisa             LSA 
+Lunenburg          LUN
+Madison            MAD
+Mathews            MAT
+Mecklenburg        MEC
+Middlesex          MID
+Montgomery         MON        
+Nelson             NEL
+New Kent           NEW
+Northampton        NHA
+Northumberland     NUM
+Nottoway           NOT
+Orange             ORG
+Page               PAG
+Patrick            PAT
+Pittsylvania       PIT
+Powhatan           POW
+Prince Edward      PRE
+Prince George      PRG
+Prince William     PRW
+Pulaski            PUL
+Rappahannock       RAP
+Richmond           RIC
+Roanoke            ROA
+Rockbridge         RBR
+Rockingham         RHM
+Russell            RUS
+Scott              SCO
+Shenandoah         SHE
+Smyth              SMY
+Southampton        SHA
+Spotsylvania       SPO
+Stafford           STA
+Surry              SUR
+Sussex             SUS
+Tazewell           TAZ
+Warren             WAR
+Washington         WAS
+Westmoreland       WES
+Wise               WIS
+Wythe              WYT
+York               YOR
+Alexandria         ALX
+Bedford            BEX
+Bristol            BRX
+Buena Vista        BVX
+Charlottesville    CVX
+Chesapeake         CHX
+Clifton Forge      CLX
+Colonial Heights   COX
+Covington          CVX
+Danville           DAX
+Emporia            EMX
+Fairfax            FXX
+Falls Church       FCX
+Fort Monroe        FMX
+Franklin           FRX
+Fredericksburg     FBX
+Galax              GAX
+Hampton            HAX
+Harrisonburg       HBX
+Hopewell           HOX
+Lexington          LEX
+Lynchburg          LYX  
+Manassas           MAX
+Manassas Park      MPX
+Martinsville       MVX
+Newport News       NNX  
+Norfolk            NFX           
+Norton             NRX           
+Petersburg         PBX
+Poquoson           PQX
+Portsmouth         POX
+Radford            RAX             
+Richmond           RIX
+Roanoke            ROX           
+Salem              SAX           
+South Boston       SBX
+Staunton           STX  
+Suffolk            SUX
+Virginia Beach     VBX
+Waynesboro         WAX  
+Williamsburg       WMX
+Winchester         WIX

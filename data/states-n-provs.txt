@@ -1,0 +1,66 @@
+ Connecticut                 CT     
+ Massachusetts               MA    
+ Maine                       ME     
+ New Hampshire               NH     
+ Rhode Island                RI     
+ Vermont                     VT     
+ New York                    NY    
+ New Jersey                  NJ    
+ Delaware                    DE     
+ Pennsylvania                PA    
+ Maryland                    MD
+ District of Columbia        DC  
+ Alabama                     AL     
+ Georgia                     GA     
+ Kentucky                    KY     
+ North Carolina              NC     
+ Florida                     FL    
+ South Carolina              SC     
+ Tennessee                   TN     
+ Virginia                    VA     
+ Arkansas                    AR     
+ Louisiana                   LA     
+ Mississippi                 MS     
+ New Mexico                  NM     
+ Texas                       TX    
+ Oklahoma                    OK 
+ California                  CA    
+ Hawaii                      HI    
+ Arizona                     AZ     
+ Washington                  WA    
+ Idaho                       ID     
+ Montana                     MT     
+ Nevada                      NV     
+ Oregon                      OR     
+ Utah                        UT     
+ Washington                  WA    
+ Wyoming                     WY     
+ Alaska                      AK     
+ Michigan                    MI     
+ Ohio                        OH     
+ West Virginia               WV     
+ Illinois                    IL     
+ Indiana                     IN     
+ Wisconsin                   WI     
+ Colorado                    CO     
+ Iowa                        IA     
+ Kansas                      KS     
+ Minnesota                   MN     
+ Missouri                    MO     
+ Nebraska                    NE     
+ North Dakota                ND     
+ South Dakota                SD 
+ New Brunswick               NB
+ Nova Scotia                 NS    
+ Quebec                      QC     
+ Ontario                     ON     
+ Manitoba                    MB     
+ Saskatchewan                SK     
+ Alberta                     AB     
+ British Columbia            BC     
+ Northwest Territories       NWT
+ Newfoundland                NF
+ Labrador                    LB
+ Yukon Territory             YT
+ Prince Edward Island        PE
+ Nunavit                     NU

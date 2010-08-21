@@ -1,0 +1,21 @@
+contestName=ARRL November Sweepstakes CW
+cabContestName=ARRL-SS-CW
+mode=CW
+perBandMultiplier=false
+perModeMultiplier=false
+multiplier.1=ListedStringChecker
+perBandDupe=false
+perModeDupe=false
+trackTime=true
+maxTime=24h
+bands=b10 b15 b20 b40 b80 b160
+classBasename=SS
+endGeneral=29
+endSent=54
+endRcvd=79
+multiplierList=arrl-sections-mod.txt
+multiplierListBreak=28
+hasQTC=no
+logfilebasename=sscw
+hasRovers=false
+

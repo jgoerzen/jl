@@ -1,0 +1,12 @@
+TRANSCEIVERS:
+
+* When adding a transceiver, remember to add the transceiver to
+  transceivers.txt 
+
+* Note that the Transceiver instance is created by TransceiverFactory,
+  which "knows about" all the transceivers.  An alternative would be
+  to have a "class" property in the .props files.  (Actually, I like
+  that better...)
+
+* I've put ALL the (useful) Icom commands in Icom.java, not just the
+  generic ones.

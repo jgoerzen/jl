@@ -1,0 +1,58 @@
+ALAM  Alameda
+ALPI  Alpine
+AMAD  Amador
+BUTT  Butte
+CALA  Calaveras
+COLU  Colusa
+CCOS  Contra Costa
+DELN  Del Norte
+ELDO  El Dorado
+FRES  Fresno
+GLEN  Glenn
+HUMB  Humbolt
+IMPE  Imperial
+INYO  Inyo
+KERN  Kern
+KING  Kings
+LAKE  Lake
+LASS  Lassen
+LANG  Los Angeles
+MADE  Madera
+MARN  Marin
+MARP  Mariposa
+MEND  Mendocino
+MERC  Merced
+MODO  Modoc
+MONO  Mono
+MONT  Monterrey
+NAPA  Napa
+NEVA  Nevada
+ORAN  Orange
+PLAC  Placer
+PLUM  Plumas
+RIVE  Riverside
+SACR  Sacramento
+SBEN  San Benito
+SBER  San Bernadino
+SDIE  San Diego
+SFRA  San Francisco
+SJOA  San Joaquin
+SLUI  San Luis Obispo
+SMAT  San Mateo
+SBAR  Santa Barbara
+SCLA  Santa Clara
+SCRU  Santa Cruz
+SHAS  Shasta
+SIER  Sierra
+SISK  Siskiyou
+SOLA  Solano
+SONO  Sonoma
+STAN  Stanislaus
+SUTT  Sutter
+TEHA  Tehama
+TRIN  Trinity
+TULA  Tulare
+TUOL  Tuolomne
+VENT  Ventura
+YOLO  Yolo
+YUBA  Yuba

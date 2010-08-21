@@ -1,0 +1,24 @@
+contestName=Worked All Germany Contest
+cabContestName=WAG
+mode=PH CW
+perBandMultiplier=true
+perModeMultiplier=false
+multiplier.1=ListedStringChecker
+multiplierList=alphabet.txt
+abbrevFirst=true
+perBandDupe=true
+perModeDupe=true
+trackTime=false
+maxTime=24h
+bands=b10 b15 b20 b40 b80
+classBasename=WAG
+endGeneral=29
+endSent=54
+endRcvd=79
+zoneType=ITU
+hasQTC=no
+logfilebasename=wag
+hasRovers=false
+submissionAddress=wag@dxhf.darc.de
+
+ 

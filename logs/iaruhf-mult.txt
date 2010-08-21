@@ -1,0 +1,89 @@
+
+B10  ARRL american radio relay league W1AW/4 Sat Jul 08 17:33:00 EDT 2006 224
+B10  IARU international amateur radio union NU1AW/8 Sat Jul 08 08:07:00 EDT 2006 7
+B15  AARC aruba amateur radio club P40HQ Sat Jul 08 10:17:00 EDT 2006 85
+B15  ARRL american radio relay league W1AW/4 Sat Jul 08 08:00:00 EDT 2006 1
+B15  CARS cyprus amateur radio society ZF1A Sat Jul 08 16:55:00 EDT 2006 198
+B15  IARU international amateur radio union NU1AW/8 Sat Jul 08 10:26:00 EDT 2006 91
+B15  RCA radio club argentino LR4D Sat Jul 08 10:04:00 EDT 2006 76
+B15  REF union francaise des radioamateurs TM0HQ Sat Jul 08 09:59:00 EDT 2006 68
+B160  ARRL american radio relay league W1AW/4 Sat Jul 08 22:36:00 EDT 2006 249
+B160  IARU international amateur radio union NU1AW/8 Sun Jul 09 05:42:41 EDT 2006 353
+B20  AARC aruba amateur radio club P40HQ Sat Jul 08 08:53:00 EDT 2006 51
+B20  ARABIH asocijacija radioamatera bosne i hercegovine T90HQ Sat Jul 08 14:48:00 EDT 2006 136
+B20  ARI associazione radioamatori italiani IU1HQ Sat Jul 08 16:06:00 EDT 2006 177
+B20  ARRL american radio relay league W1AW/4 Sat Jul 08 08:48:00 EDT 2006 45
+B20  ARRSM associazione radioamatori, della repubblica di san marino T70HQ Sat Jul 08 23:11:00 EDT 2006 281
+B20  BFRA bulgarian federation of radio amateurs LZ7HQ Sat Jul 08 16:57:00 EDT 2006 199
+B20  CRAG club de radioaficionados de guatemala TG0AA Sat Jul 08 08:44:00 EDT 2006 37
+B20  CRC cesky radioklub OL4HQ Sat Jul 08 15:14:00 EDT 2006 148
+B20  DARC deutscher amateur-radio-club DA0HQ Sat Jul 08 17:07:00 EDT 2006 207
+B20  ERAU estonian radioamateurs union eesti raadioamatooride uhing ES9HQ Sat Jul 08 15:01:00 EDT 2006 141
+B20  FRR federatia romana de radioamatorism YR0HQ Sat Jul 08 16:12:00 EDT 2006 181
+B20  IARU international amateur radio union NU1AW/8 Sat Jul 08 08:46:00 EDT 2006 43
+B20  LRAL latvias radioamatieru liga YR4HQ Sun Jul 09 00:04:00 EDT 2006 325
+B20  NRRL norsk radio relae liga LN2HQ Sat Jul 08 15:08:00 EDT 2006 144
+B20  OEVSV oesterreichischer versuchssenderverband OE1A Sat Jul 08 23:45:00 EDT 2006 311
+B20  PZK polish amateur radio union SN0HQ Sat Jul 08 15:00:00 EDT 2006 140
+B20  RAC radio amateurs of canada VA3RAC Sat Jul 08 08:47:00 EDT 2006 44
+B20  RCH radio club de honduras HR2RCH Sat Jul 08 16:27:00 EDT 2006 192
+B20  REF union francaise des radioamateurs TM0HQ Sat Jul 08 16:03:00 EDT 2006 172
+B20  RSGB radio society of great britain GB5HQ Sat Jul 08 16:01:00 EDT 2006 170
+B20  SARA slovak amateur radio association OM6HQ Sat Jul 08 14:50:00 EDT 2006 137
+B20  SRAL finnish amateur radio league OH2HQ Sat Jul 08 13:27:00 EDT 2006 125
+B20  SRS amateur radio union of serbia and montenegro 4N9HQ Sat Jul 08 17:00:00 EDT 2006 201
+B20  UARL ukrainian amateur radio league EM5HQ Sat Jul 08 17:21:00 EDT 2006 217
+B20  UBA union royale belge des amateurs-emetteurs OP0HQ Sat Jul 08 17:36:00 EDT 2006 225
+B20  URE union de radioaficionados espanoles EA5HQ Sat Jul 08 10:31:00 EDT 2006 96
+B20  VERON nederland PA6HQ Sat Jul 08 23:09:00 EDT 2006 277
+B20  VERONA nederlandse antillen PJ2HQ Sat Jul 08 10:30:00 EDT 2006 95
+B20  ZRS zveza radioamaterjev slovenije S50HQ Sat Jul 08 16:12:00 EDT 2006 182
+B40  ARI associazione radioamatori italiani IU2HQ Sun Jul 09 00:12:00 EDT 2006 331
+B40  ARRL american radio relay league W1AW/4 Sat Jul 08 16:08:00 EDT 2006 179
+B40  BFRA bulgarian federation of radio amateurs LZ7HQ Sat Jul 08 23:24:00 EDT 2006 293
+B40  IARU international amateur radio union NU1AW/8 Sat Jul 08 10:25:00 EDT 2006 90
+B40  OEVSV oesterreichischer versuchssenderverband OE1A Sat Jul 08 23:22:00 EDT 2006 290
+B40  PZK polish amateur radio union SN0HQ Sat Jul 08 23:22:00 EDT 2006 291
+B40  RAC radio amateurs of canada VE3RAC Sat Jul 08 17:30:00 EDT 2006 223
+B40  RCV radio club venezolano YV70IARU Sat Jul 08 23:23:00 EDT 2006 292
+B40  REF union francaise des radioamateurs TM0HQ Sat Jul 08 22:50:00 EDT 2006 265
+B40  RSGB radio society of great britain GB5HQ Sat Jul 08 23:58:00 EDT 2006 320
+B40  SARA slovak amateur radio association OM6HQ Sat Jul 08 23:30:00 EDT 2006 297
+B40  SRAL finnish amateur radio league OH2HQ Sat Jul 08 23:31:00 EDT 2006 298
+B40  UARL ukrainian amateur radio league EM5HQ Sat Jul 08 22:45:00 EDT 2006 258
+B40  UBA union royale belge des amateurs-emetteurs OP0HQ Sat Jul 08 22:28:00 EDT 2006 240
+B80  ARRL american radio relay league W1AW/4 Sat Jul 08 22:43:00 EDT 2006 255
+B80  IARU international amateur radio union NU1AW/8 Sat Jul 08 22:35:00 EDT 2006 247
+B80  NZART new zealand association of radio transmitters ZL6A Sun Jul 09 05:35:20 EDT 2006 349
+B80  RAC radio amateurs of canada VA3RAC Sun Jul 09 05:49:51 EDT 2006 355
+B80  RSGB radio society of great britain GB5HQ Sun Jul 09 00:02:00 EDT 2006 322
+B80  SARA slovak amateur radio association OM6HQ Sat Jul 08 22:32:00 EDT 2006 244
+
+Total on band : 0
+
+Entities worked on b10 meters:
+07   08   09   10   
+Total on band b10: 4
+
+Entities worked on b15 meters:
+06   07   08   10   11   12   14   15   28   37   47   
+
+Total on band b15: 11
+
+Entities worked on b160 meters:
+04   08   09   
+Total on band b160: 3
+
+Entities worked on b20 meters:
+02   03   04   06   07   08   11   18   19   21   27   28   
+29   30   37   39   61   
+Total on band b20: 17
+
+Entities worked on b40 meters:
+04   06   07   08   09   10   11   12   14   15   
+18   27   28   29   37   60   
+Total on band b40: 16
+
+Entities worked on b80 meters:
+04   06   08   11   28   60   
+Total on band b80: 6

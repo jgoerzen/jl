@@ -1,0 +1,28 @@
+
+Total on band : 0
+
+  AR arkansas N5DX Sat Sep 09 20:08:00 EDT 2006 3
+  CA california K6LRN Sat Sep 09 20:06:00 EDT 2006 1
+  CO colorado K0FX Sat Sep 09 21:12:00 EDT 2006 45
+  FL florida N4OX Sat Sep 09 20:35:00 EDT 2006 14
+  GA georgia W4BQF Sat Sep 09 21:07:00 EDT 2006 39
+  IA iowa K0KT Sat Sep 09 21:04:00 EDT 2006 36
+  IL illinois K8GU Sat Sep 09 20:22:00 EDT 2006 11
+  KY kentucky K4FXN Sat Sep 09 21:37:00 EDT 2006 57
+  LA louisiana W5WMU Sat Sep 09 21:02:00 EDT 2006 34
+  MI michigan N8SR Sat Sep 09 20:39:00 EDT 2006 17
+  MN minnesota K0MPH Sat Sep 09 21:36:00 EDT 2006 56
+  MS mississippi N4OGW Sat Sep 09 20:41:00 EDT 2006 18
+  NC north carolina N1LN Sat Sep 09 20:58:00 EDT 2006 31
+  NE nebraska W0KT Sat Sep 09 21:39:00 EDT 2006 58
+  NJ new jersey N2RM Sat Sep 09 21:15:00 EDT 2006 47
+  NM new mexico N2IC Sat Sep 09 20:48:00 EDT 2006 24
+  OH ohio N8VW Sat Sep 09 20:38:00 EDT 2006 15
+  OK oklahoma K5VV Sat Sep 09 20:11:00 EDT 2006 5
+  ON ontario VE3DZ Sat Sep 09 21:00:00 EDT 2006 33
+  OR oregon K4XU Sat Sep 09 21:35:00 EDT 2006 55
+  SC south carolina W4OC Sat Sep 09 21:43:00 EDT 2006 61
+  TN tennessee W4NZ Sat Sep 09 20:59:00 EDT 2006 32
+  TX texas K5WA Sat Sep 09 20:13:00 EDT 2006 7
+  VA virginia K7SV Sat Sep 09 20:24:00 EDT 2006 12
+  WY wyoming KO7X Sat Sep 09 21:19:00 EDT 2006 50

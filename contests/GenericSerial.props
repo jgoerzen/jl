@@ -1,0 +1,21 @@
+contestName=Generic Contest with Serial Numbers
+cabContestName=GENERIC
+mode=PH CW
+perBandMultiplier=true
+perModeMultiplier=true
+perBandDupe=true
+perModeDupe=true
+trackTime=false
+maxTime=48h
+offTime=30
+bands=b10 b160 b80 b40 b20 b15
+classBasename=GenericSerial
+endGeneral=29
+endSent=54
+endRcvd=79
+hasQTC=no
+logfilebasename=genserial
+hasRovers=false
+pointsPerCWQSO=2
+pointsPerPHQSO=2
+

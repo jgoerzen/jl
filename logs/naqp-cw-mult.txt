@@ -1,0 +1,88 @@
+
+Total on band : 0
+
+Entities worked on b20 meters:
+st. pierre & miquelon   
+Total on band b20: 1
+
+Entities worked on b40 meters:
+st. pierre & miquelon   
+Total on band b40: 1
+
+B15  CA california W6YX Sat Aug 05 14:40:00 EDT 2006 7
+B15  FL florida N4BP Sat Aug 05 14:48:00 EDT 2006 13
+B15  GA georgia N4PN Sat Aug 05 14:38:00 EDT 2006 4
+B15  IA iowa AK0M Sat Aug 05 14:53:00 EDT 2006 16
+B15  IL illinois K9MMS Sat Aug 05 14:46:00 EDT 2006 12
+B15  LA louisiana KZ5D Sat Aug 05 14:40:00 EDT 2006 6
+B15  MI michigan N8EA Sat Aug 05 14:43:00 EDT 2006 10
+B15  MN minnesota K0EA Sat Aug 05 14:50:00 EDT 2006 14
+B15  NS nova scotia VE1OP Sat Aug 05 14:35:00 EDT 2006 1
+B15  SC south carolina W4OC Sat Aug 05 14:37:00 EDT 2006 3
+B15  TX texas K5WA Sat Aug 05 14:36:00 EDT 2006 2
+B15  WI wisconsin K9OM Sat Aug 05 15:12:00 EDT 2006 45
+B160  MA massachusetts NB1B Sat Aug 05 21:49:00 EDT 2006 177
+B160  ON ontario VE3XD Sat Aug 05 21:49:00 EDT 2006 179
+B160  PA pennsylvania W8FJ Sat Aug 05 21:49:00 EDT 2006 178
+B20  AL alabama K4IQP/4 Sat Aug 05 15:01:00 EDT 2006 27
+B20  AZ arizona KV7DX Sat Aug 05 18:34:00 EDT 2006 101
+B20  CA california K6ZH Sat Aug 05 15:35:00 EDT 2006 83
+B20  CO colorado W0UA Sat Aug 05 14:55:00 EDT 2006 18
+B20  FL florida N4BP Sat Aug 05 14:55:00 EDT 2006 19
+B20  GA georgia W5UX Sat Aug 05 14:59:00 EDT 2006 23
+B20  IA iowa AK0M Sat Aug 05 15:09:00 EDT 2006 41
+B20  IL illinois K9UQN Sat Aug 05 15:04:00 EDT 2006 32
+B20  IN indiana K1TN Sat Aug 05 15:03:00 EDT 2006 30
+B20  KS kansas W0UY Sat Aug 05 15:04:00 EDT 2006 31
+B20  KY kentucky K4FXN Sat Aug 05 15:17:00 EDT 2006 52
+B20  LA louisiana K5QK Sat Aug 05 15:07:00 EDT 2006 38
+B20  MI michigan N8EA Sat Aug 05 15:07:00 EDT 2006 39
+B20  MN minnesota AC0RET Sat Aug 05 15:05:00 EDT 2006 34
+B20  MS mississippi W5KK Sat Aug 05 15:31:00 EDT 2006 77
+B20  NC north carolina K4DJ Sat Aug 05 15:25:00 EDT 2006 64
+B20  NE nebraska W0KT Sat Aug 05 15:31:00 EDT 2006 76
+B20  NM new mexico N2IC Sat Aug 05 15:30:00 EDT 2006 74
+B20  OH ohio KK8B Sat Aug 05 15:11:00 EDT 2006 43
+B20  OK oklahoma W5TM Sat Aug 05 21:51:00 EDT 2006 180
+B20  ON ontario VE3XD Sat Aug 05 15:00:00 EDT 2006 26
+B20  PA pennsylvania AD8J Sat Aug 05 15:05:00 EDT 2006 35
+B20  SC south carolina W4OC Sat Aug 05 15:28:00 EDT 2006 68
+B20  TN tennessee K4RO Sat Aug 05 14:54:00 EDT 2006 17
+B20  TX texas W5KDJ Sat Aug 05 15:19:00 EDT 2006 54
+B20  VA virginia NR4M Sat Aug 05 19:06:00 EDT 2006 130
+B20  WA washington K7SS Sat Aug 05 21:55:00 EDT 2006 187
+B20  WI wisconsin W9LO Sat Aug 05 15:25:00 EDT 2006 65
+B40  CA california K9YC Sat Aug 05 22:12:00 EDT 2006 206
+B40  CO colorado K0FX Sat Aug 05 19:02:00 EDT 2006 127
+B40  FL florida W4YA Sat Aug 05 18:57:00 EDT 2006 120
+B40  GA georgia W0AG Sat Aug 05 17:37:00 EDT 2006 91
+B40  IA iowa NZ0R Sat Aug 05 18:55:00 EDT 2006 118
+B40  IL illinois AK9F Sat Aug 05 22:11:00 EDT 2006 205
+B40  IN indiana N2WN Sat Aug 05 17:44:00 EDT 2006 98
+B40  KS kansas W0UY Sat Aug 05 18:51:00 EDT 2006 112
+B40  LA louisiana W5WMU Sat Aug 05 20:05:00 EDT 2006 135
+B40  MA massachusetts W1AF Sat Aug 05 18:53:00 EDT 2006 115
+B40  MD maryland N3GE Sat Aug 05 18:50:00 EDT 2006 111
+B40  MI michigan K8DD Sat Aug 05 20:19:00 EDT 2006 156
+B40  MN minnesota KT0R Sat Aug 05 17:35:00 EDT 2006 89
+B40  NC north carolina N4AF Sat Aug 05 18:56:00 EDT 2006 119
+B40  NE nebraska AB0FX Sat Aug 05 20:13:00 EDT 2006 151
+B40  OH ohio WB8JUI Sat Aug 05 20:10:00 EDT 2006 144
+B40  OK oklahoma K5KA Sat Aug 05 20:26:00 EDT 2006 167
+B40  ON ontario VA3NR Sat Aug 05 18:46:00 EDT 2006 108
+B40  PA pennsylvania W3CQB Sat Aug 05 18:53:00 EDT 2006 114
+B40  QC quebec VE2AWR Sat Aug 05 17:35:00 EDT 2006 90
+B40  TN tennessee K4LTA Sat Aug 05 18:45:00 EDT 2006 107
+B40  TX texas W0UO Sat Aug 05 20:04:00 EDT 2006 133
+B40  VA virginia W4PM Sat Aug 05 20:03:00 EDT 2006 132
+B40  WI wisconsin N9CO Sat Aug 05 19:00:00 EDT 2006 124
+B80  CT connecticut K1PX Sat Aug 05 21:41:00 EDT 2006 169
+B80  IN indiana NA9U Sat Aug 05 21:44:00 EDT 2006 174
+B80  MA massachusetts KA1R Sat Aug 05 22:00:00 EDT 2006 193
+B80  ME maine K1LOG Sat Aug 05 21:43:00 EDT 2006 172
+B80  NH new hampshire WB1EDI Sat Aug 05 22:02:00 EDT 2006 194
+B80  NY new york N2ZN Sat Aug 05 21:43:00 EDT 2006 173
+B80  ON ontario VE3DZ Sat Aug 05 21:40:00 EDT 2006 168
+B80  PA pennsylvania W7LPF Sat Aug 05 21:42:00 EDT 2006 171
+B80  QC quebec VE2AWR Sat Aug 05 21:45:00 EDT 2006 175
+B80  TN tennessee W4PA Sat Aug 05 21:42:00 EDT 2006 170

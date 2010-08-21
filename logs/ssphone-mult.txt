@@ -1,0 +1,17 @@
+
+  ENY eastern new york WA2JQK Sun Nov 19 17:31:00 EST 2006 10
+  MI michigan K8SAK Sun Nov 19 20:16:00 EST 2006 24
+  NE nebraska K0ITC Sun Nov 19 13:39:00 EST 2006 2
+  NH new hampshire K1NSS Sun Nov 19 17:31:00 EST 2006 9
+  NLI new york city-long island WB2JUF Sun Nov 19 17:40:00 EST 2006 21
+  NNJ northern new jersey KU2M Sun Nov 19 17:32:00 EST 2006 11
+  NT northwest territories VY1JA Sun Nov 19 19:02:00 EST 2006 22
+  ON ontario VE3CR Sun Nov 19 17:28:00 EST 2006 5
+  QC quebec VE2FFE Sun Nov 19 17:30:00 EST 2006 8
+  RI rhode island K6JRY Sun Nov 19 17:27:00 EST 2006 4
+  SNJ southern new jersey KB2M Sun Nov 19 20:18:00 EST 2006 26
+  STX south texas N3BB Sun Nov 19 13:38:00 EST 2006 1
+  VA virginia NW4V Sun Nov 19 17:32:00 EST 2006 12
+  WMA western massachusetts W1BNC Sun Nov 19 17:29:00 EST 2006 7
+  WPA western pennsylvania NI9K Sun Nov 19 17:33:00 EST 2006 13
+  WV west virginia WA8WV Sun Nov 19 17:29:00 EST 2006 6

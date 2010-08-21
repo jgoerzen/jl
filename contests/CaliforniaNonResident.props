@@ -1,0 +1,26 @@
+contestName=California QSO Party
+cabContestName=CAQP
+mode=PH CW
+multiplier.1=MultipleListedStringChecker
+multiplierList=california-counties.txt
+perBandMultiplier=false
+perModeMultiplier=false
+perBandDupe=true
+perModeDupe=true
+trackTime=true
+maxTime=24h
+offTime=15
+bands=b160 b80 b40 b20 b15 b10 b6 b2
+classBasename=California
+endGeneral=29
+endSent=61
+endRcvd=94
+abbrevFirst=true
+hasQTC=no
+logfilebasename=california
+hasRovers=true
+roverDesignation=M
+useModeCategory=true
+pointsPerCWQSO=3
+pointsPerPHQSO=2
+

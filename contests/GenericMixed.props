@@ -1,0 +1,25 @@
+contestName=Generic Mixed Exchange Contest
+cabContestName=GENERIC
+mode=PH CW
+multiplier.1=ArbitraryChecker
+perBandMultiplier=true
+perModeMultiplier=true
+perBandDupe=true
+perModeDupe=true
+trackTime=false
+maxTime=48h
+offTime=30
+bands=b160 b80 b40 b20 b15 b10
+classBasename=GenericMixed
+endGeneral=29
+endSent=54
+endRcvd=79
+multiplierList=none
+multiplierListBreak=28
+hasQTC=no
+logfilebasename=genmixed
+hasRovers=false
+useModeCategory=true
+pointsPerCWQSO=2
+pointsPerPHQSO=2
+

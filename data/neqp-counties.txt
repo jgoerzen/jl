@@ -1,0 +1,67 @@
+Fairfield           FAI CT
+Hartford            HAR CT
+Litchfield          LIT CT
+Middlesex, CT       MID CT
+New-Haven           NHV CT
+New-London          NLN CT
+Tolland             TOL CT
+Windham             WIN CT
+Androscoggin        AND ME
+Aroostook           ARO ME
+Cumberland          CUM ME
+Franklin, ME        FRA ME
+Hancock             HAN ME
+Kennebec            KEN ME
+Knox                KNO ME
+Lincoln             LIN ME
+Oxford              OXF ME
+Penobscot           PEN ME
+Piscataquis         PIS ME
+Sagadahoc           SAG ME
+Somerset            SOM ME
+Waldo               WAL ME
+Washington, ME      WAS ME
+York                YOR ME
+Barnstable          BAR MA
+Berkshire           BER MA
+Bristol, MA         BRI MA
+Dukes               DUK MA
+Essex, MA           ESS MA
+Franklin, MA        FRA MA
+Hampden             HMD MA
+Hampshire           HMP MA
+Middlesex, MA       MID MA
+Nantucket           NAN MA
+Norfolk             NOR MA
+Plymouth            PLY MA
+Suffolk             SUF MA
+Worcester           WOR MA
+Belknap             BEL NH
+Carroll             CAR NH
+Cheshire            CHE NH
+Coos                COO NH
+Grafton, NH         GRA NH
+Hillsborough        HIL NH
+Merrimack           MER NH
+Rockingham          ROC NH
+Strafford           STR NH
+Sullivan            SUL NH
+Bristol, RI         BRI RI
+Kent                KNT RI
+Newport             NEW RI
+Providence          PRO RI
+Washington, RI      WAS RI
+Addison             ADD VT
+Bennington          BEN VT
+Caledonia           CAL VT
+Chittenden          CHI VT
+Essex, VT           ESS VT
+Franklin, VT        FRA VT
+Grand Isle, VT      GRA VT
+Lamoille            LAM VT
+Orange              ORA VT
+Orleans             ORL VT
+Rutland             RUT VT
+Washington, VT      WAS VT
+Windham             WNH VT
+Windsor             WND VT

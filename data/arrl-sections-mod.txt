@@ -1,0 +1,80 @@
+ Connecticut                 CT     
+ Eastern Massachusetts       EMA    
+ Maine                       ME     
+ New Hampshire               NH     
+ Rhode Island                RI     
+ Vermont                     VT     
+ Western Massachusetts       WMA    
+ Eastern New York            ENY    
+ New York City-Long Island   NLI    
+ Northern New Jersey         NNJ    
+ Northern New York           NNY    
+ Southern New Jersey         SNJ    
+ Western New York            WNY    
+ Delaware                    DE     
+ Eastern Pennsylvania        EPA    
+ Maryland-DC                 MDC    
+ Western Pennsylvania        WPA    
+ Alabama                     AL     
+ Georgia                     GA     
+ Kentucky                    KY     
+ North Carolina              NC     
+ Northern Florida            NFL    
+ South Carolina              SC     
+ Southern Florida            SFL    
+ West Central Florida        WCF    
+ Tennessee                   TN     
+ Virginia                    VA     
+ Puerto Rico                 PR     
+ Virgin Islands              VI     
+ Arkansas                    AR     
+ Louisiana                   LA     
+ Mississippi                 MS     
+ New Mexico                  NM     
+ North Texas                 NTX    
+ Oklahoma                    OK     
+ South Texas                 STX    
+ West Texas                  WTX    
+ East Bay                    EB     
+ Los Angeles                 LAX    
+ Orange                      ORG    
+ Santa Barbara               SB     
+ Santa Clara Valley          SCV    
+ San Diego                   SDG    
+ San Francisco               SF     
+ San Joaquin Valley          SJV    
+ Sacramento Valley           SV     
+ Pacific                     PAC    
+ Arizona                     AZ     
+ Eastern Washington          EWA    
+ Idaho                       ID     
+ Montana                     MT     
+ Nevada                      NV     
+ Oregon                      OR     
+ Utah                        UT     
+ Western Washington          WWA    
+ Wyoming                     WY     
+ Alaska                      AK     
+ Michigan                    MI     
+ Ohio                        OH     
+ West Virginia               WV     
+ Illinois                    IL     
+ Indiana                     IN     
+ Wisconsin                   WI     
+ Colorado                    CO     
+ Iowa                        IA     
+ Kansas                      KS     
+ Minnesota                   MN     
+ Missouri                    MO     
+ Nebraska                    NE     
+ North Dakota                ND     
+ South Dakota                SD     
+ Maritime                    MAR    
+ Newfoundland/Labrador       NL     
+ Quebec                      QC     
+ Ontario                     ON     
+ Manitoba                    MB     
+ Saskatchewan                SK     
+ Alberta                     AB     
+ British Columbia            BC     
+ Northwest Territories       NT    

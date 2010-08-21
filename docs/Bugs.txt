@@ -1,0 +1,62 @@
+
+   GENERAL BUGS:
+          Sometimes, changing the callsign in the CALLSIGN field doesn't "hold"; 
+             the previous callsign is reset.
+
+             NOT A BUG; this happens if you don't ENTER the new callsign.
+
+          WINDOWS BUG weird behavior on creation of backup files
+                  (delete non-existent filename in DOS window--seems to fix it)
+          Band and mode must be typed separately, one per entry, with no 
+             other 'exchange' elements (now works correctly in BAND field; you can
+             type something like b40 PH; but not in ENTRY field)
+
+          A number of contests (most notably nasprint and naqp) 'redefine'
+             some states/provs.  This means the subtractive mult display
+             doesn't go down to zero correctly.  For example, you could work a 
+             "sweep" and still show DC as an unworked multiplier (because DC isn't 
+             a valid multiplier, and is mapped into MD by the scorer, so it's never 
+             removed from the "needed" list).  Could be fixed easily enough
+             by using a contest-specific state/province list, but I prefer
+             a singe list.  (Why?  This is sheer laziness)
+
+   CQWW:  Reading from the log file resets "low" RS (r <= 3)
+             (fixable with "back door" into exchange when reading log)
+   SS:
+   NAQP:  CAN force the QTH of non-domestic, BUT isn't counted as a mult
+              correctly.  (SHould only be an issue if the call is NOT in 
+              normal--portable first--order)
+          If you edit a non-domestic entry, the QTH (which defaults to the prefix--e.g.
+              vp9 for Bermuda) can be re-parsed as the callsign.
+   ARRLDX:  DO NOT work anyone running 59 or 599 watts!
+   ARRLTEN: 
+   ARRL160:
+   CQ160:
+   VHFSS: 
+   Generic:
+   IOTA:
+   IARU:
+   CQ WPX:  ONCE (and only once) saw a mult counted twice.  Couldn't figure
+            out why, and can't repeat the behavior.  
+   CAL QP: 
+   RU DX: Some multipliers were being handled strangely.  I don't think this is a bug in the
+          software itself, but perhaps in the data (the special russian cty.dat file). 
+   General log:  See 2nd under NAQP.
+   MISSING FEATURES:  
+          Doesn't handle single-band entries (contacts allowed 
+             on all bands, but only some scored).  Fairly easy...
+          No multi-trans support (MAJOR ADDITION)
+          Soapbox editor...
+          Header consistency check upon write...
+   LONG TERM ISSUES (all right, call them bugs--they will be bugs in the future):
+          VERY partial attempt to implement tx numbers
+          LOTS of North American assumptions built in--would it be hard to create
+              a DX version?
+   TRUTH AND BEAUTY:
+          The mode is carried in the log entry AND both sides of the 
+             exchange--I assume all unnecessary.
+          Added a back door to the exchange to allow it to print a different
+             sent and rcvd exchanges.  Turns out to be unnecessary.
+          Since the exchange now holds a static props, unnecessary to 
+             pass a props into addToExchange when creating the sent exchange.
+ 

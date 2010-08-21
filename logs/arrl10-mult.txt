@@ -1,0 +1,44 @@
+
+Total on band : 0
+
+Entities worked on cw meters:
+argentina   colombia   guatemala   mexico   netherlands antilles   new zealand   
+peru   
+Total on band cw: 7
+
+Entities worked on ph meters:
+aruba   
+Total on band ph: 1
+
+ CW AL alabama WA1FCN Fri Dec 08 20:40:20 EST 2006 38
+ CW AZ arizona KV7DX Sat Dec 09 13:12:27 EST 2006 71
+ CW CA california K6XX Sat Dec 09 13:04:22 EST 2006 68
+ CW CT connecticut K1ZZ Fri Dec 08 19:12:42 EST 2006 1
+ CW FL florida K0LUZ Fri Dec 08 21:29:01 EST 2006 39
+ CW GA georgia W4FW Sun Dec 10 15:26:45 EST 2006 107
+ CW IL illinois AB9H Sun Dec 10 14:39:22 EST 2006 91
+ CW IN indiana N9RV Sat Dec 09 09:57:30 EST 2006 59
+ CW MA massachusetts NB1B Fri Dec 08 19:17:22 EST 2006 4
+ CW MD maryland K4ZA Fri Dec 08 21:31:39 EST 2006 42
+ CW MN minnesota AC0W Sun Dec 10 14:48:51 EST 2006 98
+ CW MS mississippi N4OGW Sun Dec 10 15:29:48 EST 2006 109
+ CW NH new hampshire K1TR Fri Dec 08 19:43:20 EST 2006 16
+ CW NJ new jersey N2MM Fri Dec 08 19:15:23 EST 2006 3
+ CW NV nevada N7YK Sun Dec 10 14:40:59 EST 2006 92
+ CW NY new york KT2Q Fri Dec 08 19:39:50 EST 2006 13
+ CW OH ohio WB8JUI Fri Dec 08 19:45:13 EST 2006 17
+ CW PA pennsylvania K3WW Fri Dec 08 19:14:00 EST 2006 2
+ CW RI rhode island W1VET Fri Dec 08 19:48:36 EST 2006 20
+ CW TN tennessee K1GU Sun Dec 10 14:32:45 EST 2006 84
+ CW TX texas WA5PFJ Sat Dec 09 13:21:27 EST 2006 76
+ CW UT utah NN7ZZ Sat Dec 09 13:15:28 EST 2006 73
+ PH AL alabama KY5R Sun Dec 10 14:57:12 EST 2006 100
+ PH AZ arizona WA7NB Sat Dec 09 13:02:11 EST 2006 66
+ PH CT connecticut N8RA Fri Dec 08 21:50:26 EST 2006 53
+ PH GA georgia W4GKF Sun Dec 10 15:21:42 EST 2006 101
+ PH MN minnesota KE0L Sun Dec 10 15:22:31 EST 2006 103
+ PH NJ new jersey N2EOC Fri Dec 08 19:24:11 EST 2006 10
+ PH PA pennsylvania WE3C Fri Dec 08 19:23:28 EST 2006 9
+ PH SD south dakota W0SD Sun Dec 10 15:23:01 EST 2006 104
+ PH TX texas W5LCC Sat Dec 09 13:03:07 EST 2006 67
+ PH WI wisconsin K9MU Sun Dec 10 15:23:55 EST 2006 105

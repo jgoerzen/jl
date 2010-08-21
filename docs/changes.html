@@ -1,0 +1,101 @@
+<h3>Changes in JL since 1.0</h3>
+<h4>1.04</h4>
+<p>
+<ul>
+<li>
+Support for Elecraft K2 contributed by Kevin Schmidt, W9CF
+<li>
+Supports Icom 756Pro series split-frequency operation.
+(As a side affect, allegedly supports 7800, but untested)
+<li>
+Changed NASprintPhone configuration file to score correctly (1 point
+per phone QSO).
+</ul>
+<h4>1.03</h4>
+<p>
+<ul>
+<li>
+Updated county abbreviations for California QSO Party (now using
+standard 4-letter abbrevs)
+<li>
+Added "truncate leading zeros in serials" mode to keyer
+<li>
+Improved the (somewhat awful) list of allowed abbreviations for IARU
+societies. 
+<li>
+Added in-state (resident) support for Texas QSO Party.
+<li>
+Eliminated "Rcvd" QTC button; in practice, it wasn't useful.  Send
+disables the label for an individual QTC, but not the sending itself.  
+<li>
+IOTA contest name set correctly in cabrillo file.
+<li>
+DVK and CW keyer thread priorities set to MAX - 1.  This will (I hope)
+improve keyer performance when load goes high.  (Keyer performance
+proves NOT TO BE AN ISSUE when running on a machine that does DMA
+correctly). 
+<li>
+Work started on cluster support
+<li>
+ARRL DX now scores W and VE QSOs as zero points ("out of bounds").d
+<li>
+Stew Perry fixed to ALWAYS put a 599 in the cabrillo file for each
+side of the exchange.  The report can not be changed.  It is not part
+of the exchange, but the contest management wants it so the file
+parses correctly.  (Interesting--is it required for VHF contests, too?)
+</ul>
+<h4>1.02</h4>
+<p>
+<ul>
+<li>
+Function keys now play keyer messages.  (Both phone and CW).  ESC terminates 
+the message that's playing.
+<li>
+Fixed serious bug in VHF contests; summary display not working, and 
+exceptions thrown all over the place.  (Also, most contests 
+props files not set up 
+correctly).
+<li>
+Minor bug fix for AllAsia implementation; it would throw an (ultimately
+harmless) exception if you entered the age before the callsign.  In theory, 
+bug also affects WPX and any other contests that rely on prefixes for 
+multipliers.  The bug was harmless but unsightly, and now gone.
+<li>
+Fixed serious bug in LZDX contest; used CQWW zone for sent exchange.
+How did I miss that?
+<li>
+Supports rig control for the venerable Icom 765.  (And presumably
+other older Icom radios.)  The 765 was missing the "swap vfo" command,
+which I was using.
+</ul>
+<h4>1.01</h4>
+<p>
+<ul>
+<li>
+1.01 starts up a LOT faster.  Previous versions waited for a
+TCP connection to a log server to time out.  This was intentional, but
+very dumb, since I haven't gotten around to finishing the log server.
+<li>
+Some minor changes in the layout of the display; in particular, I've
+twiddled the way new multipliers are displayed in CQ WW DX.  Country
+and zone display on the same line; the one that's new is in <font
+color=red>red</font>.
+<li>
+Log output to the console (except for errors) is now off.  I'm
+tired of waiting for the giant log to scroll by.  There's no way to
+turn it back on without touching the source code.
+<li>
+CW output to the console is likewise off by default.
+CW output may be turned back on by
+setting the property keyer.cw.showCWOnConsole to "true" in the
+keyer.props file (in the configuration folder).
+I find this is useful for checking a set of
+message configurations.
+<li>
+Some major cleanup in the sanity of the code.  Unfortunately, not
+enough.  One consequence, though: the multiplier.1 is now MANDATORY for
+ALL contests, and multiplier.2 is mandatory for ALL contests that need
+two different multiplier checkers.  This has NO CONSEQUENCE for users;
+you'll need to know it if you try to work on the code.
+</ul>
+</p>

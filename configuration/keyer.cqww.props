@@ -1,0 +1,60 @@
+keyer.port=COM4
+keyer.baudrate=9600
+keyer.timeout=15
+keyer.numclips=11
+keyer.ph.audioDir=audioclips
+keyer.cw.minspeed=10
+keyer.cw.maxspeed=40
+keyer.cw.dashDotRatio=3.0
+keyer.cw.markSpaceRatio=1.0
+keyer.cw.charSpaceRatio=2.7
+keyer.cw.wordSpaceRatio=8.0
+keyer.cw.truncateZerosInSerials=true
+keyer.cw.useCutZerosInQTCs=true
+keyer.cw.initspeed=30
+keyer.cw.showCWOnConsole=false
+
+keyer.label.0=cq
+keyer.ph.clip.0=cq-HACK.wav
+keyer.cw.clip.0=test $f $f $f test
+keyer.loopdelay.0=5
+
+keyer.label.1=W1JQ
+keyer.cw.clip.1=$f
+keyer.loopdelay.1=0
+
+keyer.label.2=RUN
+keyer.loopdelay.2=0
+keyer.cw.clip.2=$t tu 5NN 5
+
+keyer.label.3=QRZ?
+keyer.loopdelay.3=0
+keyer.cw.clip.3=tu $f
+
+keyer.label.4=HUNT
+keyer.cw.clip.4=tu 5NN 5
+keyer.loopdelay.4=0
+
+keyer.label.5=ZONE
+keyer.loopdelay.5=0
+keyer.cw.clip.5=5
+
+keyer.label.6=call-?
+keyer.loopdelay.6=0
+keyer.cw.clip.6=$t
+
+keyer.label.7=repeat
+keyer.cw.clip.7=de $f $f tu 5nn 5
+keyer.loopdelay.7=0
+
+keyer.label.8=QRL?
+keyer.cw.clip.8=QRL?
+keyer.loopdelay.8=0
+
+keyer.label.9=NR?
+keyer.cw.clip.9=NR?
+keyer.loopdeley.0=0
+
+keyer.label.10=AGN?
+keyer.cw.clip.10=AGN?
+keyer.loopdeley.10=0

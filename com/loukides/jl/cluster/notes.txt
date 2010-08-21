@@ -1,0 +1,5 @@
+cluster ui interface needs:
+
+        connectionRestoring()  -- called by SpotController
+        connectionFailed() 
+        setController(SpotController)        -- called by SpotBuilder

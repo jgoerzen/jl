@@ -1,0 +1,25 @@
+contestName=North American QSO Party Phone
+cabContestName=NAQP-SSB
+mode=PH
+perBandMultiplier=true
+perModeMultiplier=false
+multiplier.1=CountryChecker
+multiplier.2=ListedStringChecker
+perBandDupe=true
+perModeDupe=false
+trackTime=true
+maxTime=10h
+bands=b10 b160 b80 b40 b20 b15
+classBasename=NAQP
+endGeneral=29
+endSent=60
+endRcvd=91
+multiplierList=states-n-provs.txt
+countryData=cty.dat
+zoneType=ITU
+multiplierListBreak=28
+logfilebasename=naqpphone
+hasRovers=false
+pointsPerCWQSO=0
+pointsPerPHQSO=1
+

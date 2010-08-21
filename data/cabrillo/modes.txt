@@ -1,0 +1,4 @@
+CW
+SSB
+MIXED
+-DX

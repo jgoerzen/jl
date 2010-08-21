@@ -1,0 +1,25 @@
+contestName=North American Sprint Phone
+cabContestName=NA-SPRINT-SSB
+mode=PH
+perBandMultiplier=false
+perModeMultiplier=false
+multiplier.1=CountryChecker
+multiplier.2=ListedStringChecker
+perBandDupe=true
+perModeDupe=false
+trackTime=false
+maxTime=4h
+bands=b80 b40 b20
+classBasename=NASprint
+endGeneral=29
+endSent=60
+endRcvd=91
+multiplierList=states-n-provs.txt
+countryData=cty.dat
+zoneType=ITU
+multiplierListBreak=28
+logfilebasename=nasprint
+hasRovers=false
+pointsPerCWQSO=0
+pointsPerPHQSO=1
+

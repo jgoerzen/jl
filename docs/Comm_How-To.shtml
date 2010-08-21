@@ -1,0 +1,224 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Java Comm Serial API How-To for Linux</title>
+</head>
+
+<body text="#000000" bgcolor="#FFFFFF" link="#FF0000" vlink="#FF0000" alink="#0000FF">
+
+<table BORDER="0" WIDTH="100%">
+  <tr>
+    <td ALIGN="LEFT" WIDTH="100%" colspan="2"><h1 align="center">Java Comm Serial API How-To
+    for Linux</h1>
+    <p align="center">Using <a href="http://www.rxtx.org/">RXTX</a> and <a
+    href="http://www.interstice.com/~kevinh/linuxcomm.html">JCL</a></td>
+  </tr>
+  <tr>
+    <td VALIGN="TOP" WIDTH="16%"><html>
+
+<head>
+<title></title>
+</head>
+
+<body>
+
+<table BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <caption>&nbsp;</caption>
+  <tr>
+    <td></td>
+    <td VALIGN="BASELINE"><img SRC="../icons/ball.red.gif" height="22" width="20"></td>
+    <td VALIGN="TOP" colspan="2"><font size="-1" color="#FF0000" face="Bremen Bd BT"><a
+    href="/">Home</a></font></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td VALIGN="BASELINE"><img SRC="../icons/ball.red.gif" width="20" height="22"></td>
+    <td VALIGN="TOP" colspan="2"><font size="-1" color="#FF0000" face="Bremen Bd BT"><a
+    href="/8ball/">Magic 8-ball</a></font></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td VALIGN="BASELINE"><img SRC="../icons/ball.red.gif" width="20" height="22"></td>
+    <td VALIGN="TOP" colspan="2"><a href="http://x10.homelinux.org"><font size="-1"
+    color="#FF0000" face="Bremen Bd BT">X10</font></a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td VALIGN="BASELINE"><img SRC="../icons/ball.red.gif" width="20" height="22"></td>
+    <td VALIGN="TOP" colspan="2"><font size="-1" color="#FF0000" face="Bremen Bd BT"><a
+    href="../servlets.shtml">Servlet Links</a></font></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td VALIGN="BASELINE"><img SRC="../icons/ball.red.gif" width="20" height="22"></td>
+    <td VALIGN="TOP" colspan="2"><font size="-1" color="#FF0000" face="Bremen Bd BT"><a
+    href="../links.shtml">Other Links</a></font></td>
+  </tr>
+<!--<tr>
+    <td></td>
+    <td VALIGN="BASELINE"><img SRC="../icons/ball.red.gif" width="20" height="22"></td>
+    <td VALIGN="TOP" colspan="2"><font size="-1" color="#FF0000" face="Bremen Bd BT"><a
+    href="/docs/api/overview-summary.html">Java API</a></font></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td VALIGN="BASELINE"><img SRC="../icons/ball.red.gif" width="20" height="22"></td>
+    <td VALIGN="TOP" colspan="2"><font size="-1" color="#FF0000" face="Bremen Bd BT"><a
+    href="../servletdocs/overview-summary.html">Servlet API</a></font></td>
+  </tr>-->
+  <tr>
+    <td></td>
+    <td VALIGN="BASELINE"><img SRC="../icons/ball.red.gif" width="20" height="22"></td>
+    <td VALIGN="TOP" colspan="2"><font size="-1" color="#FF0000" face="Bremen Bd BT"><a
+    href="./">Linux How-To's</a></font></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td VALIGN="BASELINE" align="right"></td>
+    <td VALIGN="TOP"><img SRC="../icons/ball.gray.gif" width="20" height="22"></td>
+    <td VALIGN="TOP"><font size="-1" color="#FF0000" face="Bremen Bd BT"><a
+    href="Jakarta_How-To.shtml">Jakarta Tomcat</a></font></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td VALIGN="BASELINE" align="right"></td>
+    <td VALIGN="TOP"><img SRC="../icons/ball.gray.gif" width="20" height="22"></td>
+    <td VALIGN="TOP"><font size="-1" color="#FF0000" face="Bremen Bd BT"><a
+    href="Comm_How-To.shtml">Java Comm</a></font></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td VALIGN="BASELINE" align="right"></td>
+    <td VALIGN="TOP"><img SRC="../icons/ball.gray.gif" width="20" height="22"></td>
+    <td VALIGN="TOP"><font size="-1" color="#FF0000" face="Bremen Bd BT"><a
+    href="Pavilion_ze4100_How-To.shtml">HP Pavilion ZE4100</a></font></td>
+  </tr>
+<!--<tr>
+    <td></td>
+    <td VALIGN="BASELINE"><img SRC="../icons/ball.red.gif" width="20" height="22"></td>
+    <td VALIGN="TOP" colspan="2"><font size="-1" color="#FF0000" face="Bremen Bd BT"><a
+    href="/servlet/MMM">MMM</a></font></td>
+  </tr>-->
+</table>
+</body>
+</html>
+</td>
+    <td VALIGN="TOP" WIDTH="84%"><h2>Preface</h2>
+    <p>Special thanks to Trent Jarvi and Kevin Hester for putting together RXTX and JCL.&nbsp;
+    These two gentlemen have done an excellent job of porting the original Sun Java Comm API
+    to the Linux OS.&nbsp; However, with all due respect, and not to be insulting, their
+    installation documentation leaves much to be desired.&nbsp; This is the primary reason I
+    have chosen to put this document together.</p>
+    <h2>Getting Started</h2>
+    <p>Before insalling the Comm API on your Linux box, be sure you have a JSDK
+    installed.&nbsp; You can obtain a JSDK for your version of linux from <a
+    href="http://www.blackdown.org/java-linux/mirrors.html">Blackdown.org</a> or <a
+    href="http://java.sun.com/j2se/1.4/download.html">Sun Microsystems</a>.&nbsp; To install
+    and configure Java in Linux, please follow the instructions provided <a
+    href="http://java.sun.com/j2se/1.4/jre/install-linux.html">here</a>. </p>
+    <p>For the purposes of this paper, it will be assumed that you have installed a JSDK and
+    it is located in: </p>
+    <p><small><font face="Courier New,Courier">/usr/java/j2sdk1.4.0/</font></small> </p>
+    <p>And java is then located in: </p>
+    <p><small><font face="Courier New,Courier">/usr/java/j2sdk1.4.0/bin/</font></small> <br>
+    <br>
+    If your setup is different, please adjust accordingly.&nbsp; </p>
+    <h2>Installing RXTX</h2>
+    <p>First, obtain the RXTX bins package from:</p>
+    <p><a href="http://www.linux.org.uk/~taj/rxtx-bins.1.tar.gz">http://www.linux.org.uk/~taj/rxtx-bins.1.tar.gz</a>
+    <br>
+    <small><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    (In IE, right click and &quot;Save Target As&quot;)</small></small></p>
+    <p>Decompress and Untar this package:</p>
+    <p><small><font face="Courier New,Courier">/bin/gzip --decompress rxtx-bins.1.tar.gz</font></small></p>
+    <p><small><font face="Courier New,Courier">/bin/tar xf rxtx-bins.1.tar</font></small></p>
+    <p>At this point, you'll have an <small><font face="Courier New,Courier">rxtx-bins.1</font></small>
+    directory.&nbsp; Next, you'll need to copy the shared objects into your java installation:</p>
+    <p><small><font face="Courier New,Courier">cp rxtx-bins.1/1.4/i386-pc-linux/libParallel.so
+    /usr/java/j2sdk1.4.0/jre/lib/i386/</font></small></p>
+    <p><small><font face="Courier New,Courier">cp rxtx-bins.1/1.4/i386-pc-linux/libSerial.so
+    /usr/java/j2sdk1.4.0/jre/lib/i386/</font></small></p>
+    <p>If you are installing on an architecture other than an x86, you'll need to adjust both
+    the <small><font face="Courier New,Courier">/i386-pc-linux</font>/ </small>and the <small><font
+    face="Courier New,Courier">/i386/</font></small> accordingly.</p>
+    <p>Next, you'll need to install the jcl.jar file:</p>
+    <p><small><font face="Courier New,Courier">cp rxtx-bins.1/1.4/jcl.jar
+    /usr/java/j2sdk1.4.0/jre/lib/ext/</font></small></p>
+    <p>At this point, the RXTX installation is complete.</p>
+    <h2>Installing Comm</h2>
+    <p>The final step to getting the Java Comm API working under Linux, is to install the Comm
+    API itself.&nbsp; At this point, you have all of the necessary kernel-level drivers
+    installed.&nbsp; Because Linux is a form of Unix, the authors of RXTX and JCL have wisely
+    decided to reuse sun's solaris (unix) comm library.&nbsp; At this point, you must download
+    and install this library:</p>
+    <p><a href="http://java.sun.com/products/javacomm/">http://java.sun.com/products/javacomm/</a>
+    &nbsp; </p>
+    <p>Make sure you choose the Solaris/Sparc<sup>TM</sup> version.&nbsp; Next, you must
+    Decompress and Untar this package:</p>
+    <p><small><font face="Courier New,Courier">/bin/gzip --decompress
+    javax_comm-2_0_2-solsparc.tar.Z</font></small></p>
+    <p><small><font face="Courier New,Courier">/bin/tar xf javax_comm-2_0_2-solsparc.tar</font></small></p>
+    <p>Next, you'll need to install the comm.jar file:</p>
+    <p><small><font face="Courier New,Courier">cp commapi/comm.jar
+    /usr/java/j2sdk1.4.0/jre/lib/ext/</font></small></p>
+    <p>At this point, we are almost finished.&nbsp; We just need to create the properties file
+    that the Comm API will use to load the drivers (.so files).&nbsp; To create this file,
+    type the following command:</p>
+    <p><small><font face="Courier New,Courier">/bin/echo Driver=gnu.io.RXTXCommDriver &gt;
+    /usr/java/j2sdk1.4.0/jre/lib/javax.comm.properties</font></small></p>
+    <p>Congratulations!&nbsp; You have installed the Linux Comm API.</p>
+    <h2>Tips</h2>
+    <p>While windows uses COM and LPT designators for port identifiers, Linux is a bit
+    different.&nbsp; Use the following table to identify your ports:</p>
+    <table border="1" width="100%">
+      <tr>
+        <td width="33%" bgcolor="#000080"><font color="#FFFFFF"><strong>Port</strong></font></td>
+        <td width="33%" bgcolor="#000080"><font color="#FFFFFF"><strong>Windows port identifier</strong></font></td>
+        <td width="34%" bgcolor="#000080"><font color="#FFFFFF"><strong>What you use in Linux</strong></font></td>
+      </tr>
+      <tr>
+        <td width="33%">Serial Port 1</td>
+        <td width="33%">COM1</td>
+        <td width="34%">/dev/ttyS0</td>
+      </tr>
+      <tr>
+        <td width="33%">Serial Port 2</td>
+        <td width="33%">COM2</td>
+        <td width="34%">/dev/ttyS1</td>
+      </tr>
+      <tr>
+        <td width="33%">Parallel Port 1</td>
+        <td width="33%">LPT1</td>
+        <td width="34%">/dev/lp0</td>
+      </tr>
+    </table>
+    <h2>Troubleshooting</h2>
+    <p>Several people have emailed me and reported that they get the following error:</p>
+    <p><small><font face="Courier New,Courier">Exception in thread &quot;main&quot;
+    java.lang.VerifyError: (class:<br>
+    gnu/io/RXTXPort$SerialOutputStream, method: write signature: ([BII)V) Illegal<br>
+    use of nonvirtual function call<br>
+    at gnu.io.RXTXPort.&lt;init&gt;(RXTXPort.java)<br>
+    at gnu.io.RXTXCommDriver.getCommPort(RXTXCommDriver.java)<br>
+    at javax.comm.CommPortIdentifier.open(CommPortIdentifier.java:547)</font></small><br>
+    <br>
+    I personally have not experienced this problem, but if you encounter this error, you can
+    work around it by adding <strong><small><font face="Courier New,Courier">-noverify</font></small></strong>
+    to your command line:</p>
+    <p><small><font face="Courier New,Courier">java -classpath </font></small><em>your
+    classpath</em> <small><font face="Courier New,Courier">-noverify </font></small><em>your
+    class</em></td>
+  </tr>
+</table>
+
+<p><em><small><small>Last Modified: December 28, 2002.&nbsp; </small></small><br>
+<small><small>If you have questions, comments, or if you find any part of this document to
+be inaccurate or incorrect, please submit your feedback to <a
+href="mailto:webmaster@wass.homelinux.net">webmaster@wass.homelinux.net</a>.</small></small></em></p>
+</body>
+</html>

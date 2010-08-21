@@ -1,0 +1,992 @@
+JL is a new contest logging program written entirely in Java.  It's been tested
+on Linux, SOlaris, many versions of Windows, and MacOS X.  It's reasonably full-featured 
+and has a very simple (well, at least to me) user interface that minimizes the 
+amount you need to "mouse around" (or tab around) to get your work done.  Ideally,
+you can work an entire contest without touching the mouse or the tab key.
+The output is in Cabrillo format.  It currently supports:
+ CQ WW DX,
+ ARRL DX, 
+ ARRL Sweepstakes, 
+ ARRL 10 Meter Contest, 
+ ARRL 160 Meter Contest, 
+ CQ 160 Meter Contest, 
+ Stew Perry TopBand Challenge, 
+ NAQP, 
+ NA Sprint, 
+ the four ARRL VHF/UHF contests, 
+ Iota, 
+ IARU HF World Champtionship, 
+ CQ WPX Contest, 
+ NEQP (both non-resident and resident), 
+ Texas QSO Party (both non-resident and resident), 
+ Field Day, 
+ non-resident QSO Parties for California, Indiana and Nebraska, 
+ Russian DX, 
+ OK-OL DX Contest, 
+ LZ DX Contest,
+ SAC (Scandinavian Activity Contest), 
+ WAG (Worked All Germany),
+ Oceania DX Contest,
+ Japan International DX Contest (JIDX),
+ All Asia DX Contest
+ WAE (non-EU Phone/CW only)
+ MidAtlantic QSO Party (non-resident only)
+plus three "generic" contests: one for QSO parties in which the exchange is a signal report 
+and a single text string, nominally a county; contests with a report/serial
+exchange (exchange is a signal report and a serial number); and contests with a generic
+asymmetric exchange (give a serial, receive some sort of district).
+
+JL also features a general-purpose logger, a keyer (digital voice and CW), and rig control.  
+The general logger is somewhat clunky, 
+but that's really not the program's primary purpose.  And it will get better 
+with time... As a contest logger, I think JL is fast, easy-to-use, and has just about
+everything you need, if not everything you might want.  And the things you might want
+are gradually being added.  (correct multi-multi logging over a network is 
+a MAJOR goal; I probably won't be able to resist adding DX cluster support, though 
+I always run contests unassisted.)
+
+Some notes about the user interface:  The main idea behind JL is that it parses
+your input: you can type contest exchanges in any order, and JL will figure out
+what you typed, and how to handle the exchange elements.  No tabbing between fields!
+You can get through an entire contest without doing anything but typing in the main
+entry field.  There are also no menus.  I don't like them: you have to guess where
+to find the options you care about, when they expand, they always manage to 
+cover up something you want on the screen, and they let programmers be really
+really careless and build overly-complex interfaces with way too many unnecessary
+options.  I suspect I'll eventually have to throw in the towel, but for the 
+time being: no menus.  If it's not on the screen, it's not there.  
+
+The rig control features are what I'd call "partial rig control":  you use the rig for
+doing things the rig is doing at (turning the tuning knob), and use the computer for
+things it's good at (logging freq and mode automatically, etc.).  I don't see the sense
+in emulating a radio's front panel on a computer screen, at least, not for this
+type of application.  But what I *have* chosen to implement is a BIG help--particlarly
+since rig control is all but invisible to you, once you've set it up.
+
+SETUP
+
+If you want to test drive the JL logger:
+ 
+* install java (requires java 2) from java.sun.com.  (Java installs
+  easily, but it's big.)  Java tends to be a memory pig, but JL runs
+  fine on a 366 MHz Win2k laptop with 64M RAM.  I'd be interested in
+  how it runs on slower computers. I suspect RAM is a bigger factor
+  than CPU speed.  (I'm a little concerned about how JL will run on a low-memory
+  machine with the voice keyer, particularly if you use "fat"--i.e., 44.1KHz--
+  sound files.  But there's no good reason to use such a high sampling rate.)
+
+  JAVA MAY ALREADY BE INSTALLED ON YOUR PC.  Try typing 'java -version' in a 
+  shell/DOS window.  If this gives you anything other than your operating system's 
+  version of "command not found", you're probably ready to go.
+
+* The program is usually packaged as a "jar" file, which is virtally identical
+  to a zip file, and can be handled by every zip utility I know of.  
+  Unpack the zip/jar archive into a directory.
+
+* cd into the directory
+
+* On Windows, type 'jl' in a DOS window.  (This command starts JL from a batch file; I haven't 
+  yet made corresponding files for UNIX-like systems.)  On UNIX/Linux/OS X, type
+  'java JL'.  You'll get a list of supported contests; select one of them.
+  Next, you get a list of "operations" that the logger knows about.  One of them will
+  be w1jq; if you want to play, select that or "new operation".  An operation is 
+  basically a set of parameters that tell JL what to do for *just about any* contest. 
+  Some of the information goes into the Cabrillo header; some of the information 
+  is used to create the outgoing exchange.  You'll eventually want to create your own 
+  operation.
+
+* Next, JL dumps you into its operation editor.  There's lots of fields to fill in, 
+  collecting information that's useful for all sorts of contests.  I recommend that 
+  you fill in everything (or as much as is needed for any contest you operate).
+  Fields that *must* be filled in for the contest that you've selected, or are filled 
+  in inconsistently or incorrectly, are marked red.  Again, fill in as much as you can.  
+  The idea is that you should be able to use the same
+  operation configuration for many contests, saving you from re-configuring your logger
+  before each contest, but still providing accurate headers for the contest organizers.  
+  Note that JL intentionally tolerates a fair amount
+  of inconsistency.  For example, there's nothing wrong with selecting "ARRLDXPhone"
+  and selecting "CW" as the mode--the editor doesn't even mark this setting red.  
+  JL knows that ARRLDXPhone is a phone-only contest, and sets the Cabrillo header, default 
+  signal reports, etc., correctly.
+
+  A couple of fields need some explanation:
+     *  operation name:  The name under which this operation is saved.  Has no 
+        other effect on JL's behavior.  You may want to define a number of different
+        operations--for example, W7HJK-highpower and w7hjk-qrp if you operate both 
+        high power and QRP in different contests.  Or W8KHU-expedition if you make an 
+        expedition to a local island for IOTA.
+
+     *  Club: The drop-down list contains all ARRL affiliated clubs.  If your club isn't
+        there, you can type its name into the box.  HOWEVER--only ARRL affiliated
+        clubs can make club entries in ARRL contests, and they *should use the 
+        canonical name published by the ARRL contest division*.  I don't guarantee
+        that my list is up-to-date, but if you're entering an ARRL contest, and your club
+        isn't listed, you should check. NOTE:  ARRL WANTS THE CLUB NAMES SPELLED AS THEY ARE 
+        IN THIS LIST--NO ABBREVIATIONS.
+
+     *  The State and ARRL Section drop down lists both contain an entry for DX.  That's
+        what you use if you're not in the US or Canada.  (Note:  JL doesn't typically
+        support non-domestic contesters.  That should be fixed in the future.  Emphasis
+        on "should"--not "will".)
+  You'll get dumped into the editor EVEN IF you select a preexisting operation--just 
+  check to make sure all the info is OK.
+
+  When you're done, click OK, and JL sets it up, loading any pre-existing log for the 
+  contest you've selected.  This can be a problem--I often start JL at the beginning
+  of a contest to find myself staring at some crud entries left over from the past.  If 
+  that's the case, quit, delete the offending log file (in the 'logs' folder), and 
+  restart.
+
+  A final word on the notion of "operations": I know that everyone wants to sit down
+  thirty seconds before the contest starts, start the logger, and get going.  That is 
+  PRECISELY what the notion of an operation is supposed to allow:  it contains ALL
+  the information that's useful for ALMOST ANY contest you're likely to operate.  But 
+  for this to work, at some point you have to provide the information.  PLEASE take
+  the time to run JL and give it this information.  Create as many operations as you 
+  need; there's no limit to the number you can have.  You'll want one for each
+  style of contest operation you enjoy.  (Mixed-mode, QRP, CW-only, etc.)  Once you've 
+  done this, all you'll have to do is glance at the operation editor, make sure that
+  everything is correct, and start making points.
+
+* There's another way to start JL that's quicker.  On the command line, type:
+  jl ARRLDXPhone w1jq   (in the abstract, jl <contest-name> <operation-name>
+  (or         ... SSPhone...
+   or         ... NAQPPhone... 
+   or         ... NEQPResident... ) (or, if you're on UNIX, java JL ARRLDXPhone w1jq)
+  I haven't listed all the contest names here; look in the 'contests' directory
+  for the complete story.  As a rule: if the contests folder contains
+  a file named ARRLTen.props. you can use the contest name ARRLTen.  (And
+  it would be a good guess that JL supports the ARRL Ten Meter contest.)
+  Capitalization is important here.  You'll still 
+  have to go through the operation editor to verify that the information is correct, 
+  but you'll skip contest selection.
+
+Log files are all in Cabrillo format (or my own Cabrillo-like format, if an 
+official one hasn't been defined).  They are kept in the logs directory.
+The files that are initially in the directory are fake (for testing).  
+If you're just playing, feel free to play with the samples; just don't
+submit them.  If you're using the program "for real", delete everying in 
+this directory.
+
+BASICS
+ 
+Now you're ready to start logging contacts.  To use JL, just go to the 
+Entry window.
+
+* To change bands, type 'b' followed by the band in meters (i.e., b80, b40, b20, b15, b10,
+  b6, b2, b220, b432, b906, b1.2, b2.4; DO NOT use b75).  Or use rig control (see below).
+* To change mode, type CW or PH.  Or use rig control (see below).  You can't change
+  both band and mode in the same entry.
+* Otherwise, just type.  Don't type into the "rcvd" or "sent"
+  fields--that's sometimes useful for editing, but not necessary.  For
+  example, for ARRL DX, type something like:
+ea3fd 150 
+  Type as many or as few exchange elements as you like, followed by
+  RETURN; you don't have to enter the entire exchange at once.  The
+  program figures out which elements of the exchange have been typed,
+  and does the right thing.  It doesn't care much about the order you
+  enter things in.  (NAQP is a slight exception, and I *do* need to 
+  explain how it works.  But if you always type the name followed by the qth, 
+  you'll be fine).
+* You can edit the callsign of the station you're working either by retyping it
+  in the Entry field (followed by RETURN) or by editing it in the Call field 
+  (followed by RETURN/ENTER).  MAKE SURE YOU TYPE RETURN, though.  If 
+  edit a callsign in the CALL field, and forget the RETURN, the callsign will be 
+  reset to the *old* (incorrect) callsign the next time you type RETURN in the 
+  ENTRY field.  (Is this confusing?  It's harder to describe than it is. Just make
+  sure you type RETURN after changing the callsign.  I HAVE OFTEN FORGET TO DO THIS 
+  MYSELF, and thought there was some odd bug--but there isn't.  IF you type RETURN,
+  JL will work correctly.)
+* Obviously, JL tells you about dupes and new multipliers.
+* If required, signal reports default to 59(9).  
+* If you've worked a station before, the History Window shows you the previous
+  log entries.
+* The Log button turns red when you've got a complete exchange.  To
+  enter the Q in the log, click 'log' or type RETURN on a blank line.
+  (The program *WILL* log incomplete Qs, though the ARRL robot will complain
+  about them.  I still think that's what the program
+  should do.)
+* Some contests have special behaviors--see "Contest-specific notes" for info.
+* The log file is Cabrillo format ascii, in the file contestname-log.txt.  Click
+  "summary" to generate a complete Cabrillo logfile (contestname-summary.txt).  
+   This file is the one you should mail into the contest organizers (usually after
+   changing its name to something callsign.log).
+
+Now the fancier stuff:
+
+* You can search the log. Type / followed by the characters you want to search
+  for in the entry field; or just type the characters you want to search for 
+  in the Search: window.  The time, callsign, and received exchange fields
+  are searched; the others are ignored.
+* TO search for the next occurance of the same characters, click the Next button,
+  or type / ENTER in the entry field.
+* You can edit many of the fields in the log, though not all of them.  You can
+  certainly edit the callsign, the received exchange, and the band.
+* You can edit log entries in the history window, which may be easier.
+* You can delete a contact by clicking the Delete button.
+* After editing or deleting, you can just continue operating.  However, 
+  you probably want to update the dupe sheet and multiplier lists.
+  Click "rescore".  This also saves the current log as a backup,
+  and writes a new one.  This only takes two or three seconds for a 1000-Q log
+  on my slow machine, and virtually no time on my fast machine, so don't 
+  worry about the time.  Unless you're ZF2MM.
+
+The multiplier displays are cool--I'm not really sure they're useful.  You can't
+do much with them except look at them; they aren't particularly good at answering 
+the question "On which bands do I still need Botswana?".  They operate in two modes:  
+"subtractive" (worked mults are removed from the list--ideal for SS) and "additive" 
+(worked mults are added).  The program chooses which mode makes more sense.  Mults
+aren't displayed for some kinds of contests--e.g., grid squares.
+At any rate, I'm interested on feedback on whether they're worth the real estate.
+(You can always minimize them).  Note--in contests with dual mults (e.g.,
+DX countries and states), the mult displays overlap. 
+
+For most contests, there's a summary display that shows the QSOs and multipliers 
+on each band.  For SOME contests, this display is "colorized":  when you first enter
+a callsign, the display is RED for all the bands on which you need the multiplier.
+(Works for countries in ARRL DX and CQWW DX, zones in IARU; I may make the background
+chance color for zones in CQWW.)
+
+There's a contest timer that *always* shows elapsed time since the start of the
+contest.  Elapsed time turns violent green during an "off period".  By default,
+30 minutes counts as an "off period" (even in contests that don't use off 
+periods).  If the contest actually uses "off periods",
+the minimum off period is set appropriately.  Also, if the contest uses "off
+periods" and has a maximum operating time that's less than the total contest
+period (e.g., SS, NAQP), the timer displays the time remaining.
+Time remaining turns red when there's no time remaining.  This is only 
+meaningful in contests that use "off periods".  Note that, due to the nature of 
+off periods, you can run out of time, then enter an off period, get back the 
+time since the last contact, and get more operating time.
+This is handled correctly.  [NOTE:  There are some oddities about how the "time 
+remaining" is handled, but you're very unlikely to encounter them, unless you quit JL
+and restart it a minute before the time expires.][NOTE: The timer always starts in 
+an "on period" (i.e., black), and changes to "off" (green), if appropriate, when the 
+first minute passes.  You can consider this a bug if you like.]
+
+The timer does NOT enforce the contest period.  Could be done, but it's a pain 
+for testing.  My feeling is that you should know when the contest ends; don't
+expect the program to tell you.  So you can log contacts before the contest starts
+and after it ends.  (And if you couldn't, it would be very difficult to try out or
+test.)
+
+The timer window includes a rate meter.  The rate meter 
+is initially "off"; click on it
+to turn it on.  (And click again to turn it back off).  When the meter is running,
+it has three states:
+  1) Off period--you're currently in an off period, and no rate is displayed.
+  2) No rate--you only have one Q in the current operating period, and computing
+     the rate is meaningless
+  3) Normal operation: rates displayed, updated once a minute and with each Q.
+The rate is based on the previous 10 Qs in the current operating period.  (Not
+sure if 10 is the right number, or even if this is the right algorithm--
+interested in suggestions.)
+
+The "shelf"
+
+The "QSO shelf" is a place to stack QSO information for stations you haven't yet
+succeeded in working.  The idea is that, if you're a low power station with 
+a marginal antenna, you spend lots
+of time "giving up" on a station, coming back, and trying again later.  Sooner or 
+later, you work just about everyone, but you can get typer's cramp reentering the 
+callsign for every attempt.  The shelf
+saves you the trouble of retyping the call and other non-transient exchange info.
+
+The shelf is a modified stack.  The operations you can perform are:
+  * you can "push" the current QSO on the shelf (button on the main window); all other
+    QSOs on the shelf move down one slot.
+  * you can "pop" the top QSO on the shelf, moving its data to the main window (button
+    on main window), and losing whatever QSO data you have collected in the main window
+    (i.e., giving up on it).  Other QSOs on the shelf move up one slot.
+  * you can swap any qso on the shelf with the current QSO.  If the current QSO is null
+    (there's no info there except possibly a default signal report), all lower
+    QSOs on the shelf move up on slot.  If there is a QSO there, it goes to the shelf.
+    To swap, click on the appropriate QSO.
+  * you can clear any QSO on the shelf by clicking on its clear button.  All lower
+    QSOs move up one slot.
+Anything that gets "pushed" past the bottom of the shelf is lost.  The shelf size
+is currently fixed at 6.  I'm not sure what the right size should be; 7 seems to large,
+but too big is better than too small.  In a future version that supports multiop, a
+spotting operator could place spots on the shelf.  This mode of operation would 
+require a larger shelf.
+
+The current band is stored on the shelf.
+The band (from the logger's point of view) is restored when you pop or swap a 
+qso from the shelf.  If rig control is enabled, putting a QSO on the shelf stores the
+band, frequency, etc. in one of the rig's memories, and popping a QSO of the shelf
+restores things from the memory.
+
+To finish up:
+
+I recommend clicking "rescore" at the end of a contest.
+Doing so saves a backup of the log, and makes sure that any changes you've
+made in the edit window are actually in the log.  (Note that you can 
+re-load the log at any time, just by starting JL on the appropriate
+contest. So you can go back and clean up, as appropriate:  delete bad QSOs,
+dupes, etc.  You can also do this by hand, in notepad.)
+
+Click on "Summarize".  That pops up a dialog box for you to write a soapbox comment (keep
+it short--if you want a long soapbox comment, add it by hand or use the online soapbox
+that most contests support!) and 
+creates a finished Cabrillo format log (contestname-summary.txt)
+in the logs folder.  Most of the Cabrillo header info is taken from your 
+"operation" file (in the operations folder), so if you've filled that out
+correctly, it should be more or less OK.  It's worth checking the summary
+and tweaking it if necessary.  It will *probably* be OK, but there are 
+some special cases (weird entry classes in CQ WPX, for example) that
+you may have to take care of by hand.  It's OK to "summarize" at a later time.  Or to 
+summarize multiple times.  (The last soapbox you fill in is the one that counts.)
+
+"Summarize" also creates a multiplier summary file (contestname-mult.txt) that is less
+useful than it appears.  I'm not sure what's really appropriate.
+
+Mail it in.  You still have to do this "by hand."
+
+Miscellaneous stuff, some of it important:
+
+To quit, kill the main window or the edit window.  When you restart, the
+program reads any existing log file for the given contest.  Stopping the 
+program and restarting isn't a problem.  But please, delete last year's logs
+before this year's contest.  And, on restart, MAKE SURE you give the right
+operation.
+
+There is NO SAVE BUTTON per se--the log is automatically saved after every 
+contact. HOWEVER-the "Rescore" is how edits to the log make it into the file.  I click
+"rescore" after making changes in the Log Editor (to flush the changes into the file)
+and before quitting (to make a backup).
+
+When you start, JL reads the appropriate log file for the contest you're entering.
+This *can be* a full Cabrillo logfile generated by another logger, or just a set of QSOs
+(for WAE, QSOs and QTCs).  I can't guarantee
+that will always work (it probably depends a little on how the logger interprets the Cabrillo
+standard), but it should work.  If JL is reading a full log, with headers, the headers
+are ignored; the operation information you give JL on startup is what counts.  Likewise, 
+the entries in the log are all preserved, but for any new entries, 
+JL won't take the "sent" callsign from the log: it uses the operation's callsign.  There
+is the potential for screwy, multi-callsign logs.  
+
+If you're not using rig control, you have to enter band and mode changes
+manually.  Band and mode changes can't be mixed with QSO information.
+A mode change cancels the current QSO.  A band change doesn't.
+JL ignores attempts to change to a mode/band not allowed by the 
+current contest.  Mode designators are PH and CW (will eventually add RY); 
+band designators are b160, b80, b40, b20, b15, b10, b6, b2, b220, b432, b906, 
+b1296, b2300.  (Don't try operating on higher bands!)
+
+Contest-specific notes:
+
+* For SS, exchange components are interpreted as follows: 
+          TWO DIGITS: check
+          ANY DIGITS followed by a letter:  serial + precedence (e.g., 23a)
+          THREE OR MORE DIGITS:  serial
+          SINGLE LETTER: precedence
+          MULTIPLE LETTERS: ARRL section
+
+* ARRL DX has some shorthands for power: c = 100, t = 200, e = 300 (any ideas
+  for something better?) f = 400, v = 500, s = 600, k = 1000.  ARRL DX also understands
+  common CW abbreviations and cut characters, like ATT = 100.  But it is NOT a cut-character
+  parser; there are a 6 or 8 common abbreviations that it knows.  I find it easier to 
+  use the single-character abbreviations (c, t, etc.)
+
+* For NAQP/NASprint, the first all-alphabetic token you type is taken
+  as the name; the next two-letter token is taken as the QTH. 
+  For DX, the QTH is filled
+  in automatically as the country's "canonical prefix".  To override 
+  this behavior, period (.) followed by letters (e.g., .AL) forces the component
+  to be interpreted as the QTH (e.g., the state Alabama).  equals (=) 
+  followed by letters forces the token to be interpreted as a name 
+  (e.g., =AL is the name Al).
+
+  Also:  For multi-single operations, the name you give in your side of the exchange
+  can change with the operator.  To change the name, just edit the Sent: field.  
+  (This is about the only time you should edit the SENT field).
+
+* NEQP (New England QP):  you can type a county either as a three letter UNIQUE county
+  abbreviation (e.g. NHV), in which case JL adds the state; a three-letter NON-UNIQUE
+  abbreviation, plus a state (e.g., MID MA or MID CT); or a five-letter abbreviation 
+  (e.g., MIDCT).  If you accidentally type a county for a non-New England
+  qso, you'll find it's difficult to get rid of.  Just type '' (two single quotes)--i.e.,
+  an empty text string to clear the county.
+
+* MAQP requires you to type the 5-character county abbreviation WITHOUT spaces (e.g. TOMNY)
+
+* California QP implements mobiles and county lines CORRECTLY.  For mobiles:  ALWAYS
+  log as /M (e.g., k6ei/m), the rest is automatic.  Don't log something like k6ei/sac.
+  (Per CQP rulekeeper).  QSOs with county line stations can be logged two ways:  
+  DELN/TRIN/FRES (in one shot) or one at a time:  +SBAR to add Santa Barbara, -FOO to remove FOO.
+  Per Rulekeeper, you can also log county line stations with two Qs.  This logger will 
+  not credit you with the second multiplier if you do that.  But the Q will be logged
+  properly, and the contest committee will score your entry correctly.
+
+* Various bonuses and other oddities for state QPs are typically NOT implemented.
+  Except for California QP, log county lines as two separate contacts.  (The 
+  second will not be
+  credited, nor its multiplier tracked, but the log will be correct).  Mobiles are duped
+  correctly (you're allowed to make new QSOs when the mobile is in a different county) 
+  provided that the callsign is logged.
+  as /M. If not, the mobile is counted as a dupe by JL.  Again, the log will be correct,
+  and the contest committee will score it correctly.
+
+* All contests that have "abbreviation multipliers" (sections, states, oblasts, counties,
+  whatever):  JL won't credit you with a multiplier unless you type the "correct" abbrev.,
+  as published by the contest organizers.  However, it will let you log the contact (and 
+  will credit you with QSO points).  It's up to the contest organizers to accept alternate
+  abbreviations.  [[THis is a particular issue with the Russian DX contest and the California
+  QSO Party, where all sorts of spurious abbreviations are in use.]]
+
+* For WAG (and possibly other contests based on the "generic mixed" contest):  DOKs are 
+  USUALLY a letter followed by 2 digits, and RARELY a sequence of letters.  They CAN BE
+  a digit followed by other stuff, and this trips the logger up; it thinks it's a callsign.
+  THE FIX:  IF you get one of these rare cases, precede the DOK with a . (e.g., .7uio).
+  That tells the logger "THis is the other token in the exchange, whatever it happens to be." 
+  From then on, it will be handled correctly.
+
+* Some of the smaller DX contests have odd entry categories--basically, 
+  the same familiar categories (SOAB, etc), but they want you to use non-standard
+  tokens in the header.  I don't buy that.  At least not yet.  Check the header before
+  submitting the log, if you care.  One contest (AllAsia) has a bizarre log format--basically
+  Cabrillo wrapped in XML tags.  I have no intention of implementing this.
+
+* Some contests (e.g., WAE, AllAsia) tell you if a station is "Out Of Bounds" (i.e., 
+  you can't work it for credit).  Others don't.  A couple of reasons for *not* implementing
+  OOB:  It's a pain (testing for ANY US posession, for example).  It can rely on data
+  I don't trust (some sloppiness in the RDX cty.dat file).  You don't get the info you 
+  need to tell whether someone is "in bounds" until too late (US QSO parties).  One GOOD
+  reason for implementing it: I can never remember whether 9H is EU or AS.
+
+* Field Day produces a logfile, but the actual deliverable is a dupe sheet, not the log.  
+  It's up to you to generate a dupe sheet from the log.
+
+* WAE:  where to start?  I've given Worked All Europe its own section.
+
+If you want to implement a new contest:
+
+Right now, all I'm going to say is that you have to do three things:
+
+* write a contest properties file.  These live in the directory "contests".
+  There's a text file in there that explains what these files are.
+* Implement a Java class called <contest>Exchange. It normally 
+  subclasses AbstractExchange.
+* Implement a Java class called <contest>Scorer.  It normally subclasses
+  AbstractScorer or GenericScorer. Subclassing GenericScorer is much easier.
+
+If it's not obvious what that means, don't try.
+TO find out more, you have to read the code.  (Well, one more thing--
+it's often possible to implement a simple state QSO party, for non-residents, 
+by supplying a county list, writing an appropriate property file, 
+and using Generic for the classBasename property.)
+
+SUPPORT FOR WAE (Worked All Europe):
+
+JL can send QTC.  I believe this is all done correctly.  To send QTC: 
+Log the previous contact.  Then
+Type q<ENTER> by itself in the entry window or click on the QTC button.  (This button 
+is present for all contests, but only enabled for WAE.)  JL pops up a window with a 
+list of QTCs that you can send to the
+LAST station you have logged.  If you need to send QTC to some other station, type his
+callsign into the "Call" field; you'll get a new list of sendable QTCs.  (Note: it's 
+not necessarily the same list).  The list takes into account all the QTC rules I know 
+about.
+
+If you're in CW, clicking on "Send" button sends a QTC entry via the CW keyer.  
+Initial zeros are "cut" to T (depending on an option).  Other cut characters (A for 1)
+aren't used, and non-initial zeros are not cut. 
+In both phone and CW, clicking on the "send" button also greys out the
+QTCdata--it's just a mark (for you) that you've sent the QTC.  It does
+not mean that you can't re-send the entry.  
+
+Clicking "done" enters ALL the QTC in the log.  Clicking "abandon" doesn't enter ANY of the 
+QTC.  My understanding is that a QTC series is all-or-nothing; you can't send a partial
+series.  Clicking either "done" or "abandon" cancels any unlogged entry in the main window.
+So, if you've had a regular QSO, log it before doing any QSO.
+
+The Cabrillo header includes the special OFFTIME entries that the DARC wants.  These are
+calculated when you click "Summarize".  Note that calculating these entries 
+correctly assumes that the logger knows the start and end time of the contest.  JL doesn't
+have this information (I've agonized over that, and decided that it's too big a pain), 
+so it takes the start time as the first QSO, rounded down to the previous 0000.  It takes
+the end time as the start time plus 48 hours.  If you miss the first day of WAE and start
+operating on Sunday, your OFFTIME entries will be, well, weird.  But if you do that, you're
+not likely to win anything, anyway.  
+
+EMERGENCY RECOVERY:
+
+IF something should go wrong--JL is very careful about the logfile. It saves a backup 
+every time it does something that might be troublesome, and flushes each QSO to the log,
+so it should be okay in case of a power outage or computer crash.  Backups have the 
+same basename
+as the logfile, with BAKn added, where n is the backup's sequence number.  IF for some
+reason something goes wrong, exit JL (click x in the upper right of the main window), 
+inspect your current log to make sure it's not damaged, and if it's screwed up, copy the
+last backup file over the logfile, then restart.
+
+I have seen some strange behavior in Windows where backups aren't created if the file is
+already there.  Let me encourage you to clean out your logs directory before starting.
+
+If your computer crashes or you have a power failure, everything *should be* OK.  JL
+each contact to the disk as soon as you log it.  So just reboot, restart JL, and 
+everything will be fine.
+
+JL has proven to be very reliable.  I've been using it for over a 
+year without crashes--and, given the number of times I hear someone 
+on the air say "my logger died" mid-contest,
+that's something.  But if something goes wrong, you should be able to recover.
+
+GENERAL LOGGER:
+
+For most purposes, the general logger looks like another contest.  Select GeneralLog
+when you're asked to chooes a contest.  (You can also start the general logger
+with the command jl-gen <operation-name>.)  The logfile is named generalqso.txt; it's
+in a cabrillo-like-format, and lives
+in the same directory as the other log files.  Files for QSO notes are saved in the 
+directory qsofiles.  There is one text file per callsign.
+An interesting question is how large this directory will grow.  A gigabyte should 
+accomodate 250,000 unique callsigns on most machines, and 
+that's still relatively small by modern 
+standards.  And it's more guys than I work in a year...  Still, it's mostly 
+wasted space.  I've thought about 
+more efficient storage schemes, and can't come up with anything I like.
+(Saving all the QSO notes in one big file would either make locating
+up an individual entry slow, or force JL to load the entire collection of notes
+on startup; it would also leave you prone to deleting everything by mistake.)
+
+Anyway, here's how it works.  Log just like you're in NAQP, with the addition of a signal
+report:  firstname, state (for US/CA only), RS(T).  When you first enter the callsign, 
+JL pops up a QSO editor with a template that allows you to enter notes.  If you've already
+worked the callsign, the frame includes whatever data you've previously entered.
+Log the contact normally (i.e., as a contest QSO); make whatever additions or notes you 
+like (you don't have to stick to the "template" I've set up); and click "done" when you're
+done.  Click "Cancel" to abandon your changes.  Clicking "Cancel" in the main window
+also dismisses the editor and abandons your changes.
+
+There can only be one QSO editor open at a time.  This prevents the logger from
+stacking up multiple edit windows--something I thought would be undesirable.  I
+recommend committing the contact to the log as early ass possible, but leaving the
+QSO editor open until you're finished with the qso.  (Obviously,
+you can add notes at any time.)
+
+BE CAREFUL not to delete the log file or the individual QSO files when you're
+updating or cleaning up!  You've been warned!  (I've solved this problem by hacking
+GeneralLog.props to store my general log and QSO files outside of the JL directory 
+hierarchy.)
+
+NETWORK:
+
+The current version has some VERY PRIMITIVE multi-op capabilities.  For the time being,
+I recommend ignoring it.  If you see a message about "can't open connection to server" 
+or something like that, ignore it--you haven't set up a server, so it's normal.
+
+RIG CONTROL:
+
+Rig control works.  Currently, the only supported transceivers are the
+Icom family, the Elecraft K2, and the "null transceiver", which
+doesn't do anything.  That's probably all there will be, unless other
+people contribute transceiver implementations, or Yaesu decides to
+give me an FT9000 to play with.
+
+If you want to use rig control, here's how:
+
+* In addition to installing Java, install the Java Communications API
+  (available from java.sun.com for Windows and Solaris; there's an
+  implementation floating around for Linux; VERY unfortunately, MacOS
+  X users are out of luck for the time being).
+
+  You MUST install the comm api if you intend to develop, even if
+  you're not using rig control.  Otherwise, compilations won't work.
+
+  The gnu.io library (RXTX) can be used instead of javax.comm, though
+  you'll have to change the import statements and recompile.
+
+* Add the transceiver property to your operation file, or select a transceiver
+  when you're in the Operation Builder.  Valid values for transceiver are 
+  None, Icom746, and other recent Icom models (like Icom706MkIIg).
+  (note: properties/transceivers.txt lists the valid configuration files)
+
+* You probably don't have to touch the transceiver's configuration
+  file (configuration/<transceiver-name>.props), but if you're
+  curious, check it out.  Items that may be of interest, at least for
+  Icom rigs: the serial port used to communicate with the transceiver;
+  the baud rate (IC746 appears unable to do 19200, but 9600 is OK);
+  the *highest* memory to be used; and the rig address (if you're not
+  using the default).  If you're implementing your own Transceiver,
+  feel free to define your own properties.
+
+* VERY IMPORTANT: For Icom transceivers (the only ones JL now
+  understands) disable CI-V Transceive (Set mode, item 29, at least on
+  the IC-746).  I may sometime rewrite my code so that this isn't
+  necessary.  With this feature disabled, you can't control multiple
+  transceivers/receivers from a single rig.  With it enabled, the Icom
+  chatters over the serial interface whenever you touch it, and breaks
+  my feeble attempts to parse its very poorly documented responses.
+  (Transceive mode is necessary for using the rig with the PW-1).
+
+* Connect your transceiver to an unused serial port.  Nothing in the
+  implementation precludes using Ethernet, parallel, or (even) USB or
+  Firewire, should I eventually run into a transceiver that supports
+  such an interface. 
+
+Then start JL.  If JL cannot initialize the serial port properly, it
+will create a "null transceiver" and operate normally, with manual
+band setting.  If it can, operate to your hearts' content and forget
+about band setting.  At this point, JL does not log exact frequencies;
+it just logs band indicators (7000, 14000, etc.).  Might change that
+in the future.
+
+If something goes wrong, and JL reads some value for the frequency or
+band that it can't interpret properly, "normal" (manual) band setting
+will still work.  Some version soon after jl-1.0 will display a
+warning message when JL and the transceiver aren't on speaking terms.
+
+If you get the "improper terminal" error, try turning off the
+transceiver; turning off the interface; turning ON the transceiver;
+THEN turning on the interface.  I had to do this at least once, not
+sure why--some oddity in the CT-17, I suppose.
+
+If everything goes correctly, JL will read the band and mode from the
+rig.  YOU DON'T NEED TO, AND IN FACT CANNOT, SET THE BAND AND MODE
+MANUALLY.  If rig control is working, manual band changes are ignored,
+as they perhaps should be.  (If I can figure out how to make band
+changes read frequency from the appropriate band stacking register, I
+can--but I don't see how to do that in the Icom manual).  The rig's
+band and mode will be reflected appropriately in the display,
+including the default signal report.  (At some future point, maybe a
+manual band change will be sent to the rig--though it's a little hard
+to see how to do this with Icom's command interface).  Unless (as
+mentioned above) JL has trouble reading the rig--in that case, manual
+setting *should* work.  (This isn't exactly an easy thing to test,
+though.)  Confused?  If you have trouble, quit, set the transceiver
+property to "None", and do without rig control--better than screwing
+up your log.
+
+Rig control introduces some important new commands for the Entry field:
+>=frequency    Set current frequency (RX and TX) to frequency
+>+offset       Set the transmit frequency to the current freq. plus offset
+>-offset       Set the transmit frequency to the current freq. minus offset
+>frequency     Set the transmit frequency to frequency (probably the MOST USEFUL)
+>              By itself, clears split frequency operation.
+
+WARNING:  SETTING THE FREQUENCY DOES NOT AUTOMATICALLY SWITCH TO THE APPROPRIATE
+MODE OR ANTENNA.  DON'T BLOW UP YOUR AMPLIFIER BY SWITCHING TO 80M AND TRYING TO 
+TRANSMIT ON YOUR 10M MONOBANDER.  You've been warned.  As far as I can tell, there's
+no way to make "safe" antenna selections from the rig's digital interface.  (For 
+one thing, there aren't enough antenna ports, anyway, so you almost certainly have 
+to use a manual switch.)
+
+NOT SO IMPORTANT NOTE:  > followed by an alphabetic character or $ is sent to the keyer.
+
+If rig control is enabled, putting a QSO on the shelf allocates one of the rigs memories,
+and stores the VFO freqs., etc., in the memory.  Popping the QSO restores everything
+from memory.  (Using the rig's memories guarantees that split operation, antenna 
+settings, etc., are handled correctly.  Well, almost guarantees--see the note below).
+You don't have to do anything particular to 
+use this feature, but you should know that:
+  * rig control requires 1 memory more than the number of slots in the shelf.
+  * The *highest* memory number that will be used is taken from the property
+    transceivers.highmem in the transceiver.props file.  (It's currently set
+    to 99, which is the highest general-purpose memory in an IC-746.  No need to 
+    change it, unless perhaps you've filled all your memories, and don't want the 
+    logger to tromp on them.)
+  * To disable this feature, set transceivers.highmem to 0.
+
+IMPORTANT NOTE:  >=, >+, and >- set split frequency operation.  When you
+"shelve" split QSOs, both frequencies are stored.  HOWEVER, restoring
+the pair of split frequencies ONLY WORKS IF THE RIG IS STILL IN SPLIT MODE.  If you 
+"pop" a split-freq QSO off the shelf, and the rig is NOT in split mode, you'll only 
+get simplex operation.  Not what you want, and could lead to inadvertent transmissions
+in an inappropriate band segment.
+
+One thing to watch:  With manual band setting, JL won't let you switch to a band that's 
+out-of-bounds for the contest.  When rig control is in effect, that very minor safety net 
+has disappeared.  I might put it back, but... the fact is, if you make a QSO on 12 meters,
+and the rig says the frequency is 12 meters, you've made a QSO on 12 meters.  Tough.
+
+Rig control introduces a slight but annoying delay in the response time.  Other 
+people who have done much more work programming Icom transceivers have 
+told me that this is par for the course.  The transceiver just isn't very quick
+at responding to commands.  ("duh?  someone's talking 
+to me, guess I'd better send some bytes back.") The delay is minor and worth the wait,
+I think, but I find it annoying, and I imagine you will, too.
+
+KEYER:
+
+The keyer is arguably a pain to configure, but easy to use.  I'll talk about 
+using it first.
+
+The keyer has a big slider on the top, which controls CW speed.  Underneath, there's 
+a STOP button and a REC button.  (REC is disabled/unimplemented, but eventually
+it should let you record a voice message while operating.)  The buttons these 
+are assigned to messages.  To play a message, click its button.  To stop a message that's
+playing, click the stop button, or (if using phone) push your PTT switch, if 
+you have PTT control set up (discussed below).  The message will play in 
+CW or Phone, according to the mode you're currently operating
+in.  (This is really handy if you have rig control set up.)  Some messages have a "loop delay"
+associated with them; these will loop indefinitely, until you stop them.  Others are 
+"one shots."  Starting a new message while one is playing stops the previous message.
+If you're operating phone and using VOX, the audio from the keyer keys 
+the transmitter when the clip is playing.  You can also use a RigBlaster 
+or equivalent to control PTT directly.  If you're operating CW, keying takes place using
+a serial port's DTR signal, and is relayed to the rig via a RigBlaster or equivalent.
+
+A message button can play a CW message, a phone message, or both.  Which you get depends
+on how you've set up the keyer (we'll discuss coniguration later), and what mode you're in.
+The keyer won't play a CW message in phone mode, for example, and if the button 
+is associated with both phone and CW messages, you'll get whatever message is appropriate. 
+
+Instead of the message buttons, you can use the function keys (F1-F10) to start keyer 
+messages, and the ESC key to terminate messages (or loops).  F1 corresponds to the top left
+button; F2 corresponds to the top right button; and so on.  If you have more than 10 
+messages configured, you'll have to use the buttons for message 11 (and following). 
+
+You can also send an arbitrary message to the keyer.  In the main entry, type > followed
+immediately (no intervening space) by your message (which must begin with an 
+alphabetic character or $).  It MAY include $ escapes--just don't use $? (which will loop),
+and which isn't meaningful, anyway.  (I should figure out some way to prevent this).
+The message is sent to your keyer, which does "whatever's right"--transmits it if it's CW, 
+ignores it you're operating PH.  At some future date, I suppose I might have voice synthesis.
+(And there are certainly other, unimplemented, keyer modes for which synthesizing a message
+from a text string is meaningful.)  The contents of the main window are reset to the text you
+sent, minus the >.  Not sure if this is useful--the assumption is that you'll use this largely
+to ask for fills (NNJ?  WA3?), and leaving the text in the window is helpful.  
+
+There's no way for JL to tell whether anything is coming
+out of your sound card.  A good test is to listen to the audio coming
+out of the computer's speakers.  (You have them, don't you?)  If you don't get any 
+audio from the computer's speakers, the possible problems are:
+* Your sound card isn't installed/configured correctly
+* Your computer's volume is set too low, or its audio output is set to "mute"
+* The sound files you've given to JL are in a format that JL can't use (for example, 
+  MP3)
+* The sound files you've given to JL are in a format that JL can use, but that your
+  sound card can't (e.g., 96KHz samples).
+
+Oh yes:  There's no "volume control."  With so many volume controls between the
+software and the rig, do you really need one more?
+
+Keyer configuration:
+
+To configure the keyer, edit the file configuration\keyer.props.  I've included
+a sample one (but I haven't included my audio clips, so it's only good for help in 
+setting things up).  This file has the following properties:
+
+keyer.numclips: the number of clips the keyer will
+                     support.  Things could get awkward (too many buttons) if you 
+                     set this too high... but there's no inherent limit.
+keyer.ph.audioDir:  the directory/folder in which audio clips are
+                     stored; normally audioclips under JL's "home" 
+                     folder.
+keyer.port:     serial port (if the keyer communicates with a box that sends
+                     it PTT interrupt, or other signals).  It's *possible* (if you 
+                     build a daisy chain cable) for this to be the same port that 
+                     communicates with the rig.  The single port configuration
+                     hasn't been tested, but should work
+                     with a RigBlaster and an Icom radio, and maybe other combinations.  For 
+                     now, CW and phone use the same port.
+keyer.baudrate: baudrate to be used on this port.  
+keyer.timeout:  timeout when opening the port
+keyer.cw.minspeed:   the minimum CW speed, WPM (slider all the way left; default 8)
+keyer.cw.maxspeed:   the maximum CW speed, WPM (slider all the way right; default 60).  
+                     I don't know how fast the keyer can really go.
+keyer.cw.dashDotRatio:   the ratio of the dot time to the dash time (default 3)
+keyer.cw.markSpaceRatio: the ratio of the dot time to the space between consecutive
+                         dots and dashes (default 1)
+keyer.cw.charSpaceRatio: the ratio of the dot time to the space between two complete
+                         characters (default 3, though I often set it smaller)
+keyer.cw.wordSpaceRatio: the ratio of the dot time to the space between words (default 9,
+                         though I think 8 sounds better)
+keyer.cw.useCutZerosInSerials: true or false; whether or not to replace leading 0s in the 
+                         serial number with Ts.  (No other cut character processing takes
+                         place).  Default false.
+keyer.cw.truncateZerosInSerials: true or false; true eliminates
+                         leading zeros in serial numbers.
+                         (Appropriate for ARRL SS, at least.)
+keyer.cw.useCutZerosInQTCs: true or false; whether or not to replace leading 0s in the 
+                         the time and serial number sent as part of a QTC with Ts.  (No 
+                         other cut character processing takes place).  Default false.
+keyer.cw.initspeed:      The initial CW speed (default halfway between minspeed and maxspeed)
+
+CW speeds are based on the length of a "dot".  With the default settings, 
+the notion of "words per minute" fits the canonical test (number of times you can send
+PARIS in one minute) fairly precisely.  I don't know if it's good enough for the FCC, but 
+it's within a few percent.  HOWEVER, note that this conception of speed DOES NOT CHANGE
+as the various spacings change.  If you reduce the char and word space ratios, 
+you will be able to send PARIS more times per minute, but the keyer will still think you're
+sending at the same speed--because the dot time hasn't changed. 
+(I don't know what ratios are used for FARNSWORTH code, which is the current standard, at 
+least in the ARRL VEC, for morse code exams.  But if you know the numbers, you could
+certainly tweak the keyer to send Farnsworth.)
+
+Nothing prevents you from REALLY distorting your CW--making dots longer than
+dashes, etc.  If you do this, you're a sick puppy.
+
+Then there are four properties for each clip; n is a number between 0 and numclips - 1.  
+
+keyer.ph.clip.n: the clip's audio filename.  Only supports WAV files.  (But JL
+        doesn't care about the extension you give it.)  n is the 
+        clip's number (starting with 0, please).  If this property is missing, you wont
+        have an audio clip for the button.
+keyer.cw.clip.n: the text to send in CW.  The keyer supports the alphabet, numbers, 
+        some punctuation, and a few special characters:  * sends SK, = sends BT, ^ sends AR.
+        The keyer also supports a number of "escapes" (described below) that let you tie
+        the messages in to the actual exchanges.
+label.n: The label to identify clip n on the screen.  Keep this 
+        short.
+loopdelay.n: The delay (in seconds) to use when playing clip n in 
+        a loop.  This property is optional.  If it's 0 or missing,
+        the clip only palys once.
+
+The PTT Interrupt capability allows you to terminate a playback loop by pushing
+your PTT button or footswitch.  It assumes you're using a RigBlaster (or equivalent),
+which raises CTS whenever PTT is pushed.  I don't know if other RigBlaster-like boxes
+(for example, the MFJ) have this feature, but it's essential for stopping an audio playback
+loop effectively.  (You'd rather not have to click a button.)  Note PTT interrupt
+does not stop CW messages.  I don't understand why--it uses the same logic.
+
+If you have a RigBlaster (or equivalent), JL sets RTS when playback begins, and clears
+RTS when playback ends.  If you put the RigBlaster in "Auto" mode, it uses this signal 
+to control your rig's PTT line appropriately. You don't have to rely on VOX.  If you're
+looping, JL does "the right thing":  RTS (and hence your rig's PTT) is asserted only 
+when the clip is actually playing, and not in the pauses.
+
+Where Audio Clips Come From:
+
+I knew you wanted to know that.  JL does NOT have an audio capture
+facility at this point.  You need to get one of the many excellent recorders/
+editors that are available; I use CoolEdit 2000, which 
+is inexpensive and more than up to the task--frankly, it's overkill.  
+CoolEdit has an interesting 
+demo version, with features selectively disabled.  However, which features you 
+disable is up to you--and I think there's enough for you to accomplish everything
+you need with the free demo.  CoolEdit has become Adobe Audition, and there's apparently
+no longer a "low-price" version, and a differnet "free trial" policy.
+You can also use GoldWave (www.goldwave.com), 
+which is shareware with an interesting demo policy that should let you do what 
+you need. Frankly--you don't want much--you can probably even use 
+the built-in Windows recorder.  It's really lousy, but 
+like I said, you don't need much.  If you're a Linux user, there are MANY (probably
+a few dozen) free soundfile recorders and editors, ranging from the simplistic to
+software systems designed for professional recording studios.  Choose your poison.
+Some are great, some are a pain, they're all free.  My favorite is snd 
+(ccrma-www.stanford.edu/software/snd/), though it's not the easiest to use.
+If you want to build a professional recording studio, try ardour 
+(ardour.sourceforge.net).  WAY overkill for this project, but it's a great piece of 
+software.
+
+So, now that I've told you that you need to make your own audio file, 
+what do you make?  Make a mono WAV file at whatever sample rate and
+resolution your computer's audio
+system supports.  Lower sampling rates (10.025 KHz) save a lot of disk space; so
+does making a mono file.   I recommend using 16-bit resolution, though you might be
+able to get away with 8-bit audio.  24-bit audio is definitely overkill.
+The .AU and .AIFF file formats *probably* work, but
+I haven't tried them.  MP3 does *not* work (and for this application, I'm not
+convinced it's a good idea).
+
+If you want to get fancy--and you really should--use your audio editor to filter out
+everything below roughly 300 Hz and above 2400 Hz.  You can also use "compression",
+which does the same thing as compression on your rig, but probably does a better job.
+(Maybe not; your rig probably compresses at RF, which is better for SSB)
+If you get really ambitious, you can play with all sorts of compression/filtering
+parameters.  If compression doesn't take care of this for you, make sure that the
+recording is "normalized": i.e., that the maximum/minumum values in the WAV file are
+the maximum/minimum values that you can represent in 16 bits.  
+
+Make a different file for each clip; leave a tiny bit of trailer at the end (about 0.1
+second).  Start as close as possible to the beginning of the sound you want to play.  JL's
+looping facility takes care of the blank spaces between looped playback; if you try
+to build these pauses into the sound clips, you'll just confuse things.
+
+K1TTT pointed out that you need some kind of integrated recording facility for things like
+running split.  That's a really good point.  Not implemented yet.  There's a disabled 
+"RECORD" button as a placeholder.
+
+Where CW Clips Come From:
+
+They're just text in the keyer.props file.  But you can add a number of escapes:
+$n is the current serial number
+$f (from) is your callsign
+$t (to) is the callsign of the other station, taken either from the "callsign" field or 
+   the "entry" field.  Callsign field takes priority; but the contents of the callsign
+   field don't count until you've "entered" the callsign.
+$x is the entire current outgoing exchange (AS DISPLAYED IN THE MAIN WINDOW).  Not as 
+   useful as it might appear
+$? is the contents of the entry text field (presumably an incomplete call), followed by a 
+   question mark.
+
+So, for example, a SS message might be $nQ de $f 99 CT.  And a message for querying
+the callsign in ARRL DX might be $? 5nn ct, which might expand to  ZS8? 5NN CT.
+
+You can request cut character translation for leading zeros in $n, but nowhere else--
+not even a serial number or report that appears in $x.
+That's one reason $x isn't as useful as it seems. For the time being, 
+I've decided that there's no way to disambiguate text that should use cut chars
+from text that shouldn't.
+
+MAINTENANCE:
+
+Country and zone detection is based on cty.dat.  To update cty.dat, download the latest file 
+from www.k1ea.com/cty/cty.dat, and drop it into the 'data' directory. 
+This logger uses ONLY the CT 9 version of cty.dat--no other files from the k1ea site.
+
+N1MM has some good notes on how to customize cty.dat, if you need to; see 
+http://pages.cthome.net/n1mm/html/English/CustomizeDXCC.htm
+
+Other .dat files aren't used.  Fortunately, lists of counties, states, and provinces don't
+change much.  Unfortunately, the iota list does, as does the ARRL's list of affiliated clubs.
+
+RDX distributes its own Cty.dat file, which includes Russian oblasts.  
+Rename it to RDXCty.dat, and put it in the 'data' 
+directory.  NOTE:  I have discovered syntax errors in the RDX Cty.dat file that cause JL to 
+crash when loading it.  The RDXCty.dat that I include with JL has been corrected.
+
+QUIRKS AND ODDITIES:
+
+Reading Logs from Other Loggers
+  JL isn't designed to read logfiles produced by other loggers.  That said, if you take
+  a Cabrillo logfile, put it in the logs directory, name it appropriately, and start JL,
+  things should work.  There are plenty of oddities in the way other loggers produce their
+  logs, though, so all sorts of things can happen.
+
+Logs with Cabrillo Headers
+  JL *ignores* Cabrillo headers that may be present at the start of the log.  It also
+  ignores the sent exchanges.  Any new entries you add to the log use the operation 
+  information (callsign, etc.) you give to JL when you start it.
+
+Editing times
+  Can't do it--JL won't let you.  (Might change that...)  If you need to edit a time, 
+  use Notepad, Emacs, or any other editor you like, and do it by hand.  JL 
+  logs the time when you enter the QSO, which is typically at the end--NOT the time at
+  which you start the QSO.
+
+SUMMARY:
+
+I like JL's user interface, but you'd expect that.  Of course it's easy for me
+to use.  There's no tabbing back and forth between fields.  You just type as 
+fast as you can.  
+
+JL doesn't list partials.  I don't find partials to be particularly useful.
+It also doesn't grab each character as it's typed--
+you have to type Enter to enter something, and a second Enter to commit the 
+entry to the log.  I find programs that grab each
+character annoying, but if enough people disagree with me, I could make it
+work either way.  
+
+If you try the program, let me know if you like it, or if you have any
+ideas. What does it need that it doesn't have?  What doesn't it need that it has?  
+JL devotes much more screen
+real-estate to displaying the log and the multiplier lists than other 
+programs I've seen.  I sort of like it, but I'm willing to admit they 
+take up too much space.  Particularly since I'm really short of screen space.  (Now that I
+have "needed multiplier colorization", are the multiplier lists worth it?)
+
+Finally--despite the warning about implementing additional contests, 
+I wouldn't turn my nose up at any number of state QSO parties (especially
+if you can implement the "resident" side of the contest, and take care of the weird
+bonuses that run rampant in state parties).
+I'm NOT planning to implement any additional modes for the keyer, but all that's needed
+is to (a) implement the appropriate Message type (e.g., RY) within the keyer package, and 
+(b) convince the logger to accept that message type (which may require nothing more than
+listing it as a valid mode in your contest properties files).
+ 
+73,
+Mike, w1jq
+ 

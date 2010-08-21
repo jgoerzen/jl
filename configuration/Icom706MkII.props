@@ -1,0 +1,9 @@
+transceiver.transceiver=Icom706MkII
+transceiver.port=COM2
+transceiver.baudrate=9600
+transceiver.databits=8
+transceiver.address=#4E
+transceiver.interface=#E0
+transceiver.timeout=15
+transceiver.highmem=99
+

@@ -1,0 +1,3 @@
+globalscorer.enable=false
+globalscorer.periodSeconds=60
+globalscorer.reportURL=http://pc:8080/globalscorer/servlet/com.loukides.globalscore.GlobalScorer

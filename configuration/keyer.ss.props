@@ -1,0 +1,48 @@
+keyer.port=COM4
+keyer.baudrate=9600
+keyer.timeout=15
+keyer.numclips=8
+keyer.ph.audioDir=audioclips
+keyer.cw.minspeed=10
+keyer.cw.maxspeed=40
+keyer.cw.dashDotRatio=3.0
+keyer.cw.markSpaceRatio=1.0
+keyer.cw.charSpaceRatio=2.7
+keyer.cw.wordSpaceRatio=8.0
+keyer.cw.truncateZerosInSerials=true
+keyer.cw.useCutZerosInQTCs=true
+keyer.cw.initspeed=30
+keyer.cw.showCWOnConsole=false
+
+keyer.label.0=cq
+keyer.ph.clip.0=cq-HACK.wav
+keyer.cw.clip.0=cq ss $f $f ss
+keyer.loopdelay.0=5
+
+keyer.label.1=w1jq
+keyer.cw.clip.1=w1jq
+keyer.loopdelay.1=0
+
+keyer.label.2=$t ex
+keyer.loopdelay.2=0
+keyer.cw.clip.2=$t $n a $f 69 ct
+
+keyer.label.3=qrz
+keyer.cw.clip.3=tu $f
+keyer.loopdelay.3=0
+
+keyer.label.4=CK
+keyer.loopdelay.4=0
+keyer.cw.clip.4=69
+
+keyer.label.5=NUM
+keyer.loopdelay.5=0
+keyer.cw.clip.5=$n
+
+keyer.label.6=tu ex
+keyer.cw.clip.6=tu $n a $f 69 ct
+keyer.loopdelay.6=0
+
+keyer.label.7=tu de
+keyer.cw.clip.7=tu de $f $f $n a $f 69 ct
+keyer.loopdelay.7=0
