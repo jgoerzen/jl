@@ -22,7 +22,7 @@
     <classpath>
       <pathelement location="."/>
       <pathelement location="com"/>
-      <pathelement location="./${comm.path}"/>
+      <pathelement location="${comm.path}"/>
       <pathelement location="${servlet.path}"/>
       <pathelement location="${servlet6.path}"/>
     </classpath>  
