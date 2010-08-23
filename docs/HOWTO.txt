@@ -175,7 +175,7 @@ Entry window.
 
 * To change bands, type 'b' followed by the band in meters (i.e., b80, b40, b20, b15, b10,
   b6, b2, b220, b432, b906, b1.2, b2.4; DO NOT use b75).  Or use rig control (see below).
-* To change mode, type CW or PH.  Or use rig control (see below).  You can't change
+* To change mode, type CW, RY, or PH.  Or use rig control (see below).  You can't change
   both band and mode in the same entry.
 * Otherwise, just type.  Don't type into the "rcvd" or "sent"
   fields--that's sometimes useful for editing, but not necessary.  For
@@ -369,7 +369,7 @@ If you're not using rig control, you have to enter band and mode changes
 manually.  Band and mode changes can't be mixed with QSO information.
 A mode change cancels the current QSO.  A band change doesn't.
 JL ignores attempts to change to a mode/band not allowed by the 
-current contest.  Mode designators are PH and CW (will eventually add RY); 
+current contest.  Mode designators are PH, RY, and CW; 
 band designators are b160, b80, b40, b20, b15, b10, b6, b2, b220, b432, b906, 
 b1296, b2300.  (Don't try operating on higher bands!)
 

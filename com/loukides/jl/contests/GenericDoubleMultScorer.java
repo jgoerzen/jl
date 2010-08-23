@@ -49,6 +49,7 @@ public abstract class GenericDoubleMultScorer extends GenericScorer {
     mult2.setProperties(p);
     sd.setProperties(p);
     ppcwq = Integer.parseInt(p.getProperty("pointsPerCWQSO", "1"));
+    ppryq = Integer.parseInt(p.getProperty("pointsPerRYQSO", "1"));
     ppphq = Integer.parseInt(p.getProperty("pointsPerPHQSO", "1"));
     if ( p.getProperty("perBandMultiplier", "false").equals("true")) perbandmult = true;
   }
