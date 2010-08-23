@@ -12,9 +12,9 @@
 <property name="current.version" value="1.06"/>
 <property name="java.home" value="/System/Library/Frameworks/JavaVM.framework/Versions/1.4.2/Home"/>
 <property name="servlet.path" 
-          value="/usr/local/java/tomcat/common/lib/servlet-api.jar"/>
+          value="/usr/share/java/servlet-api.jar"/>
 <property name="servlet6.path" 
-          value="/usr/local/java/tomcat/lib/servlet-api.jar"/>
+          value="/usr/share/tomcat6/lib/servlet-api.jar"/>
 <property name="comm.path" value="lib/comm.jar"/>
 
 <target name="compile" description="compiles everything" depends="prepare">
