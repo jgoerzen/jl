@@ -25,7 +25,7 @@ public class KSQPResExchange extends AbstractExchange {
     String call = callsign.getCallsign();
     return U.trunc(call, 13) + U.findPad( call, 13 ) + " "
          + U.trunc(report, 3) + U.findPad( report, 3) + " "
-         + U.trunc(getMultiplierField(), 3) + U.findPad(getMultiplierField(), 4);
+         + U.trunc(getMultiplierField(), 4) + U.findPad(getMultiplierField(), 5);
     // NOTE added an extra space to the last findPad
   }
 
