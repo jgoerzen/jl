@@ -296,23 +296,18 @@ IN                    Indiana
 WI                    Wisconsin
 CO                    Colorado
 IA                    Iowa
-KS                    Kansas
+TX                    Texas
 MN                    Minnesota
 MO                    Missouri
 NE                    Nebraska
 ND                    North Dakota
 SD                    South Dakota
-NB                    New Brunswick
-NS                    Nova Scotia
+MAR                   Maritimes
 QC                    Quebec
 ON                    Ontario
 MB                    Manitoba
 SK                    Saskatchewan
 AB                    Alberta
 BC                    British Columbia
-NWT                   Northwest Territories
-NF                    Newfoundland
-LB                    Labrador
-YT                    Yukon Territory
-PE                    Prince Edward Island
-NU                    Nunavit
+NT                    Northern Territories
+DX                    International
