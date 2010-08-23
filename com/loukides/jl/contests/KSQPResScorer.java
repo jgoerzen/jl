@@ -1,9 +1,9 @@
-// Scorer for TXQP
+// Scorer for KSQP
 package com.loukides.jl.contests;
 import com.loukides.jl.jl.LogEntry;
 import java.util.*;
 
-public class TXQPResScorer extends GenericDoubleMultScorer {
+public class KSQPResScorer extends GenericDoubleMultScorer {
 
   private boolean isWorVE(String c) {
     if (c.equalsIgnoreCase("united states")) return true;
@@ -24,8 +24,9 @@ public class TXQPResScorer extends GenericDoubleMultScorer {
     // System.out.println("encode: c: " + c + " s: " + s + " q: " + q); 
     // note that the multiplier bits don't tell the whole story...
     if ( ! le.getRcvd().getMultiplierField().equals("DX")) {  //domestic
-      if ( s && ( le.getRcvd().getMultiplierField().length() == 4)) return 'c';
-      if ( s && ( le.getRcvd().getMultiplierField().length() == 2)) return 's';
+      if ( s && ( le.getRcvd().getMultiplierField().length() == 3) &&
+                ( !le.getRcvd().getMultiplierField().equals("MAR"))) return 'c'; // county
+      if ( s && ( le.getRcvd().getMultiplierField().length() == 2)) return 's'; // state
       else return '_';
     }
     else  {  // not-domestic
