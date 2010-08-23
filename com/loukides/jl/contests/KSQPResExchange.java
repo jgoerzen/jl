@@ -46,12 +46,12 @@ public class KSQPResExchange extends AbstractExchange {
         if ( Character.isLetter(cs[i]) ) alphas++;
       }
       if ( nums == len ) report = tok;
-      else if (alphas == len && len == 2) {
+      else if (alphas == len && (len == 2 || tok.equalsIgnoreCase("MAR"))) {
         state = tok;
         county = "";
       }
       else if ( tok.equals("\'\'")) county = "";
-      else if (alphas == len && (len == 3) && (! tok.equals("MAR"))) {
+      else if (alphas == len && (len == 3) && (! tok.equalsIgnoreCase("MAR"))) {
         state = "KS";        
         county = tok;
       }

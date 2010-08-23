@@ -25,8 +25,9 @@ public class KSQPResScorer extends GenericDoubleMultScorer {
     // note that the multiplier bits don't tell the whole story...
     if ( ! le.getRcvd().getMultiplierField().equals("DX")) {  //domestic
       if ( s && ( le.getRcvd().getMultiplierField().length() == 3) &&
-                ( !le.getRcvd().getMultiplierField().equals("MAR"))) return 'c'; // county
-      if ( s && ( le.getRcvd().getMultiplierField().length() == 2)) return 's'; // state
+                ( !le.getRcvd().getMultiplierField().equalsIgnoreCase("MAR"))) return 'c'; // county
+      if ( s && ( le.getRcvd().getMultiplierField().length() == 2 ||
+                  le.getRcvd().getMultiplierField().equalsIgnoreCase("MAR"))) return 's'; // state
       else return '_';
     }
     else  {  // not-domestic
