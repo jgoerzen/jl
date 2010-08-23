@@ -1,7 +1,7 @@
 package com.loukides.jl.keyer;
 
 import javax.sound.sampled.*;
-import javax.comm.*;
+import gnu.io.*;
 
 public class PTTController implements LineListener, PortSettable {
 

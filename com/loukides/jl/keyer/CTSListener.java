@@ -1,6 +1,6 @@
 package com.loukides.jl.keyer;
 
-import javax.comm.*;
+import gnu.io.*;
 
 public class CTSListener implements KeyerSettable, SerialPortEventListener {
   private Keyer keyer = null;

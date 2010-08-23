@@ -9,7 +9,7 @@
 // javax.comm API only allows one listener, which may not be enough.)
 package com.loukides.jl.jl;
 
-import javax.comm.*;
+import gnu.io.*;
 import java.util.*;
 
 public class SerialPortFactory {

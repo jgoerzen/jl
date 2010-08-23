@@ -36,7 +36,7 @@ import com.loukides.jl.util.*;
 import com.loukides.jl.jl.*;
 
 import java.util.*;
-import javax.comm.*;
+import gnu.io.*;
 import java.io.*;
 
 public class Icom extends AbstractTransceiver {

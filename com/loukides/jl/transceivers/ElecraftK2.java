@@ -3,7 +3,7 @@ import com.loukides.jl.util.*;
 import com.loukides.jl.jl.*;
 
 import java.util.*;
-import javax.comm.*; // Change to gnu.io if using rxtx for communications
+import gnu.io.*; // Change to gnu.io if using rxtx for communications
 import java.io.*;
 
 import java.text.NumberFormat;
