@@ -9,7 +9,7 @@
 //   getNewMultTotal returns the total number of multipliers in the contest.
 //                   Can be set to 1 when there's no multiplier...
 //   findPoints      tells you the number of QSO points for the current Q (which might vary)
-//                   This implementation defaults to 1/1 (PH/CW), but can either
+//                   This implementation defaults to 1/1/1 (PH/CW/RY), but can either
 //                   be set in the contest properties (pointsPerPHQSO/pointsPerCWQSO)
 //                   or overridden entirely for a more complex algorithm.
 //   findScore       computes the total score; normally pts*mults, but can be overridden
@@ -31,6 +31,7 @@ public class GenericScorer extends AbstractScorer {
   protected Checker mult; 
   protected SummaryDisplay sd = new SummaryDisplay();
   protected int ppcwq = 1;
+  protected int ppryq = 1;
   protected int ppphq = 1;
   protected boolean perbandmult = false;
  
@@ -50,6 +51,7 @@ public class GenericScorer extends AbstractScorer {
     mult.setProperties(p);
     sd.setProperties(p);
     ppcwq = Integer.parseInt(p.getProperty("pointsPerCWQSO", "1"));
+    ppryq = Integer.parseInt(p.getProperty("pointsPerRYQSO", "1"));
     ppphq = Integer.parseInt(p.getProperty("pointsPerPHQSO", "1"));
     if ( p.getProperty("perBandMultiplier", "false").equals("true")) perbandmult = true;
   }
@@ -169,9 +171,10 @@ public class GenericScorer extends AbstractScorer {
 
   // THE NEXT FOUR METHODS CUSTOMIZE THE BEHAVIOR OF THE score() and check() METHODS
   /* find points per QSO, based on mode; the generic implementation 
-     reads two properties. default values are 1 for both CW and Phone */
+     reads two properties. default values are 1 for CW, RYTTY, and Phone */
   protected int findPoints(LogEntry le) { 
     if (le.getMode().equals("CW")) return ppcwq; 
+    if (le.getMode().equals("RY")) return ppryq; 
     if (le.getMode().equals("PH")) return ppphq;
     else return ppcwq;
  }
