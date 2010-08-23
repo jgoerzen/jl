@@ -13,7 +13,7 @@
 package com.loukides.jl.keyer;
 import com.loukides.jl.jl.LogEntry;
 
-import javax.comm.*;  // This message type can know about javax.comm, because it's meaningless
+import gnu.io.*;  // This message type can know about javax.comm, because it's meaningless
                       // without a serial port.
 import java.util.*;
 import javax.swing.JTextField;

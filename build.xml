@@ -15,7 +15,7 @@
           value="/usr/share/java/servlet-api.jar"/>
 <property name="servlet6.path" 
           value="/usr/share/tomcat6/lib/servlet-api.jar"/>
-<property name="comm.path" value="lib/comm.jar"/>
+<property name="comm.path" value="/usr/share/java/RXTXcomm.jar"/>
 
 <target name="compile" description="compiles everything" depends="prepare">
   <javac srcdir="${src.dir}" destdir="${build.dir}">
