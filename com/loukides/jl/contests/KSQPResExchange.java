@@ -1,4 +1,4 @@
-// exchange for the Texas QSO Party (TX residents)
+// exchange for the Kansas QSO Party (KS residents)
 package com.loukides.jl.contests;
 import com.loukides.jl.jl.*;
 import com.loukides.jl.util.*;
@@ -7,13 +7,13 @@ import java.util.*;
 import java.io.*;
 import java.text.*;
 
-public class TXQPResExchange extends AbstractExchange {
+public class KSQPResExchange extends AbstractExchange {
 
   protected String report = "";
   protected String county = "";
   protected String state = ""; 
 
-  protected static HashMap countyMap = new HashMap(87);
+  protected static HashMap countyMap = new HashMap(105);
 
   boolean sticky = false;
 
@@ -51,8 +51,8 @@ public class TXQPResExchange extends AbstractExchange {
         county = "";
       }
       else if ( tok.equals("\'\'")) county = "";
-      else if (alphas == len && (len == 3 || len == 4)) {
-        state = "TX";        
+      else if (alphas == len && (len == 3 || len == 4) && (! tok.equals("MAR"))) {
+        state = "KS";        
         county = tok;
       }
       // AT LEAST 2 alphas in a US callsign
@@ -63,7 +63,7 @@ public class TXQPResExchange extends AbstractExchange {
     }
     // assign a report, if there isn't a mode-appropriate report already   
     if ( (! (report.length() == 2)) && mode.equals("PH")) report = "59";
-    else if ( (! (report.length() == 3)) && mode.equals("CW")) report = "599";
+    else if ( (! (report.length() == 3)) && (mode.equals("CW") || mode.equals("RY")))  report = "599";
   }
 
   // We need some way to create the "sent" half of the two-way 
@@ -87,7 +87,7 @@ public class TXQPResExchange extends AbstractExchange {
   }
 
   public String getMultiplierField() { 
-    if (state.equals("TX")) return county;
+    if (state.equals("KS")) return county;
     return state;
   }
 
