@@ -28,11 +28,12 @@ public class Hamlib extends AbstractTransceiver {
   public void setProperties(Properties p) throws Exception {
      super.setProperties(p);
      commandName = p.getProperty("transceiver.command", "rigctl -m 122 -r /dev/ttyUSB0 -s 4800");
-     commandArgs = commandName.split(" \t\n\r\f");
+     commandArgs = commandName.split("[ \t\n\r\f]");
   }
 
   private String runCommand(List<String> args) throws Exception {
-    List commands = Arrays.asList(commandArgs);
+    List commands = new ArrayList<String>();
+    commands.addAll(Arrays.asList(commandArgs));
     commands.addAll(args);
     ProcessBuilder pb = new ProcessBuilder(commands);
     Process proc = pb.start();
