@@ -1,0 +1,2 @@
+transceiver.transceiver=Hamlib
+transceiver.command=rigctl -m 122 -r /dev/ttyUSB0 -s 4800

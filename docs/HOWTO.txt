@@ -578,13 +578,26 @@ or something like that, ignore it--you haven't set up a server, so it's normal.
 
 RIG CONTROL:
 
-Rig control works.  Currently, the only supported transceivers are the
-Icom family, the Elecraft K2, and the "null transceiver", which
-doesn't do anything.  That's probably all there will be, unless other
-people contribute transceiver implementations, or Yaesu decides to
-give me an FT9000 to play with.
+Rig control works.  
 
-If you want to use rig control, here's how:
+There are two options for rig control: via Hamlib, or via built-in JL
+libraries.  Of these, Hamlib is the most versatile.  You will need to
+configure your transceiver in configuration/Hamlib.props.  The number
+after -m is your rig number; you can find this with rigctl --list.  -r
+gives the serial port, and -s the interface speed.  Additional options
+are documented in the rigctl(1) manpage and may be given.  The hamlib
+homepage is http://hamlib.sourceforge.net/.  May OS distributions
+include Hamlib; the command to install it on Debian, for instance, is:
+
+   apt-get install libhamlib-utils
+
+If you instead use the internal transceiver support, the supported
+transceivers are the Icom family, the Elecraft K2, and the "null
+transceiver", which doesn't do anything.  That's probably all there
+will be, unless other people contribute transceiver implementations,
+or Yaesu decides to give me an FT9000 to play with.
+
+If you want to use internal rig control, here's how:
 
 * In addition to installing Java, install the Java Communications API
   (available from java.sun.com for Windows and Solaris; there's an
@@ -664,6 +677,8 @@ Rig control introduces some important new commands for the Entry field:
 >-offset       Set the transmit frequency to the current freq. minus offset
 >frequency     Set the transmit frequency to frequency (probably the MOST USEFUL)
 >              By itself, clears split frequency operation.
+
+Note: Hamlib support currently only supports >=
 
 WARNING:  SETTING THE FREQUENCY DOES NOT AUTOMATICALLY SWITCH TO THE APPROPRIATE
 MODE OR ANTENNA.  DON'T BLOW UP YOUR AMPLIFIER BY SWITCHING TO 80M AND TRYING TO 
