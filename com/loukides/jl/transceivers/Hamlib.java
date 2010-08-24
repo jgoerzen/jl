@@ -21,7 +21,7 @@ public class Hamlib extends AbstractTransceiver {
   private DecimalFormat memoryFormat = new DecimalFormat("00");
   private FieldPosition pos = new FieldPosition(NumberFormat.INTEGER_FIELD);
   private String commandName = "";
-  private String commandArgs[] = [];
+  private String commandArgs[];
 
   public Hamlib() {}
 
@@ -60,7 +60,7 @@ public class Hamlib extends AbstractTransceiver {
 Store the current state of the rig in one of its memories.
 */
    public void storeMemory(int mem) {
-      List args = new ArrayList<String>;
+      List args = new ArrayList<String>();
       args.add("set_mem");
       args.add(Integer.toString(mem));
 
@@ -77,7 +77,7 @@ Note this may? different behavior than the jl docs, since, for
 example, it will remember if the rig is in split, etc.
 */
    public void setVFOFromMemory(int mem) {
-      List args = newArrayList<String>;
+      List args = new ArrayList<String>();
       args.add("get_mem");
       args.add(Integer.toString(mem));
       
@@ -124,7 +124,7 @@ Cancel split and set the current receive VFO to f.
 */
    public void setFrequency(float f) {
       long freq = (long) (f * 1000.0f);
-      List args = newArrayList<String>;
+      List args = new ArrayList<String>();
       args.add("set_freq");
       args.add(Long.toString(freq));
       try {
@@ -175,16 +175,18 @@ Set the current receive VFO, cancelling any split operation.
 Get the frequency in KHz of the current receive VFO.
 */
    public float getFrequency() {
-      List args = new ArrayList<String>;
+      List args = new ArrayList<String>();
+      Long l = 0L;
       args.add("get_freq");
       try {
          String result = runCommand(args);
-         Long l = Long.parseLong(result.trim());
-         return ((l.floatValue()) / 1000.0f);
+         l = Long.parseLong(result.trim());
       } catch (Exception ee) {
          ee.printStackTrace();
       }
-  } 
+      return ((l.floatValue()) / 1000.0f);
+  }
+ 
 
 /**
 Get the Mode. The possible returned values are CW, PH, or RY.
@@ -219,6 +221,5 @@ Get the Mode. The possible returned values are CW, PH, or RY.
             return "";
       }
    } 
-
-}
 */
+}
