@@ -1,4 +1,4 @@
-Ztransceiver.transceiver=Icom765
+transceiver.transceiver=Icom765
 transceiver.port=COM1
 transceiver.baudrate=9600
 transceiver.databits=8
