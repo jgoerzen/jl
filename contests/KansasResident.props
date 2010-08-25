@@ -1,8 +1,8 @@
 contestName=Kansas QSO Party
 cabContestName=KSQP
 mode=PH CW RY
-perBandMultiplier=true
-perModeMultiplier=true
+perBandMultiplier=false
+perModeMultiplier=false
 multiplier.1=CountryChecker
 multiplier.2=ListedStringChecker
 perBandDupe=true
