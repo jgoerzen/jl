@@ -38,9 +38,9 @@ public class KSQPResScorer extends GenericDoubleMultScorer {
  }
 
   protected int findPoints(LogEntry le) {
-    if ( le.getMode().equals("PH") ) return 1;
-    if ( le.getMode().equals("CW") ) return 2; 
-    if ( le.getMode().equals("RY") ) return 2;
+    if ( le.getMode().equals("PH") ) return 2;
+    if ( le.getMode().equals("CW") ) return 3; 
+    if ( le.getMode().equals("RY") ) return 3;
     return 0;
   }
 
